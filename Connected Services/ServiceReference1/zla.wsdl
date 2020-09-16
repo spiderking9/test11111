@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://zus.pl/b2b/zus/channel/gabinetowe" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" name="zla" targetNamespace="http://zus.pl/b2b/zus/channel/gabinetowe" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://zus.pl/b2b/zus/channel/gabinetowe">
+      <xsd:element name="nadajSeriaNumerZla" type="tns:nadajSeriaNumerZla" />
+      <xsd:element name="nadajSeriaNumerZlaResponse" type="tns:nadajSeriaNumerZlaResponse" />
+      <xsd:element name="notyfikujAnulowanieZla" type="tns:notyfikujAnulowanieZla" />
+      <xsd:element name="notyfikujAnulowanieZlaResponse" type="tns:notyfikujAnulowanieZlaResponse" />
+      <xsd:element name="pobierzCzlonkowRodzinyUbezpieczonego" type="tns:pobierzCzlonkowRodzinyUbezpieczonego" />
+      <xsd:element name="pobierzCzlonkowRodzinyUbezpieczonegoResponse" type="tns:pobierzCzlonkowRodzinyUbezpieczonegoResponse" />
+      <xsd:element name="pobierzDanePlatnika" type="tns:pobierzDanePlatnika" />
+      <xsd:element name="pobierzDanePlatnikaResponse" type="tns:pobierzDanePlatnikaResponse" />
+      <xsd:element name="pobierzDaneUbezpieczonego" type="tns:pobierzDaneUbezpieczonego" />
+      <xsd:element name="pobierzDaneUbezpieczonegoResponse" type="tns:pobierzDaneUbezpieczonegoResponse" />
+      <xsd:element name="pobierzDokument" type="tns:pobierzDokument" />
+      <xsd:element name="pobierzDokumentResponse" type="tns:pobierzDokumentResponse" />
+      <xsd:element name="pobierzListeBiezacychZlaLekarza" type="tns:pobierzListeBiezacychZlaLekarza" />
+      <xsd:element name="pobierzListeBiezacychZlaLekarzaResponse" type="tns:pobierzListeBiezacychZlaLekarzaResponse" />
+      <xsd:element name="pobierzListePowiazanychZla" type="tns:pobierzListePowiazanychZla" />
+      <xsd:element name="pobierzListePowiazanychZlaResponse" type="tns:pobierzListePowiazanychZlaResponse" />
+      <xsd:element name="pobierzListePr4Ubezpieczonego" type="tns:pobierzListePr4Ubezpieczonego" />
+      <xsd:element name="pobierzListePr4UbezpieczonegoResponse" type="tns:pobierzListePr4UbezpieczonegoResponse" />
+      <xsd:element name="pobierzListePrzetworzonychZlaLekarza" type="tns:pobierzListePrzetworzonychZlaLekarza" />
+      <xsd:element name="pobierzListePrzetworzonychZlaLekarzaResponse" type="tns:pobierzListePrzetworzonychZlaLekarzaResponse" />
+      <xsd:element name="pobierzListeZlaUbezpieczonego" type="tns:pobierzListeZlaUbezpieczonego" />
+      <xsd:element name="pobierzListeZlaUbezpieczonegoResponse" type="tns:pobierzListeZlaUbezpieczonegoResponse" />
+      <xsd:element name="pobierzLiterowyKodChoroby" type="tns:pobierzLiterowyKodChoroby" />
+      <xsd:element name="pobierzLiterowyKodChorobyResponse" type="tns:pobierzLiterowyKodChorobyResponse" />
+      <xsd:element name="pobierzMiejsceWykonywaniaZawodu" type="tns:pobierzMiejsceWykonywaniaZawodu" />
+      <xsd:element name="pobierzMiejsceWykonywaniaZawoduResponse" type="tns:pobierzMiejsceWykonywaniaZawoduResponse" />
+      <xsd:element name="pobierzOswiadczenie" type="tns:pobierzOswiadczenie" />
+      <xsd:element name="pobierzOswiadczenieResponse" type="tns:pobierzOswiadczenieResponse" />
+      <xsd:element name="pobierzPlatnikowUbezpieczonego" type="tns:pobierzPlatnikowUbezpieczonego" />
+      <xsd:element name="pobierzPlatnikowUbezpieczonegoResponse" type="tns:pobierzPlatnikowUbezpieczonegoResponse" />
+      <xsd:element name="pobierzSlownikPrzyczynAnulowania" type="tns:pobierzSlownikPrzyczynAnulowania" />
+      <xsd:element name="pobierzSlownikPrzyczynAnulowaniaResponse" type="tns:pobierzSlownikPrzyczynAnulowaniaResponse" />
+      <xsd:element name="pobierzSlownikPrzyczynUniewaznienia" type="tns:pobierzSlownikPrzyczynUniewaznienia" />
+      <xsd:element name="pobierzSlownikPrzyczynUniewaznieniaResponse" type="tns:pobierzSlownikPrzyczynUniewaznieniaResponse" />
+      <xsd:element name="pobierzStatusyDrukowZla" type="tns:pobierzStatusyDrukowZla" />
+      <xsd:element name="pobierzStatusyDrukowZlaResponse" type="tns:pobierzStatusyDrukowZlaResponse" />
+      <xsd:element name="pobierzSzczegolyZlaBiezace" type="tns:pobierzSzczegolyZlaBiezace" />
+      <xsd:element name="pobierzSzczegolyZlaBiezaceResponse" type="tns:pobierzSzczegolyZlaBiezaceResponse" />
+      <xsd:element name="pobierzSzczegolyZlaPrzetworzone" type="tns:pobierzSzczegolyZlaPrzetworzone" />
+      <xsd:element name="pobierzSzczegolyZlaPrzetworzoneResponse" type="tns:pobierzSzczegolyZlaPrzetworzoneResponse" />
+      <xsd:element name="pobierzUppDlaDokumentu" type="tns:pobierzUppDlaDokumentu" />
+      <xsd:element name="pobierzUppDlaDokumentuResponse" type="tns:pobierzUppDlaDokumentuResponse" />
+      <xsd:element name="pobierzUprawnieniaNaDzien" type="tns:pobierzUprawnieniaNaDzien" />
+      <xsd:element name="pobierzUprawnieniaNaDzienResponse" type="tns:pobierzUprawnieniaNaDzienResponse" />
+      <xsd:element name="rezerwujSeriaNumerZla" type="tns:rezerwujSeriaNumerZla" />
+      <xsd:element name="rezerwujSeriaNumerZlaResponse" type="tns:rezerwujSeriaNumerZlaResponse" />
+      <xsd:element name="sprawdzMozliwoscAnulowania" type="tns:sprawdzMozliwoscAnulowania" />
+      <xsd:element name="sprawdzMozliwoscAnulowaniaResponse" type="tns:sprawdzMozliwoscAnulowaniaResponse" />
+      <xsd:element name="sprawdzMozliwoscElektronizacji" type="tns:sprawdzMozliwoscElektronizacji" />
+      <xsd:element name="sprawdzMozliwoscElektronizacjiResponse" type="tns:sprawdzMozliwoscElektronizacjiResponse" />
+      <xsd:element name="sprawdzMozliwoscUniewaznienia" type="tns:sprawdzMozliwoscUniewaznienia" />
+      <xsd:element name="sprawdzMozliwoscUniewaznieniaResponse" type="tns:sprawdzMozliwoscUniewaznieniaResponse" />
+      <xsd:element name="sprawdzProfilRehabilitacji" type="tns:sprawdzProfilRehabilitacji" />
+      <xsd:element name="sprawdzProfilRehabilitacjiResponse" type="tns:sprawdzProfilRehabilitacjiResponse" />
+      <xsd:element name="usunSesje" type="tns:usunSesje" />
+      <xsd:element name="usunSesjeResponse" type="tns:usunSesjeResponse" />
+      <xsd:element name="walidujDokumenty" type="tns:walidujDokumenty" />
+      <xsd:element name="walidujDokumentyResponse" type="tns:walidujDokumentyResponse" />
+      <xsd:element name="walidujWniosek" type="tns:walidujWniosek" />
+      <xsd:element name="walidujWniosekResponse" type="tns:walidujWniosekResponse" />
+      <xsd:element name="wyslijDokumenty" type="tns:wyslijDokumenty" />
+      <xsd:element name="wyslijDokumentyResponse" type="tns:wyslijDokumentyResponse" />
+      <xsd:element name="wyslijWniosek" type="tns:wyslijWniosek" />
+      <xsd:element name="wyslijWniosekResponse" type="tns:wyslijWniosekResponse" />
+      <xsd:element name="zalogujPodpisem" type="tns:zalogujPodpisem" />
+      <xsd:element name="zalogujPodpisemResponse" type="tns:zalogujPodpisemResponse" />
+      <xsd:element name="pobierzIdentyfikatorDokumentu" type="tns:pobierzIdentyfikatorDokumentu" />
+      <xsd:element name="pobierzIdentyfikatorDokumentuResponse" type="tns:pobierzIdentyfikatorDokumentuResponse" />
+      <xsd:element name="pobierzAdresyPlacowek" type="tns:pobierzAdresyPlacowek" />
+      <xsd:element name="pobierzAdresyPlacowekResponse" type="tns:pobierzAdresyPlacowekResponse" />
+      <xsd:element name="pobierzDaneLekarza" type="tns:pobierzDaneLekarza" />
+      <xsd:element name="pobierzDaneLekarzaResponse" type="tns:pobierzDaneLekarzaResponse" />
+      <xsd:element name="pobierzKodChoroby" type="tns:pobierzKodChoroby" />
+      <xsd:element name="pobierzKodChorobyResponse" type="tns:pobierzKodChorobyResponse" />
+      <xsd:element name="pobierzOpisChoroby" type="tns:pobierzOpisChoroby" />
+      <xsd:element name="pobierzOpisChorobyResponse" type="tns:pobierzOpisChorobyResponse" />
+      <xsd:element name="pobierzSlownikKodowPokrewienstwa" type="tns:pobierzSlownikKodowPokrewienstwa" />
+      <xsd:element name="pobierzSlownikKodowPokrewienstwaResponse" type="tns:pobierzSlownikKodowPokrewienstwaResponse" />
+      <xsd:element name="pobierzSeriaNumerZla" type="tns:pobierzSeriaNumerZla" />
+      <xsd:element name="pobierzSeriaNumerZlaResponse" type="tns:pobierzSeriaNumerZlaResponse" />
+      <xsd:element name="pobierzListeLekarzyAsystenta" type="tns:pobierzListeLekarzyAsystenta" />
+      <xsd:element name="pobierzListeLekarzyAsystentaResponse" type="tns:pobierzListeLekarzyAsystentaResponse" />
+      <xsd:element name="pobierzDaneAsystentow" type="tns:pobierzDaneAsystentow" />
+      <xsd:element name="pobierzDaneAsystentowResponse" type="tns:pobierzDaneAsystentowResponse" />
+      <xsd:element name="pobierzUprawnieniaAsystentaDoMiejsc" type="tns:pobierzUprawnieniaAsystentaDoMiejsc" />
+      <xsd:element name="pobierzUprawnieniaAsystentaDoMiejscResponse" type="tns:pobierzUprawnieniaAsystentaDoMiejscResponse" />
+      <xsd:element name="przywrocUprawnienieAsystentaDoMiejsca" type="tns:przywrocUprawnienieAsystentaDoMiejsca" />
+      <xsd:element name="przywrocUprawnienieAsystentaDoMiejscaResponse" type="tns:przywrocUprawnienieAsystentaDoMiejscaResponse" />
+      <xsd:element name="usunUprawnienieAsystentaDoMiejsca" type="tns:usunUprawnienieAsystentaDoMiejsca" />
+      <xsd:element name="usunUprawnienieAsystentaDoMiejscaResponse" type="tns:usunUprawnienieAsystentaDoMiejscaResponse" />
+      <xsd:complexType name="nadajSeriaNumerZla">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element maxOccurs="unbounded" name="ParaDokumentow" type="tns:docTypeRef_ParaDokumentowZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="ID">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="([0-9a-zA-Z])*" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_ParaDokumentowZla">
+        <xsd:sequence>
+          <xsd:element name="Oryginal" type="tns:docTypeRef_Dokument" />
+          <xsd:element name="Kopia" type="tns:docTypeRef_Dokument" />
+        </xsd:sequence>
+        <xsd:attribute name="NrRef" type="tns:Inne" />
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_Dokument">
+        <xsd:sequence>
+          <xsd:element name="KEDU" type="tns:docTypeRef_KEDU" />
+        </xsd:sequence>
+        <xsd:attribute name="NrRef" type="tns:Inne" />
+      </xsd:complexType>
+      <xsd:simpleType name="Inne">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="([^&quot;*;\(\)\?])*" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_KEDU">
+        <xsd:sequence>
+          <xsd:element name="KEDU" type="tns:KEDU" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="KEDU">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="nadajSeriaNumerZlaResponse">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="ParaDokumentow" type="tns:docTypeRef_ParaDokumentowZla" />
+          <xsd:element minOccurs="0" name="RezultatWalidacji" type="tns:docTypeRef_RezultatWalidacji" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_RezultatWalidacji">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:RezultatWalidacjiEnumeracja" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BladWalidacji" type="tns:docTypeRef_BladWalidacji" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="RezultatWalidacjiEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="POZYTYWNY" />
+          <xsd:enumeration value="NEGATYWNY" />
+          <xsd:enumeration value="OSTRZEZENIE" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_BladWalidacji">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="NrRef" type="xsd:string" />
+          <xsd:element name="Rodzaj" type="tns:RodzajBleduWalidacjiEnumeracja" />
+          <xsd:element name="KodBledu" type="xsd:string" />
+          <xsd:element name="OpisBledu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Lokalizacja" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="RodzajBleduWalidacjiEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="OSTRZEZENIE" />
+          <xsd:enumeration value="BLAD" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_Rezultat">
+        <xsd:sequence>
+          <xsd:element name="KodBledu" type="xsd:string" />
+          <xsd:element name="OpisBledu" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="notyfikujAnulowanieZla">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="DaneNotyfikacji" type="tns:docTypeRef_NotyfikujAnulowanieZlaIn" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_NotyfikujAnulowanieZlaIn">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="SeriaNumerZla" nillable="true" type="tns:docTypeRef_SeriaNumerZla" />
+          <xsd:element name="MiejsceWykonywaniaZawodu" type="xsd:string" />
+          <xsd:element name="DodatkoweInformacje" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_SeriaNumerZla">
+        <xsd:sequence>
+          <xsd:element name="Seria" type="tns:SeriaZla" />
+          <xsd:element name="Numer" type="tns:NumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="SeriaZla">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="[A-Z]{2,2}" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="NumerZla">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="\d{7,7}" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="notyfikujAnulowanieZlaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element name="UbezpieczonyStatusWysylki" type="xsd:string" />
+          <xsd:element maxOccurs="unbounded" name="PlatnikStatusWysylki" type="tns:docTypeRef_WynikNotyfikacjiPlatnik" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_WynikNotyfikacjiPlatnik">
+        <xsd:sequence>
+          <xsd:element name="PlatnikStatusWysylki" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nip" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pesel" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Paszport" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzCzlonkowRodzinyUbezpieczonego">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Ubezpieczony" type="tns:docTypeRef_IdentyfikacjaUbezpieczonego" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_IdentyfikacjaUbezpieczonego">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Pesel" type="tns:Pesel" />
+          <xsd:element minOccurs="0" name="SeriaNumerPaszportu" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="Pesel">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="\d{11,11}" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="KontekstDostepu">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="WystawienieZla" />
+          <xsd:enumeration value="WyszukanieZla" />
+          <xsd:enumeration value="SzczegolyAnulowanie" />
+          <xsd:enumeration value="SzczegolyNowe" />
+          <xsd:enumeration value="SzczegolyPlatnik" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzCzlonkowRodzinyUbezpieczonegoResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="CzlonekRodzinyUbezpieczonego" type="tns:docTypeRef_CzlonekRodzinyUbezpieczonego" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_CzlonekRodzinyUbezpieczonego">
+        <xsd:sequence>
+          <xsd:element name="Imie" type="xsd:string" />
+          <xsd:element name="Nazwisko" type="xsd:string" />
+          <xsd:element name="DataUrodzenia" type="xsd:date" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDanePlatnika">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Platnik" type="tns:docTypeRef_IdentyfikacjaPlatnika" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_IdentyfikacjaPlatnika">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Pesel" type="tns:Pesel" />
+          <xsd:element minOccurs="0" name="SeriaNumerPaszportu" type="tns:ID" />
+          <xsd:element minOccurs="0" name="Nip" type="tns:NIP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="NIP">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="\d{10,10}" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzDanePlatnikaResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="DanePlatnika" type="tns:docTypeRef_Platnik" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_Platnik">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="PlatnikIstnieje" type="xsd:boolean" />
+          <xsd:element minOccurs="0" name="Nazwa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Imie" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nazwisko" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MaProfilPue" nillable="true" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDaneUbezpieczonego">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Ubezpieczony" type="tns:docTypeRef_IdentyfikacjaUbezpieczonego" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDaneUbezpieczonegoResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="DaneUbezpieczonego" type="tns:docTypeRef_kmdk_Ubezpieczony" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element name="PrzekroczonyDziennyLimitDostepow" nillable="true" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_Ubezpieczony">
+        <xsd:sequence>
+          <xsd:element name="Imie" type="xsd:string" />
+          <xsd:element name="Nazwisko" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DataUrodzenia" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DataZgonu" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Adres" type="tns:docTypeRef_kmdk_Adres" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_Adres">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrLokalu" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDokument">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="RodzajDokumentu" type="tns:RodzajDokumentuEnumeracja" />
+          <xsd:element name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="RodzajDokumentuEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="ZLA" />
+          <xsd:enumeration value="KOPIA_ZLA" />
+          <xsd:enumeration value="AZLA" />
+          <xsd:enumeration value="UZLA" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzDokumentResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="WersjaKedu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Dokument" type="tns:docTypeRef_KEDU" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListeBiezacychZlaLekarza">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Stronicowanie" type="tns:docTypeRef_Stronicowanie" />
+          <xsd:element minOccurs="0" name="Sortowanie" type="tns:docTypeRef_ZaswiadczenieLekarskiePueSortowanie" />
+          <xsd:element minOccurs="0" name="Filtrowanie" type="tns:docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+          <xsd:element minOccurs="0" name="NipPlacowki" type="tns:NIP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_Stronicowanie">
+        <xsd:sequence>
+          <xsd:element name="RekordyOd" type="xsd:long" />
+          <xsd:element name="LiczbaRekordow" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskiePueSortowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekSortowania" type="tns:docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:ZaswiadczenieLekarskiePueKolumnyEnumeracja" />
+          <xsd:element name="Kierunek" type="tns:SortowanieEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="ZaswiadczenieLekarskiePueKolumnyEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="IdentyfikatorUbezpieczonego" />
+          <xsd:enumeration value="TypIdentyfikatoraUbezpieczonego" />
+          <xsd:enumeration value="ImieUbezpieczonego" />
+          <xsd:enumeration value="NazwiskoUbezpieczonego" />
+          <xsd:enumeration value="NiezdolnoscDoPracyOd" />
+          <xsd:enumeration value="NiezdolnoscDoPracyDo" />
+          <xsd:enumeration value="LiczbaDniPobytuWSzpitalu" />
+          <xsd:enumeration value="KodPokrewienstwa" />
+          <xsd:enumeration value="DataUrodzeniaOsobySpokrewnionej" />
+          <xsd:enumeration value="IdentyfikatorPlatnika" />
+          <xsd:enumeration value="TypIdentyfikatoraPlatnika" />
+          <xsd:enumeration value="StatystycznyNumerChoroby" />
+          <xsd:enumeration value="NpwzLekarza" />
+          <xsd:enumeration value="ImieLekarza" />
+          <xsd:enumeration value="NazwiskoLekarza" />
+          <xsd:enumeration value="Status" />
+          <xsd:enumeration value="DataWystawieniaZla" />
+          <xsd:enumeration value="SeriaNumerZla" />
+          <xsd:enumeration value="PobytWSzpitaluOd" />
+          <xsd:enumeration value="PobytWSzpitaluDo" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="SortowanieEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="ASC" />
+          <xsd:enumeration value="DESC" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekFiltrowania" type="tns:docTypeRef_ZaswiadczenieLekarskiePueFiltrowanieWarunek" />
+          <xsd:element name="LogiczneZlaczenieWarunkow" type="tns:OperatorAndOrEnum" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskiePueFiltrowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:ZaswiadczenieLekarskiePueKolumnyEnumeracja" />
+          <xsd:element name="Operator" type="tns:OperatorEnum" />
+          <xsd:element name="Wartosc" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="OperatorEnum">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="equalTo" />
+          <xsd:enumeration value="isNotEmpty" />
+          <xsd:enumeration value="lessThan" />
+          <xsd:enumeration value="lessThanOrEqualTo" />
+          <xsd:enumeration value="largerThan" />
+          <xsd:enumeration value="largerThanOrEqualTo" />
+          <xsd:enumeration value="contains" />
+          <xsd:enumeration value="startsWith" />
+          <xsd:enumeration value="isEmpty" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="OperatorAndOrEnum">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="AND" />
+          <xsd:enumeration value="OR" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzListeBiezacychZlaLekarzaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="LiczbaWszystkichRekordow" type="xsd:long" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ZaswiadczenieLekarskie" type="tns:docTypeRef_ZaswiadczenieLekarskie" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskie">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="PeselUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PaszportUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ImieUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NiezdolnoscDoPracyOd" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NiezdolnoscDoPracyDo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LiczbaDniPobytuWSzpitalu" type="xsd:integer" />
+          <xsd:element minOccurs="0" name="PobytWSzpitaluOd" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PobytWSzpitaluDo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodPokrewienstwa" type="tns:KodyPokrewienstwaEnumeracja" />
+          <xsd:element minOccurs="0" name="DataUrodzeniaOsobySpokrewnionej" type="xsd:string" />
+          <xsd:element minOccurs="0" name="IdentyfikatorPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TypIdentyfikatoraPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="StatystycznyNumerChoroby" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NpwzLekarza" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ImieLekarza" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoLekarza" type="xsd:string" />
+          <xsd:element minOccurs="0" name="StatusZla" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DataWystawieniaZla" type="xsd:string" />
+          <xsd:element minOccurs="0" name="SeriaZla" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NumerZla" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ImieAsystenta" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoAsystenta" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="KodyPokrewienstwaEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="1" />
+          <xsd:enumeration value="2" />
+          <xsd:enumeration value="3" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzListePowiazanychZla">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Zla" type="tns:docTypeRef_SeriaNumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListePowiazanychZlaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="PowiazaneZla" type="tns:docTypeRef_PowiazaneZla" />
+          <xsd:element minOccurs="0" name="LiczbaPowiazanychZla" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_PowiazaneZla">
+        <xsd:sequence>
+          <xsd:element name="Seria" type="xsd:string" />
+          <xsd:element name="Numer" type="xsd:string" />
+          <xsd:element name="StatusPrzetwarzania" type="xsd:string" />
+          <xsd:element name="DataWystawienia" type="xsd:string" />
+          <xsd:element name="IdentyfikatorPlatnika" type="xsd:string" />
+          <xsd:element name="TypIdentyfikatoraPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ImieAsystenta" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoAsystenta" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListePr4Ubezpieczonego">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Stronicowanie" type="tns:docTypeRef_Stronicowanie" />
+          <xsd:element name="Ubezpieczony" type="tns:docTypeRef_IdentyfikacjaUbezpieczonego" />
+          <xsd:element minOccurs="0" name="DataOd" type="tns:Data" />
+          <xsd:element minOccurs="0" name="DataDo" type="tns:Data" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="Data">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="\d{4,4}-\d{2,2}-\d{2,2}" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzListePr4UbezpieczonegoResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="WniosekPr4" type="tns:docTypeRef_WniosekPr4" />
+          <xsd:element minOccurs="0" name="LiczbaWszystkichRekordow" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_WniosekPr4">
+        <xsd:sequence>
+          <xsd:element name="DataWystawienia" type="xsd:string" />
+          <xsd:element name="NumerStatystycznyChoroby" type="xsd:string" />
+          <xsd:element name="NpwzLekarza" type="xsd:string" />
+          <xsd:element name="ImieLekarza" type="xsd:string" />
+          <xsd:element name="NazwiskoLekarza" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListePrzetworzonychZlaLekarza">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Stronicowanie" type="tns:docTypeRef_Stronicowanie" />
+          <xsd:element minOccurs="0" name="Sortowanie" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiSortowanie" />
+          <xsd:element minOccurs="0" name="Filtrowanie" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+          <xsd:element minOccurs="0" name="NipPlacowki" type="tns:NIP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskieKsiSortowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekSortowania" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:ZaswiadczenieLekarskieKsiKolumnyEnumeracja" />
+          <xsd:element name="Kierunek" type="tns:SortowanieEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="ZaswiadczenieLekarskieKsiKolumnyEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="SeriaZla" />
+          <xsd:enumeration value="NumerZla" />
+          <xsd:enumeration value="PeselUbezpieczonego" />
+          <xsd:enumeration value="NumerDokumentuUbezpieczonego" />
+          <xsd:enumeration value="ImieUbezpieczonego" />
+          <xsd:enumeration value="NazwiskoUbezpieczonego" />
+          <xsd:enumeration value="NiezdolnoscDoPracyOd" />
+          <xsd:enumeration value="NiezdolnoscDoPracyDo" />
+          <xsd:enumeration value="LiczbaDniPobytuWSzpitalu" />
+          <xsd:enumeration value="KodPokrewienstwa" />
+          <xsd:enumeration value="DataUrodzeniaOsobySpokrewnionej" />
+          <xsd:enumeration value="StatystycznyNumerChoroby" />
+          <xsd:enumeration value="ImieLekarza" />
+          <xsd:enumeration value="NazwiskoLekarza" />
+          <xsd:enumeration value="IdentyfikatorLekarza" />
+          <xsd:enumeration value="DataWystawieniaZla" />
+          <xsd:enumeration value="Status" />
+          <xsd:enumeration value="IdentyfikatorPlatnika" />
+          <xsd:enumeration value="TypIdentyfikatoraPlatnika" />
+          <xsd:enumeration value="PobytWSzpitaluOd" />
+          <xsd:enumeration value="PobytWSzpitaluDo" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekFiltrowania" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanieWarunek" />
+          <xsd:element name="LogiczneZlaczenieWarunkow" type="tns:OperatorAndOrEnum" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:ZaswiadczenieLekarskieKsiKolumnyEnumeracja" />
+          <xsd:element name="Operator" type="tns:OperatorEnum" />
+          <xsd:element name="Wartosc" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListePrzetworzonychZlaLekarzaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="LiczbaWszystkichRekordow" type="xsd:long" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ZaswiadczenieLekarskie" type="tns:docTypeRef_ZaswiadczenieLekarskie" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListeZlaUbezpieczonego">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Ubezpieczony" type="tns:docTypeRef_IdentyfikacjaUbezpieczonego" />
+          <xsd:element name="Stronicowanie" type="tns:docTypeRef_Stronicowanie" />
+          <xsd:element minOccurs="0" name="Sortowanie" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiSortowanie" />
+          <xsd:element minOccurs="0" name="Filtrowanie" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListeZlaUbezpieczonegoResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="LiczbaWszystkichRekordow" type="xsd:long" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ZaswiadczenieLekarskie" type="tns:docTypeRef_ZaswiadczenieLekarskie" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzLiterowyKodChoroby">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="DataPoczatkuNiezdolnosci" type="tns:Data" />
+          <xsd:element name="StatystycznyKodChoroby" type="tns:StatystycznyKodChoroby" />
+          <xsd:element name="Ubezpieczony" type="tns:docTypeRef_IdentyfikacjaUbezpieczonego" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="StatystycznyKodChoroby">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:pattern value="[A-Z]\d{2,2}" />
+          <xsd:length value="3" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzLiterowyKodChorobyResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="KodA" type="xsd:boolean" />
+          <xsd:element minOccurs="0" name="KodD" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzMiejsceWykonywaniaZawodu">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzMiejsceWykonywaniaZawoduResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MiejsceWykonywaniaZawodu" type="tns:docTypeRef_kmdk_MiejsceWykonywaniaZawodu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_MiejsceWykonywaniaZawodu">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Nazwa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NIP" type="xsd:string" />
+          <xsd:element minOccurs="0" name="AdresEMail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NumerFaksu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NumerTelefonu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrLokalu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="IdMiejsca" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzOswiadczenie">
+        <xsd:sequence />
+      </xsd:complexType>
+      <xsd:complexType name="pobierzOswiadczenieResponse">
+        <xsd:sequence>
+          <xsd:element name="Oswiadczenie" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzPlatnikowUbezpieczonego">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Ubezpieczony" type="tns:docTypeRef_IdentyfikacjaUbezpieczonego" />
+          <xsd:element minOccurs="0" name="MiejsceUbezpieczenia" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzPlatnikowUbezpieczonegoResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Platnik" type="tns:docTypeRef_Platnik_Ubezpieczonego" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_Platnik_Ubezpieczonego">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="PlatnikIstnieje" type="xsd:boolean" />
+          <xsd:element minOccurs="0" name="Nazwa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Imie" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nazwisko" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NIP" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pesel" type="tns:Pesel2" />
+          <xsd:element minOccurs="0" name="SeriaNumerPaszportu" type="xsd:string" />
+          <xsd:element name="ProfilPUE" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="Pesel2">
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="11" />
+          <xsd:whiteSpace value="preserve" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzSlownikPrzyczynAnulowania">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSlownikPrzyczynAnulowaniaResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Przyczyna" type="tns:docTypeRef_Przyczyny" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_Przyczyny">
+        <xsd:sequence>
+          <xsd:element name="Kod" type="xsd:string" />
+          <xsd:element name="Nazwa" type="xsd:string" />
+          <xsd:element name="Opis" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSlownikPrzyczynUniewaznienia">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSlownikPrzyczynUniewaznieniaResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Przyczyna" type="tns:docTypeRef_Przyczyny" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzStatusyDrukowZla">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Stronicowanie" type="tns:docTypeRef_Stronicowanie" />
+          <xsd:element minOccurs="0" name="Sortowanie" type="tns:docTypeRef_DrukZlaSortowanie" />
+          <xsd:element minOccurs="0" name="Filtrowanie" type="tns:docTypeRef_DrukZlaFiltrowanie" />
+          <xsd:element minOccurs="0" name="NipPlacowki" type="tns:NIP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_DrukZlaSortowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekSortowania" type="tns:docTypeRef_DrukZlaSortowanieWarunek" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_DrukZlaSortowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:DrukZlaKolumnyEnumeracja" />
+          <xsd:element name="Kierunek" type="tns:SortowanieEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="DrukZlaKolumnyEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="Status" />
+          <xsd:enumeration value="SeriaNumer" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_DrukZlaFiltrowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekFiltrowania" type="tns:docTypeRef_DrukZlaFiltrowanieWarunek" />
+          <xsd:element name="LogiczneZlaczenieWarunkow" type="tns:OperatorAndOrEnum" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_DrukZlaFiltrowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:DrukZlaKolumnyEnumeracja" />
+          <xsd:element name="Operator" type="tns:OperatorEnum" />
+          <xsd:element minOccurs="0" name="Wartosc" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzStatusyDrukowZlaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="StatusDruku" type="tns:docTypeRef_StatusDruku" />
+          <xsd:element minOccurs="0" name="LiczbaWszystkichRekordow" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_StatusDruku">
+        <xsd:sequence>
+          <xsd:element name="SeriaNumer" type="xsd:string" />
+          <xsd:element name="Status" type="tns:StatusDrukuEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="StatusDrukuEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="UNIEWAZNIONY" />
+          <xsd:enumeration value="WYDRUKOWANY" />
+          <xsd:enumeration value="ZWERYFIKOWANY" />
+          <xsd:enumeration value="WYKORZYSTANY" />
+          <xsd:enumeration value="ROBOCZY" />
+          <xsd:enumeration value="ANULOWANY" />
+          <xsd:enumeration value="WYSLANY" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzSzczegolyZlaBiezace">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSzczegolyZlaBiezaceResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="ZaswiadczenieBiezaceSzczegoly" type="tns:docTypeRef_ZaswiadczenieLekarskieDanePelne" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskieDanePelne">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="PeselUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PaszportUbezpieczonego" type="xsd:string" />
+          <xsd:element name="MiejsceUbezpieczenia" type="xsd:string" />
+          <xsd:element name="ImieUbezpieczonego" type="xsd:string" />
+          <xsd:element name="NazwiskoUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrLokalu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DataUrodzeniaUbezpieczonego" type="xsd:date" />
+          <xsd:element name="NiezdolnoscDoPracyOd" type="xsd:date" />
+          <xsd:element name="NiezdolnoscDoPracyDo" type="xsd:date" />
+          <xsd:element minOccurs="0" name="PobytWSzpitaluOd" type="xsd:date" />
+          <xsd:element minOccurs="0" name="PobytWSzpitaluDo" type="xsd:date" />
+          <xsd:element minOccurs="0" name="KodPokrewienstwa" type="tns:KodyPokrewienstwaEnumeracja" />
+          <xsd:element minOccurs="0" name="DataUrodzeniaOsobySpokrewnionej" type="xsd:date" />
+          <xsd:element minOccurs="0" name="IdentyfikatorPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TypIdentyfikatoraPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="StatystycznyNumerChoroby" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodChorobyPierwszy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodChorobyDrugi" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodChorobyTrzeci" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodChorobyCzwarty" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodChorobyPiaty" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WskazanieLekarskie" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PobytStacjonarnyZoz" type="xsd:boolean" />
+          <xsd:element name="NpwzLekarza" type="xsd:string" />
+          <xsd:element name="NazwiskoLekarza" type="xsd:string" />
+          <xsd:element name="ImieLekarza" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlNip" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlNazwaSkrocona" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlKodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlMiejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlUlica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlNrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PwdlNrLokalu" type="xsd:string" />
+          <xsd:element name="StatusZla" type="xsd:string" />
+          <xsd:element name="DataWystawieniaZla" type="xsd:date" />
+          <xsd:element name="SeriaZla" type="xsd:string" />
+          <xsd:element name="NumerZla" type="xsd:string" />
+          <xsd:element minOccurs="0" name="UzasadnienieZaswiadczeniaWstecznego" type="tns:UzasadnienieZaswiadczeniaWstecznego" />
+          <xsd:element minOccurs="0" name="UkryteDlaPlatnika" type="xsd:boolean" />
+          <xsd:element minOccurs="0" name="KodPrzyczynyAnulowania" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ImieAsystenta" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoAsystenta" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="UzasadnienieZaswiadczeniaWstecznego">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="3000" />
+          <xsd:whiteSpace value="preserve" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzSzczegolyZlaPrzetworzone">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+          <xsd:element name="KontekstDostepu" type="tns:KontekstDostepu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSzczegolyZlaPrzetworzoneResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="ZaswiadczeniePrzetworzoneSzczegoly" type="tns:docTypeRef_ZaswiadczenieLekarskieDanePelne" />
+          <xsd:element minOccurs="0" name="ZaswiadczenieLekarskieKorygujace" type="tns:docTypeRef_ZaswiadczenieLekarskieKsiKorygujace" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_ZaswiadczenieLekarskieKsiKorygujace">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="IdentyfikatorUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TypIdentyfikatoraUbezpieczonego" type="tns:TypIdUbezpieczonegoEnumeracja" />
+          <xsd:element minOccurs="0" name="ImieUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoUbezpieczonego" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrLokalu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DataUrodzeniaUbezpieczonego" type="xsd:date" />
+          <xsd:element minOccurs="0" name="DataUstaniaNiezdolnosciDoPracy" type="xsd:date" />
+          <xsd:element minOccurs="0" name="NazwaTjo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="IdentyfikatorPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TypIdentyfikatoraPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" name="SeriaNumerZla" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DataWystawieniaZlaKorygujacego" type="xsd:date" />
+          <xsd:element minOccurs="0" name="ImieAsystenta" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwiskoAsystenta" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="TypIdUbezpieczonegoEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="PESEL" />
+          <xsd:enumeration value="SeriaNumerPaszportu" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzUppDlaDokumentu">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="RodzajDokumentu" type="tns:RodzajDokumentuEnumeracja" />
+          <xsd:element name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzUppDlaDokumentuResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="UPP" type="tns:docTypeRef_UPP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_UPP">
+        <xsd:sequence>
+          <xsd:element name="UPP" type="tns:UPP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="UPP">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="pobierzUprawnieniaNaDzien">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element minOccurs="0" name="Data" type="xsd:date" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzUprawnieniaNaDzienResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="MozliwoscWystawianiaZaswiadczenia" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="rezerwujSeriaNumerZla">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Liczba" type="xsd:nonNegativeInteger" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="rezerwujSeriaNumerZlaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzMozliwoscAnulowania">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzMozliwoscAnulowaniaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MozliwoscAnulowania" type="tns:docTypeRef_WeryfikacjaAkcjiZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_WeryfikacjaAkcjiZla">
+        <xsd:sequence>
+          <xsd:element name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+          <xsd:element name="DopuszczalnaAkcja" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzMozliwoscElektronizacji">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzMozliwoscElektronizacjiResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MozliwoscElektronizacji" type="tns:docTypeRef_WeryfikacjaAkcjiZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzMozliwoscUniewaznienia">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="SeriaNumerZla" type="tns:docTypeRef_SeriaNumerZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzMozliwoscUniewaznieniaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MozliwoscUniewaznienia" type="tns:docTypeRef_WeryfikacjaAkcjiZla" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzProfilRehabilitacji">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="KodChoroby" type="tns:StatystycznyKodChoroby" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="sprawdzProfilRehabilitacjiResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="ProfilRehabilitacji" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="usunSesje">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="usunSesjeResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="walidujDokumenty">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Tryb" type="tns:TrybWystawianiaEnumeracja" />
+          <xsd:element minOccurs="0" name="ListaDokumentow" type="tns:docTypeRef_ListaDokumentow" />
+          <xsd:element minOccurs="0" name="Dokument" type="tns:docTypeRef_Dokument" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="TrybWystawianiaEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="Biezacy" />
+          <xsd:enumeration value="Alternatywny" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_ListaDokumentow">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="Dokument" type="tns:docTypeRef_Dokument" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="walidujDokumentyResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="RezultatWalidacji" type="tns:docTypeRef_RezultatWalidacji" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="walidujWniosek">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="DokumentXml" type="xsd:string" />
+          <xsd:element name="TypDokumentu" type="tns:RodzajWnioskuEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="RodzajWnioskuEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="FZLA" />
+          <xsd:enumeration value="PR_4" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="walidujWniosekResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="RezultatWalidacji" type="tns:docTypeRef_RezultatWalidacji" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="wyslijDokumenty">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Tryb" type="tns:TrybWystawianiaEnumeracja" />
+          <xsd:element maxOccurs="unbounded" name="Dokument" type="tns:docTypeRef_Dokument" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="wyslijDokumentyResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="RezultatWalidacji" type="tns:docTypeRef_RezultatWalidacji" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="RezultatWysylki" type="tns:docTypeRef_kmdk_RezultatWysylkiPakietu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_RezultatWysylkiPakietu">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="NrRef" type="xsd:string" />
+          <xsd:element name="Wynik" type="tns:RezultatWalidacjiEnumeracja" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="UtworzoneUPP" type="tns:docTypeRef_UPP" />
+          <xsd:element minOccurs="0" name="Blad" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="wyslijWniosek">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="DokumentXml" type="xsd:string" />
+          <xsd:element name="TypDokumentu" type="tns:RodzajWnioskuEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="wyslijWniosekResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="RezultatWalidacji" type="tns:docTypeRef_RezultatWalidacji" />
+          <xsd:element minOccurs="0" name="WynikWyslania" type="xsd:string" />
+          <xsd:element minOccurs="0" name="UtworzoneUPP" type="tns:docTypeRef_UPP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="zalogujPodpisem">
+        <xsd:sequence>
+          <xsd:element name="PodpisaneOswiadczenie" type="xsd:string" />
+          <xsd:element name="MetodaWeryfikacji" type="tns:MetodaUwierzytelnienia" />
+          <xsd:element minOccurs="0" name="NumerPrawaWykonywaniaZawodu" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="MetodaUwierzytelnienia">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="certyfikat" />
+          <xsd:enumeration value="ePuap" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="zalogujPodpisemResponse">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="xsd:string" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzIdentyfikatorDokumentu">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="IloscIdentyfikatorow" type="xsd:nonNegativeInteger" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzIdentyfikatorDokumentuResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="IdDokumentu" type="xsd:string" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzAdresyPlacowek">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="NIP" type="tns:NIP" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzAdresyPlacowekResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="NazwaPlatnika" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="AdresyPlacowek" type="tns:docTypeRef_AdresyPlacowek" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_AdresyPlacowek">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NumerDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NumerLokalu" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDaneLekarza">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDaneLekarzaResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="DaneLekarza" type="tns:docTypeRef_kmdk_Lekarz_DanePelne" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_Lekarz_DanePelne">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Imie" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nazwisko" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pesel" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NumerPrawaWykonywaniaZawodu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwaOkregowejIzbyLekarskiej" type="xsd:string" />
+          <xsd:element minOccurs="0" name="StatusLekarza" type="tns:docTypeRef_kmdk_StatusLekarza" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="PosiadanaSpecjalizacja" type="tns:docTypeRef_kmdk_PosiadanaSpecjalizacja" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Adres" type="tns:docTypeRef_kmdk_AdresLekarza" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="MiejsceWykonywaniaZawodu" type="tns:docTypeRef_kmdk_MiejsceWykonywaniaZawodu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_StatusLekarza">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="DataWydaniaDecyzji" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Status" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_PosiadanaSpecjalizacja">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="KodSpecjalizacji" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NazwaSpecjalizacji" type="xsd:string" />
+          <xsd:element minOccurs="0" name="StopienSpecjalizacji" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_kmdk_AdresLekarza">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrLokalu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzKodChoroby">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="Stronicowanie" type="tns:docTypeRef_Stronicowanie" />
+          <xsd:element minOccurs="0" name="Sortowanie" type="tns:docTypeRef_KodChorobySortowanie" />
+          <xsd:element minOccurs="0" name="Filtrowanie" type="tns:docTypeRef_KodChorobyFiltrowanie" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_KodChorobySortowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekSortowania" type="tns:docTypeRef_KodChorobySortowanieWarunek" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_KodChorobySortowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:KodChorobyEnumeracja" />
+          <xsd:element name="Kierunek" type="tns:SortowanieEnumeracja" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="KodChorobyEnumeracja">
+        <xsd:restriction base="xsd:string">
+          <xsd:whiteSpace value="preserve" />
+          <xsd:enumeration value="StatystycznyKodChoroby" />
+          <xsd:enumeration value="NazwaChoroby" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="docTypeRef_KodChorobyFiltrowanie">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="WarunekFiltrowania" type="tns:docTypeRef_KodChorobyFiltrowanieWarunek" />
+          <xsd:element name="LogiczneZlaczenieWarunkow" type="tns:OperatorAndOrEnum" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_KodChorobyFiltrowanieWarunek">
+        <xsd:sequence>
+          <xsd:element name="Kolumna" type="tns:KodChorobyEnumeracja" />
+          <xsd:element name="Operator" type="tns:OperatorEnum" />
+          <xsd:element name="Wartosc" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzKodChorobyResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="LiczbaWszystkichRekordow" type="xsd:long" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="NumerStatystycznyChoroby" type="tns:docTypeRef_NumerStatystycznyChoroby" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_NumerStatystycznyChoroby">
+        <xsd:sequence>
+          <xsd:element name="StatystycznyKodChoroby" type="xsd:string" />
+          <xsd:element name="Nazwa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Opis" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzOpisChoroby">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="StatystycznyKodChoroby" type="tns:StatystycznyKodChoroby" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzOpisChorobyResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" name="NazwaChoroby" type="xsd:string" />
+          <xsd:element minOccurs="0" name="OpisChoroby" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSlownikKodowPokrewienstwa">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSlownikKodowPokrewienstwaResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="KodPokrewienstwa" type="tns:docTypeRef_KodPokrewienstwa" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_KodPokrewienstwa">
+        <xsd:sequence>
+          <xsd:element name="Kod" type="xsd:string" />
+          <xsd:element name="Opis" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSeriaNumerZla">
+        <xsd:sequence>
+          <xsd:element name="in" nillable="true" type="tns:Kom_PobierzSeriaNumerZla_We" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Kom_PobierzSeriaNumerZla_We">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="KolekcjaPaczekDokumentowZla" nillable="true" type="tns:KolekcjaPaczekDokumentowZla" />
+          <xsd:element name="idSesji" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KolekcjaPaczekDokumentowZla">
+        <xsd:sequence>
+          <xsd:element name="Oryginal" type="tns:Dokument" />
+          <xsd:element name="Kopia" type="tns:Dokument" />
+          <xsd:element name="SeriaNumer" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Dokument">
+        <xsd:sequence>
+          <xsd:element name="idDokumentu" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzSeriaNumerZlaResponse">
+        <xsd:sequence>
+          <xsd:element name="out" nillable="true" type="tns:Kom_PobierzSeriaNumerZla_Wy" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Kom_PobierzSeriaNumerZla_Wy">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="KolekcjaPaczekDokumentowZla" nillable="true" type="tns:KolekcjaPaczekDokumentowZla" />
+          <xsd:element name="Rezultat" nillable="true" type="tns:docTypeRef_Rezultat" />
+          <xsd:element name="idSesji" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListeLekarzyAsystenta">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element minOccurs="0" name="IdMiejsca" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzListeLekarzyAsystentaResponse">
+        <xsd:sequence>
+          <xsd:element name="LekarzeAsystenta" nillable="true" type="tns:docTypeRef_LekarzAsystenta" />
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_LekarzAsystenta">
+        <xsd:sequence>
+          <xsd:element name="ImiePierwsze" nillable="true" type="xsd:string" />
+          <xsd:element name="Nazwisko" nillable="true" type="xsd:string" />
+          <xsd:element name="NPWZ" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDaneAsystentow">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzDaneAsystentowResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="DaneAsystenta" type="tns:docTypeRef_DaneAsystenta" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_DaneAsystenta">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Id" type="xsd:string" />
+          <xsd:element name="Imie" type="xsd:string" />
+          <xsd:element name="Nazwisko" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzUprawnieniaAsystentaDoMiejsc">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="IdAsystenta" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="pobierzUprawnieniaAsystentaDoMiejscResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="UprawnienieAsystentaDoMiejsca" type="tns:docTypeRef_UprawnienieAsystentaDoMiejsca" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="docTypeRef_UprawnienieAsystentaDoMiejsca">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="IdMiejsca" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nazwa" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ulica" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrDomu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NrLokalu" type="xsd:string" />
+          <xsd:element minOccurs="0" name="KodPocztowy" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Miejscowosc" type="xsd:string" />
+          <xsd:element minOccurs="0" name="UprawnienieDoZla" type="xsd:boolean" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="przywrocUprawnienieAsystentaDoMiejsca">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="IdAsystenta" type="xsd:string" />
+          <xsd:element name="IdMiejsca" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="przywrocUprawnienieAsystentaDoMiejscaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="usunUprawnienieAsystentaDoMiejsca">
+        <xsd:sequence>
+          <xsd:element name="IdSesji" type="tns:ID" />
+          <xsd:element name="IdAsystenta" type="xsd:string" />
+          <xsd:element name="IdMiejsca" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="usunUprawnienieAsystentaDoMiejscaResponse">
+        <xsd:sequence>
+          <xsd:element name="Rezultat" type="tns:docTypeRef_Rezultat" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="zla_PortType_pobierzOswiadczenieResponse">
+    <wsdl:part name="parameters" element="tns:pobierzOswiadczenieResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_usunSesjeResponse">
+    <wsdl:part name="parameters" element="tns:usunSesjeResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzPlatnikowUbezpieczonegoResponse">
+    <wsdl:part name="parameters" element="tns:pobierzPlatnikowUbezpieczonegoResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDanePlatnikaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzDanePlatnikaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListePowiazanychZla">
+    <wsdl:part name="parameters" element="tns:pobierzListePowiazanychZla" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzUppDlaDokumentu">
+    <wsdl:part name="parameters" element="tns:pobierzUppDlaDokumentu" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzOpisChoroby">
+    <wsdl:part name="parameters" element="tns:pobierzOpisChoroby" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDokument">
+    <wsdl:part name="parameters" element="tns:pobierzDokument" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSzczegolyZlaBiezaceResponse">
+    <wsdl:part name="parameters" element="tns:pobierzSzczegolyZlaBiezaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_walidujWniosekResponse">
+    <wsdl:part name="parameters" element="tns:walidujWniosekResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzAdresyPlacowek">
+    <wsdl:part name="parameters" element="tns:pobierzAdresyPlacowek" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListeZlaUbezpieczonego">
+    <wsdl:part name="parameters" element="tns:pobierzListeZlaUbezpieczonego" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzPlatnikowUbezpieczonego">
+    <wsdl:part name="parameters" element="tns:pobierzPlatnikowUbezpieczonego" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzCzlonkowRodzinyUbezpieczonego">
+    <wsdl:part name="parameters" element="tns:pobierzCzlonkowRodzinyUbezpieczonego" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_nadajSeriaNumerZla">
+    <wsdl:part name="parameters" element="tns:nadajSeriaNumerZla" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzOpisChorobyResponse">
+    <wsdl:part name="parameters" element="tns:pobierzOpisChorobyResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDaneAsystentow">
+    <wsdl:part name="parameters" element="tns:pobierzDaneAsystentow" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSeriaNumerZlaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzSeriaNumerZlaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListeZlaUbezpieczonegoResponse">
+    <wsdl:part name="parameters" element="tns:pobierzListeZlaUbezpieczonegoResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzMozliwoscElektronizacjiResponse">
+    <wsdl:part name="parameters" element="tns:sprawdzMozliwoscElektronizacjiResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDaneAsystentowResponse">
+    <wsdl:part name="parameters" element="tns:pobierzDaneAsystentowResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzMozliwoscAnulowaniaResponse">
+    <wsdl:part name="parameters" element="tns:sprawdzMozliwoscAnulowaniaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListeLekarzyAsystenta">
+    <wsdl:part name="parameters" element="tns:pobierzListeLekarzyAsystenta" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSeriaNumerZla">
+    <wsdl:part name="parameters" element="tns:pobierzSeriaNumerZla" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_rezerwujSeriaNumerZlaResponse">
+    <wsdl:part name="parameters" element="tns:rezerwujSeriaNumerZlaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzIdentyfikatorDokumentuResponse">
+    <wsdl:part name="parameters" element="tns:pobierzIdentyfikatorDokumentuResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_zalogujPodpisem">
+    <wsdl:part name="parameters" element="tns:zalogujPodpisem" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_walidujDokumenty">
+    <wsdl:part name="parameters" element="tns:walidujDokumenty" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListePowiazanychZlaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzListePowiazanychZlaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_notyfikujAnulowanieZla">
+    <wsdl:part name="parameters" element="tns:notyfikujAnulowanieZla" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzAdresyPlacowekResponse">
+    <wsdl:part name="parameters" element="tns:pobierzAdresyPlacowekResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSlownikPrzyczynAnulowania">
+    <wsdl:part name="parameters" element="tns:pobierzSlownikPrzyczynAnulowania" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSlownikKodowPokrewienstwa">
+    <wsdl:part name="parameters" element="tns:pobierzSlownikKodowPokrewienstwa" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzUprawnieniaAsystentaDoMiejscResponse">
+    <wsdl:part name="parameters" element="tns:pobierzUprawnieniaAsystentaDoMiejscResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzMiejsceWykonywaniaZawoduResponse">
+    <wsdl:part name="parameters" element="tns:pobierzMiejsceWykonywaniaZawoduResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListePr4UbezpieczonegoResponse">
+    <wsdl:part name="parameters" element="tns:pobierzListePr4UbezpieczonegoResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSlownikPrzyczynUniewaznieniaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzSlownikPrzyczynUniewaznieniaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSzczegolyZlaPrzetworzoneResponse">
+    <wsdl:part name="parameters" element="tns:pobierzSzczegolyZlaPrzetworzoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzKodChorobyResponse">
+    <wsdl:part name="parameters" element="tns:pobierzKodChorobyResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzProfilRehabilitacji">
+    <wsdl:part name="parameters" element="tns:sprawdzProfilRehabilitacji" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDanePlatnika">
+    <wsdl:part name="parameters" element="tns:pobierzDanePlatnika" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_wyslijWniosek">
+    <wsdl:part name="parameters" element="tns:wyslijWniosek" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListeBiezacychZlaLekarza">
+    <wsdl:part name="parameters" element="tns:pobierzListeBiezacychZlaLekarza" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDaneLekarza">
+    <wsdl:part name="parameters" element="tns:pobierzDaneLekarza" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListePr4Ubezpieczonego">
+    <wsdl:part name="parameters" element="tns:pobierzListePr4Ubezpieczonego" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSlownikKodowPokrewienstwaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzSlownikKodowPokrewienstwaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzOswiadczenie">
+    <wsdl:part name="parameters" element="tns:pobierzOswiadczenie" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzMozliwoscElektronizacji">
+    <wsdl:part name="parameters" element="tns:sprawdzMozliwoscElektronizacji" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzUprawnieniaNaDzien">
+    <wsdl:part name="parameters" element="tns:pobierzUprawnieniaNaDzien" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSzczegolyZlaBiezace">
+    <wsdl:part name="parameters" element="tns:pobierzSzczegolyZlaBiezace" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzIdentyfikatorDokumentu">
+    <wsdl:part name="parameters" element="tns:pobierzIdentyfikatorDokumentu" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_zalogujPodpisemResponse">
+    <wsdl:part name="parameters" element="tns:zalogujPodpisemResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListePrzetworzonychZlaLekarzaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzListePrzetworzonychZlaLekarzaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_wyslijDokumenty">
+    <wsdl:part name="parameters" element="tns:wyslijDokumenty" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_usunUprawnienieAsystentaDoMiejsca">
+    <wsdl:part name="parameters" element="tns:usunUprawnienieAsystentaDoMiejsca" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDaneUbezpieczonegoResponse">
+    <wsdl:part name="parameters" element="tns:pobierzDaneUbezpieczonegoResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_przywrocUprawnienieAsystentaDoMiejsca">
+    <wsdl:part name="parameters" element="tns:przywrocUprawnienieAsystentaDoMiejsca" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSlownikPrzyczynAnulowaniaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzSlownikPrzyczynAnulowaniaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_przywrocUprawnienieAsystentaDoMiejscaResponse">
+    <wsdl:part name="parameters" element="tns:przywrocUprawnienieAsystentaDoMiejscaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_usunSesje">
+    <wsdl:part name="parameters" element="tns:usunSesje" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzLiterowyKodChorobyResponse">
+    <wsdl:part name="parameters" element="tns:pobierzLiterowyKodChorobyResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzUprawnieniaAsystentaDoMiejsc">
+    <wsdl:part name="parameters" element="tns:pobierzUprawnieniaAsystentaDoMiejsc" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSzczegolyZlaPrzetworzone">
+    <wsdl:part name="parameters" element="tns:pobierzSzczegolyZlaPrzetworzone" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDokumentResponse">
+    <wsdl:part name="parameters" element="tns:pobierzDokumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzCzlonkowRodzinyUbezpieczonegoResponse">
+    <wsdl:part name="parameters" element="tns:pobierzCzlonkowRodzinyUbezpieczonegoResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_walidujWniosek">
+    <wsdl:part name="parameters" element="tns:walidujWniosek" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzSlownikPrzyczynUniewaznienia">
+    <wsdl:part name="parameters" element="tns:pobierzSlownikPrzyczynUniewaznienia" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_wyslijWniosekResponse">
+    <wsdl:part name="parameters" element="tns:wyslijWniosekResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzMozliwoscUniewaznienia">
+    <wsdl:part name="parameters" element="tns:sprawdzMozliwoscUniewaznienia" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzMozliwoscAnulowania">
+    <wsdl:part name="parameters" element="tns:sprawdzMozliwoscAnulowania" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzStatusyDrukowZla">
+    <wsdl:part name="parameters" element="tns:pobierzStatusyDrukowZla" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzUppDlaDokumentuResponse">
+    <wsdl:part name="parameters" element="tns:pobierzUppDlaDokumentuResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_rezerwujSeriaNumerZla">
+    <wsdl:part name="parameters" element="tns:rezerwujSeriaNumerZla" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzUprawnieniaNaDzienResponse">
+    <wsdl:part name="parameters" element="tns:pobierzUprawnieniaNaDzienResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_walidujDokumentyResponse">
+    <wsdl:part name="parameters" element="tns:walidujDokumentyResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDaneUbezpieczonego">
+    <wsdl:part name="parameters" element="tns:pobierzDaneUbezpieczonego" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_nadajSeriaNumerZlaResponse">
+    <wsdl:part name="parameters" element="tns:nadajSeriaNumerZlaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzDaneLekarzaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzDaneLekarzaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzKodChoroby">
+    <wsdl:part name="parameters" element="tns:pobierzKodChoroby" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzProfilRehabilitacjiResponse">
+    <wsdl:part name="parameters" element="tns:sprawdzProfilRehabilitacjiResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzMiejsceWykonywaniaZawodu">
+    <wsdl:part name="parameters" element="tns:pobierzMiejsceWykonywaniaZawodu" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListePrzetworzonychZlaLekarza">
+    <wsdl:part name="parameters" element="tns:pobierzListePrzetworzonychZlaLekarza" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzStatusyDrukowZlaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzStatusyDrukowZlaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_notyfikujAnulowanieZlaResponse">
+    <wsdl:part name="parameters" element="tns:notyfikujAnulowanieZlaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_usunUprawnienieAsystentaDoMiejscaResponse">
+    <wsdl:part name="parameters" element="tns:usunUprawnienieAsystentaDoMiejscaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListeLekarzyAsystentaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzListeLekarzyAsystentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_sprawdzMozliwoscUniewaznieniaResponse">
+    <wsdl:part name="parameters" element="tns:sprawdzMozliwoscUniewaznieniaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_wyslijDokumentyResponse">
+    <wsdl:part name="parameters" element="tns:wyslijDokumentyResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzListeBiezacychZlaLekarzaResponse">
+    <wsdl:part name="parameters" element="tns:pobierzListeBiezacychZlaLekarzaResponse" />
+  </wsdl:message>
+  <wsdl:message name="zla_PortType_pobierzLiterowyKodChoroby">
+    <wsdl:part name="parameters" element="tns:pobierzLiterowyKodChoroby" />
+  </wsdl:message>
+  <wsdl:portType name="zla_PortType">
+    <wsdl:operation name="zalogujPodpisem">
+      <wsdl:input message="tns:zla_PortType_zalogujPodpisem" />
+      <wsdl:output message="tns:zla_PortType_zalogujPodpisemResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="notyfikujAnulowanieZla">
+      <wsdl:input message="tns:zla_PortType_notyfikujAnulowanieZla" />
+      <wsdl:output message="tns:zla_PortType_notyfikujAnulowanieZlaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzMozliwoscElektronizacji">
+      <wsdl:input message="tns:zla_PortType_sprawdzMozliwoscElektronizacji" />
+      <wsdl:output message="tns:zla_PortType_sprawdzMozliwoscElektronizacjiResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDanePlatnika">
+      <wsdl:input message="tns:zla_PortType_pobierzDanePlatnika" />
+      <wsdl:output message="tns:zla_PortType_pobierzDanePlatnikaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzMozliwoscAnulowania">
+      <wsdl:input message="tns:zla_PortType_sprawdzMozliwoscAnulowania" />
+      <wsdl:output message="tns:zla_PortType_sprawdzMozliwoscAnulowaniaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListePrzetworzonychZlaLekarza">
+      <wsdl:input message="tns:zla_PortType_pobierzListePrzetworzonychZlaLekarza" />
+      <wsdl:output message="tns:zla_PortType_pobierzListePrzetworzonychZlaLekarzaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzAdresyPlacowek">
+      <wsdl:input message="tns:zla_PortType_pobierzAdresyPlacowek" />
+      <wsdl:output message="tns:zla_PortType_pobierzAdresyPlacowekResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSlownikPrzyczynUniewaznienia">
+      <wsdl:input message="tns:zla_PortType_pobierzSlownikPrzyczynUniewaznienia" />
+      <wsdl:output message="tns:zla_PortType_pobierzSlownikPrzyczynUniewaznieniaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzUprawnieniaNaDzien">
+      <wsdl:input message="tns:zla_PortType_pobierzUprawnieniaNaDzien" />
+      <wsdl:output message="tns:zla_PortType_pobierzUprawnieniaNaDzienResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzStatusyDrukowZla">
+      <wsdl:input message="tns:zla_PortType_pobierzStatusyDrukowZla" />
+      <wsdl:output message="tns:zla_PortType_pobierzStatusyDrukowZlaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDaneAsystentow">
+      <wsdl:input message="tns:zla_PortType_pobierzDaneAsystentow" />
+      <wsdl:output message="tns:zla_PortType_pobierzDaneAsystentowResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzIdentyfikatorDokumentu">
+      <wsdl:input message="tns:zla_PortType_pobierzIdentyfikatorDokumentu" />
+      <wsdl:output message="tns:zla_PortType_pobierzIdentyfikatorDokumentuResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListeZlaUbezpieczonego">
+      <wsdl:input message="tns:zla_PortType_pobierzListeZlaUbezpieczonego" />
+      <wsdl:output message="tns:zla_PortType_pobierzListeZlaUbezpieczonegoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzKodChoroby">
+      <wsdl:input message="tns:zla_PortType_pobierzKodChoroby" />
+      <wsdl:output message="tns:zla_PortType_pobierzKodChorobyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="walidujDokumenty">
+      <wsdl:input message="tns:zla_PortType_walidujDokumenty" />
+      <wsdl:output message="tns:zla_PortType_walidujDokumentyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="usunUprawnienieAsystentaDoMiejsca">
+      <wsdl:input message="tns:zla_PortType_usunUprawnienieAsystentaDoMiejsca" />
+      <wsdl:output message="tns:zla_PortType_usunUprawnienieAsystentaDoMiejscaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="rezerwujSeriaNumerZla">
+      <wsdl:input message="tns:zla_PortType_rezerwujSeriaNumerZla" />
+      <wsdl:output message="tns:zla_PortType_rezerwujSeriaNumerZlaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="nadajSeriaNumerZla">
+      <wsdl:input message="tns:zla_PortType_nadajSeriaNumerZla" />
+      <wsdl:output message="tns:zla_PortType_nadajSeriaNumerZlaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzOswiadczenie">
+      <wsdl:input message="tns:zla_PortType_pobierzOswiadczenie" />
+      <wsdl:output message="tns:zla_PortType_pobierzOswiadczenieResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSeriaNumerZla">
+      <wsdl:input message="tns:zla_PortType_pobierzSeriaNumerZla" />
+      <wsdl:output message="tns:zla_PortType_pobierzSeriaNumerZlaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzMozliwoscUniewaznienia">
+      <wsdl:input message="tns:zla_PortType_sprawdzMozliwoscUniewaznienia" />
+      <wsdl:output message="tns:zla_PortType_sprawdzMozliwoscUniewaznieniaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListePowiazanychZla">
+      <wsdl:input message="tns:zla_PortType_pobierzListePowiazanychZla" />
+      <wsdl:output message="tns:zla_PortType_pobierzListePowiazanychZlaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="przywrocUprawnienieAsystentaDoMiejsca">
+      <wsdl:input message="tns:zla_PortType_przywrocUprawnienieAsystentaDoMiejsca" />
+      <wsdl:output message="tns:zla_PortType_przywrocUprawnienieAsystentaDoMiejscaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSlownikPrzyczynAnulowania">
+      <wsdl:input message="tns:zla_PortType_pobierzSlownikPrzyczynAnulowania" />
+      <wsdl:output message="tns:zla_PortType_pobierzSlownikPrzyczynAnulowaniaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListeBiezacychZlaLekarza">
+      <wsdl:input message="tns:zla_PortType_pobierzListeBiezacychZlaLekarza" />
+      <wsdl:output message="tns:zla_PortType_pobierzListeBiezacychZlaLekarzaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzOpisChoroby">
+      <wsdl:input message="tns:zla_PortType_pobierzOpisChoroby" />
+      <wsdl:output message="tns:zla_PortType_pobierzOpisChorobyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListePr4Ubezpieczonego">
+      <wsdl:input message="tns:zla_PortType_pobierzListePr4Ubezpieczonego" />
+      <wsdl:output message="tns:zla_PortType_pobierzListePr4UbezpieczonegoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSzczegolyZlaPrzetworzone">
+      <wsdl:input message="tns:zla_PortType_pobierzSzczegolyZlaPrzetworzone" />
+      <wsdl:output message="tns:zla_PortType_pobierzSzczegolyZlaPrzetworzoneResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDokument">
+      <wsdl:input message="tns:zla_PortType_pobierzDokument" />
+      <wsdl:output message="tns:zla_PortType_pobierzDokumentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzUprawnieniaAsystentaDoMiejsc">
+      <wsdl:input message="tns:zla_PortType_pobierzUprawnieniaAsystentaDoMiejsc" />
+      <wsdl:output message="tns:zla_PortType_pobierzUprawnieniaAsystentaDoMiejscResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzUppDlaDokumentu">
+      <wsdl:input message="tns:zla_PortType_pobierzUppDlaDokumentu" />
+      <wsdl:output message="tns:zla_PortType_pobierzUppDlaDokumentuResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDaneLekarza">
+      <wsdl:input message="tns:zla_PortType_pobierzDaneLekarza" />
+      <wsdl:output message="tns:zla_PortType_pobierzDaneLekarzaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="wyslijWniosek">
+      <wsdl:input message="tns:zla_PortType_wyslijWniosek" />
+      <wsdl:output message="tns:zla_PortType_wyslijWniosekResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDaneUbezpieczonego">
+      <wsdl:input message="tns:zla_PortType_pobierzDaneUbezpieczonego" />
+      <wsdl:output message="tns:zla_PortType_pobierzDaneUbezpieczonegoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSzczegolyZlaBiezace">
+      <wsdl:input message="tns:zla_PortType_pobierzSzczegolyZlaBiezace" />
+      <wsdl:output message="tns:zla_PortType_pobierzSzczegolyZlaBiezaceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzLiterowyKodChoroby">
+      <wsdl:input message="tns:zla_PortType_pobierzLiterowyKodChoroby" />
+      <wsdl:output message="tns:zla_PortType_pobierzLiterowyKodChorobyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzMiejsceWykonywaniaZawodu">
+      <wsdl:input message="tns:zla_PortType_pobierzMiejsceWykonywaniaZawodu" />
+      <wsdl:output message="tns:zla_PortType_pobierzMiejsceWykonywaniaZawoduResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="walidujWniosek">
+      <wsdl:input message="tns:zla_PortType_walidujWniosek" />
+      <wsdl:output message="tns:zla_PortType_walidujWniosekResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzCzlonkowRodzinyUbezpieczonego">
+      <wsdl:input message="tns:zla_PortType_pobierzCzlonkowRodzinyUbezpieczonego" />
+      <wsdl:output message="tns:zla_PortType_pobierzCzlonkowRodzinyUbezpieczonegoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="usunSesje">
+      <wsdl:input message="tns:zla_PortType_usunSesje" />
+      <wsdl:output message="tns:zla_PortType_usunSesjeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListeLekarzyAsystenta">
+      <wsdl:input message="tns:zla_PortType_pobierzListeLekarzyAsystenta" />
+      <wsdl:output message="tns:zla_PortType_pobierzListeLekarzyAsystentaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="wyslijDokumenty">
+      <wsdl:input message="tns:zla_PortType_wyslijDokumenty" />
+      <wsdl:output message="tns:zla_PortType_wyslijDokumentyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSlownikKodowPokrewienstwa">
+      <wsdl:input message="tns:zla_PortType_pobierzSlownikKodowPokrewienstwa" />
+      <wsdl:output message="tns:zla_PortType_pobierzSlownikKodowPokrewienstwaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pobierzPlatnikowUbezpieczonego">
+      <wsdl:input message="tns:zla_PortType_pobierzPlatnikowUbezpieczonego" />
+      <wsdl:output message="tns:zla_PortType_pobierzPlatnikowUbezpieczonegoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzProfilRehabilitacji">
+      <wsdl:input message="tns:zla_PortType_sprawdzProfilRehabilitacji" />
+      <wsdl:output message="tns:zla_PortType_sprawdzProfilRehabilitacjiResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="zus_channel_zla_Binder" type="tns:zla_PortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="zalogujPodpisem">
+      <soap:operation soapAction="zus_channel_zla_Binder_zalogujPodpisem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="notyfikujAnulowanieZla">
+      <soap:operation soapAction="zus_channel_zla_Binder_notyfikujAnulowanieZla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzMozliwoscElektronizacji">
+      <soap:operation soapAction="zus_channel_zla_Binder_sprawdzMozliwoscElektronizacji" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDanePlatnika">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzDanePlatnika" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzMozliwoscAnulowania">
+      <soap:operation soapAction="zus_channel_zla_Binder_sprawdzMozliwoscAnulowania" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListePrzetworzonychZlaLekarza">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzListePrzetworzonychZlaLekarza" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzAdresyPlacowek">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzAdresyPlacowek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSlownikPrzyczynUniewaznienia">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzSlownikPrzyczynUniewaznienia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzUprawnieniaNaDzien">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzUprawnieniaNaDzien" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzStatusyDrukowZla">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzStatusyDrukowZla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDaneAsystentow">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzDaneAsystentow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzIdentyfikatorDokumentu">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzIdentyfikatorDokumentu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListeZlaUbezpieczonego">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzListeZlaUbezpieczonego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzKodChoroby">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzKodChoroby" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="walidujDokumenty">
+      <soap:operation soapAction="zus_channel_zla_Binder_walidujDokumenty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="usunUprawnienieAsystentaDoMiejsca">
+      <soap:operation soapAction="zus_channel_zla_Binder_usunUprawnienieAsystentaDoMiejsca" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rezerwujSeriaNumerZla">
+      <soap:operation soapAction="zus_channel_zla_Binder_rezerwujSeriaNumerZla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nadajSeriaNumerZla">
+      <soap:operation soapAction="zus_channel_zla_Binder_nadajSeriaNumerZla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzOswiadczenie">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzOswiadczenie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSeriaNumerZla">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzSeriaNumerZla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzMozliwoscUniewaznienia">
+      <soap:operation soapAction="zus_channel_zla_Binder_sprawdzMozliwoscUniewaznienia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListePowiazanychZla">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzListePowiazanychZla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="przywrocUprawnienieAsystentaDoMiejsca">
+      <soap:operation soapAction="zus_channel_zla_Binder_przywrocUprawnienieAsystentaDoMiejsca" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSlownikPrzyczynAnulowania">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzSlownikPrzyczynAnulowania" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListeBiezacychZlaLekarza">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzListeBiezacychZlaLekarza" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzOpisChoroby">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzOpisChoroby" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListePr4Ubezpieczonego">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzListePr4Ubezpieczonego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSzczegolyZlaPrzetworzone">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzSzczegolyZlaPrzetworzone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDokument">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzDokument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzUprawnieniaAsystentaDoMiejsc">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzUprawnieniaAsystentaDoMiejsc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzUppDlaDokumentu">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzUppDlaDokumentu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDaneLekarza">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzDaneLekarza" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wyslijWniosek">
+      <soap:operation soapAction="zus_channel_zla_Binder_wyslijWniosek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzDaneUbezpieczonego">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzDaneUbezpieczonego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSzczegolyZlaBiezace">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzSzczegolyZlaBiezace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzLiterowyKodChoroby">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzLiterowyKodChoroby" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzMiejsceWykonywaniaZawodu">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzMiejsceWykonywaniaZawodu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="walidujWniosek">
+      <soap:operation soapAction="zus_channel_zla_Binder_walidujWniosek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzCzlonkowRodzinyUbezpieczonego">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzCzlonkowRodzinyUbezpieczonego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="usunSesje">
+      <soap:operation soapAction="zus_channel_zla_Binder_usunSesje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzListeLekarzyAsystenta">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzListeLekarzyAsystenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wyslijDokumenty">
+      <soap:operation soapAction="zus_channel_zla_Binder_wyslijDokumenty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzSlownikKodowPokrewienstwa">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzSlownikKodowPokrewienstwa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pobierzPlatnikowUbezpieczonego">
+      <soap:operation soapAction="zus_channel_zla_Binder_pobierzPlatnikowUbezpieczonego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sprawdzProfilRehabilitacji">
+      <soap:operation soapAction="zus_channel_zla_Binder_sprawdzProfilRehabilitacji" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="zus.channel.gabinetowe.zla">
+    <wsdl:port name="zus_channel_zla_Port" binding="tns:zus_channel_zla_Binder">
+      <soap:address location="http://nodeb:7777/ws/zus.channel.gabinetowe.zla/zus_channel_zla_Port" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,27 @@
+C:\Users\Luk\source\repos\APforGUS\APforGUS\bin\Debug\APforGUS.exe.config
+C:\Users\Luk\source\repos\APforGUS\APforGUS\bin\Debug\APforGUS.exe
+C:\Users\Luk\source\repos\APforGUS\APforGUS\bin\Debug\APforGUS.pdb
+C:\Users\Luk\source\repos\APforGUS\APforGUS\obj\Debug\APforGUS.csprojAssemblyReference.cache
+C:\Users\Luk\source\repos\APforGUS\APforGUS\obj\Debug\APforGUS.csproj.CoreCompileInputs.cache
+C:\Users\Luk\source\repos\APforGUS\APforGUS\obj\Debug\APforGUS.exe
+C:\Users\Luk\source\repos\APforGUS\APforGUS\obj\Debug\APforGUS.pdb
+C:\Users\Luk\source\repos\APforGUS\APforGUS\bin\Debug\RestSharp.dll
+C:\Users\Luk\source\repos\APforGUS\APforGUS\bin\Debug\RestSharp.xml
+C:\Users\Luk\source\repos\APforGUS\APforGUS\obj\Debug\APforGUS.csproj.CopyComplete
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\APforGUS.exe.config
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\APforGUS.exe
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\APforGUS.pdb
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\RestSharp.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\RestSharp.xml
+C:\Users\Luk\source\repos\APforZus console\APforGUS\obj\Debug\APforGUS.csprojAssemblyReference.cache
+C:\Users\Luk\source\repos\APforZus console\APforGUS\obj\Debug\APforGUS.csproj.CoreCompileInputs.cache
+C:\Users\Luk\source\repos\APforZus console\APforGUS\obj\Debug\APforGUS.csproj.CopyComplete
+C:\Users\Luk\source\repos\APforZus console\APforGUS\obj\Debug\APforGUS.exe
+C:\Users\Luk\source\repos\APforZus console\APforGUS\obj\Debug\APforGUS.pdb
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\Eco.Handles.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\Eco.Interfaces.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\Eco.LinqExtender.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\Eco.Persistence.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\Eco.Persistence.MySql.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\Eco.Persistence.SQLite.dll
+C:\Users\Luk\source\repos\APforZus console\APforGUS\bin\Debug\System.Buffers.dll
