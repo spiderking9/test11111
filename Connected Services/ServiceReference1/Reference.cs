@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace APforGUS.ServiceReference1 {
+namespace APforZusConsole.ServiceReference1 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -17,368 +17,368 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_zalogujPodpisem", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.zalogujPodpisemResponse zalogujPodpisem(APforGUS.ServiceReference1.zalogujPodpisemRequest request);
+        APforZusConsole.ServiceReference1.zalogujPodpisemResponse zalogujPodpisem(APforZusConsole.ServiceReference1.zalogujPodpisemRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_zalogujPodpisem", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.zalogujPodpisemResponse> zalogujPodpisemAsync(APforGUS.ServiceReference1.zalogujPodpisemRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.zalogujPodpisemResponse> zalogujPodpisemAsync(APforZusConsole.ServiceReference1.zalogujPodpisemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_notyfikujAnulowanieZla", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.notyfikujAnulowanieZlaResponse notyfikujAnulowanieZla(APforGUS.ServiceReference1.notyfikujAnulowanieZlaRequest request);
+        APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaResponse notyfikujAnulowanieZla(APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_notyfikujAnulowanieZla", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.notyfikujAnulowanieZlaResponse> notyfikujAnulowanieZlaAsync(APforGUS.ServiceReference1.notyfikujAnulowanieZlaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaResponse> notyfikujAnulowanieZlaAsync(APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzMozliwoscElektronizacji", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse sprawdzMozliwoscElektronizacji(APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request);
+        APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse sprawdzMozliwoscElektronizacji(APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzMozliwoscElektronizacji", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse> sprawdzMozliwoscElektronizacjiAsync(APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse> sprawdzMozliwoscElektronizacjiAsync(APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDanePlatnika", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzDanePlatnikaResponse pobierzDanePlatnika(APforGUS.ServiceReference1.pobierzDanePlatnikaRequest request);
+        APforZusConsole.ServiceReference1.pobierzDanePlatnikaResponse pobierzDanePlatnika(APforZusConsole.ServiceReference1.pobierzDanePlatnikaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDanePlatnika", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDanePlatnikaResponse> pobierzDanePlatnikaAsync(APforGUS.ServiceReference1.pobierzDanePlatnikaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDanePlatnikaResponse> pobierzDanePlatnikaAsync(APforZusConsole.ServiceReference1.pobierzDanePlatnikaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzMozliwoscAnulowania", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse sprawdzMozliwoscAnulowania(APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request);
+        APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse sprawdzMozliwoscAnulowania(APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzMozliwoscAnulowania", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse> sprawdzMozliwoscAnulowaniaAsync(APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse> sprawdzMozliwoscAnulowaniaAsync(APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListePrzetworzonychZlaLekarza", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse pobierzListePrzetworzonychZlaLekarza(APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request);
+        APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse pobierzListePrzetworzonychZlaLekarza(APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListePrzetworzonychZlaLekarza", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse> pobierzListePrzetworzonychZlaLekarzaAsync(APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse> pobierzListePrzetworzonychZlaLekarzaAsync(APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzAdresyPlacowek", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzAdresyPlacowekResponse pobierzAdresyPlacowek(APforGUS.ServiceReference1.pobierzAdresyPlacowekRequest request);
+        APforZusConsole.ServiceReference1.pobierzAdresyPlacowekResponse pobierzAdresyPlacowek(APforZusConsole.ServiceReference1.pobierzAdresyPlacowekRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzAdresyPlacowek", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzAdresyPlacowekResponse> pobierzAdresyPlacowekAsync(APforGUS.ServiceReference1.pobierzAdresyPlacowekRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzAdresyPlacowekResponse> pobierzAdresyPlacowekAsync(APforZusConsole.ServiceReference1.pobierzAdresyPlacowekRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSlownikPrzyczynUniewaznienia", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse pobierzSlownikPrzyczynUniewaznienia(APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request);
+        APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse pobierzSlownikPrzyczynUniewaznienia(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSlownikPrzyczynUniewaznienia", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse> pobierzSlownikPrzyczynUniewaznieniaAsync(APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse> pobierzSlownikPrzyczynUniewaznieniaAsync(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzUprawnieniaNaDzien", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienResponse pobierzUprawnieniaNaDzien(APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienRequest request);
+        APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienResponse pobierzUprawnieniaNaDzien(APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzUprawnieniaNaDzien", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienResponse> pobierzUprawnieniaNaDzienAsync(APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienResponse> pobierzUprawnieniaNaDzienAsync(APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzStatusyDrukowZla", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzStatusyDrukowZlaResponse pobierzStatusyDrukowZla(APforGUS.ServiceReference1.pobierzStatusyDrukowZlaRequest request);
+        APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaResponse pobierzStatusyDrukowZla(APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzStatusyDrukowZla", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzStatusyDrukowZlaResponse> pobierzStatusyDrukowZlaAsync(APforGUS.ServiceReference1.pobierzStatusyDrukowZlaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaResponse> pobierzStatusyDrukowZlaAsync(APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDaneAsystentow", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzDaneAsystentowResponse pobierzDaneAsystentow(APforGUS.ServiceReference1.pobierzDaneAsystentowRequest request);
+        APforZusConsole.ServiceReference1.pobierzDaneAsystentowResponse pobierzDaneAsystentow(APforZusConsole.ServiceReference1.pobierzDaneAsystentowRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDaneAsystentow", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDaneAsystentowResponse> pobierzDaneAsystentowAsync(APforGUS.ServiceReference1.pobierzDaneAsystentowRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDaneAsystentowResponse> pobierzDaneAsystentowAsync(APforZusConsole.ServiceReference1.pobierzDaneAsystentowRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzIdentyfikatorDokumentu", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuResponse pobierzIdentyfikatorDokumentu(APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request);
+        APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuResponse pobierzIdentyfikatorDokumentu(APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzIdentyfikatorDokumentu", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuResponse> pobierzIdentyfikatorDokumentuAsync(APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuResponse> pobierzIdentyfikatorDokumentuAsync(APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListeZlaUbezpieczonego", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse pobierzListeZlaUbezpieczonego(APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request);
+        APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse pobierzListeZlaUbezpieczonego(APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListeZlaUbezpieczonego", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse> pobierzListeZlaUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse> pobierzListeZlaUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzKodChoroby", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzKodChorobyResponse pobierzKodChoroby(APforGUS.ServiceReference1.pobierzKodChorobyRequest request);
+        APforZusConsole.ServiceReference1.pobierzKodChorobyResponse pobierzKodChoroby(APforZusConsole.ServiceReference1.pobierzKodChorobyRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzKodChoroby", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzKodChorobyResponse> pobierzKodChorobyAsync(APforGUS.ServiceReference1.pobierzKodChorobyRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzKodChorobyResponse> pobierzKodChorobyAsync(APforZusConsole.ServiceReference1.pobierzKodChorobyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_walidujDokumenty", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.walidujDokumentyResponse walidujDokumenty(APforGUS.ServiceReference1.walidujDokumentyRequest request);
+        APforZusConsole.ServiceReference1.walidujDokumentyResponse walidujDokumenty(APforZusConsole.ServiceReference1.walidujDokumentyRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_walidujDokumenty", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.walidujDokumentyResponse> walidujDokumentyAsync(APforGUS.ServiceReference1.walidujDokumentyRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.walidujDokumentyResponse> walidujDokumentyAsync(APforZusConsole.ServiceReference1.walidujDokumentyRequest request);
         
         // CODEGEN: Parametr „Rezultat” wymaga dodatkowych informacji o schemacie, których nie można uzyskać w trybie parametru. Określony atrybut to „System.Xml.Serialization.XmlElementAttribute”.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_usunUprawnienieAsystentaDoMiejsca", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="Rezultat")]
-        APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse usunUprawnienieAsystentaDoMiejsca(APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request);
+        APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse usunUprawnienieAsystentaDoMiejsca(APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_usunUprawnienieAsystentaDoMiejsca", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse> usunUprawnienieAsystentaDoMiejscaAsync(APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse> usunUprawnienieAsystentaDoMiejscaAsync(APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_rezerwujSeriaNumerZla", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.rezerwujSeriaNumerZlaResponse rezerwujSeriaNumerZla(APforGUS.ServiceReference1.rezerwujSeriaNumerZlaRequest request);
+        APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaResponse rezerwujSeriaNumerZla(APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_rezerwujSeriaNumerZla", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.rezerwujSeriaNumerZlaResponse> rezerwujSeriaNumerZlaAsync(APforGUS.ServiceReference1.rezerwujSeriaNumerZlaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaResponse> rezerwujSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_nadajSeriaNumerZla", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.nadajSeriaNumerZlaResponse nadajSeriaNumerZla(APforGUS.ServiceReference1.nadajSeriaNumerZlaRequest request);
+        APforZusConsole.ServiceReference1.nadajSeriaNumerZlaResponse nadajSeriaNumerZla(APforZusConsole.ServiceReference1.nadajSeriaNumerZlaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_nadajSeriaNumerZla", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.nadajSeriaNumerZlaResponse> nadajSeriaNumerZlaAsync(APforGUS.ServiceReference1.nadajSeriaNumerZlaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.nadajSeriaNumerZlaResponse> nadajSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.nadajSeriaNumerZlaRequest request);
         
         // CODEGEN: Parametr „Oswiadczenie” wymaga dodatkowych informacji o schemacie, których nie można uzyskać w trybie parametru. Określony atrybut to „System.Xml.Serialization.XmlElementAttribute”.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzOswiadczenie", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="Oswiadczenie")]
-        APforGUS.ServiceReference1.pobierzOswiadczenieResponse pobierzOswiadczenie(APforGUS.ServiceReference1.pobierzOswiadczenieRequest request);
+        APforZusConsole.ServiceReference1.pobierzOswiadczenieResponse pobierzOswiadczenie(APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzOswiadczenie", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzOswiadczenieResponse> pobierzOswiadczenieAsync(APforGUS.ServiceReference1.pobierzOswiadczenieRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzOswiadczenieResponse> pobierzOswiadczenieAsync(APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest request);
         
         // CODEGEN: Parametr „out” wymaga dodatkowych informacji o schemacie, których nie można uzyskać w trybie parametru. Określony atrybut to „System.Xml.Serialization.XmlElementAttribute”.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSeriaNumerZla", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="out")]
-        APforGUS.ServiceReference1.pobierzSeriaNumerZlaResponse pobierzSeriaNumerZla(APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest request);
+        APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaResponse pobierzSeriaNumerZla(APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSeriaNumerZla", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSeriaNumerZlaResponse> pobierzSeriaNumerZlaAsync(APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaResponse> pobierzSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzMozliwoscUniewaznienia", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse sprawdzMozliwoscUniewaznienia(APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request);
+        APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse sprawdzMozliwoscUniewaznienia(APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzMozliwoscUniewaznienia", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse> sprawdzMozliwoscUniewaznieniaAsync(APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse> sprawdzMozliwoscUniewaznieniaAsync(APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListePowiazanychZla", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzListePowiazanychZlaResponse pobierzListePowiazanychZla(APforGUS.ServiceReference1.pobierzListePowiazanychZlaRequest request);
+        APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaResponse pobierzListePowiazanychZla(APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListePowiazanychZla", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListePowiazanychZlaResponse> pobierzListePowiazanychZlaAsync(APforGUS.ServiceReference1.pobierzListePowiazanychZlaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaResponse> pobierzListePowiazanychZlaAsync(APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaRequest request);
         
         // CODEGEN: Parametr „Rezultat” wymaga dodatkowych informacji o schemacie, których nie można uzyskać w trybie parametru. Określony atrybut to „System.Xml.Serialization.XmlElementAttribute”.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_przywrocUprawnienieAsystentaDoMiejsca", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="Rezultat")]
-        APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse przywrocUprawnienieAsystentaDoMiejsca(APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request);
+        APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse przywrocUprawnienieAsystentaDoMiejsca(APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_przywrocUprawnienieAsystentaDoMiejsca", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse> przywrocUprawnienieAsystentaDoMiejscaAsync(APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse> przywrocUprawnienieAsystentaDoMiejscaAsync(APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSlownikPrzyczynAnulowania", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse pobierzSlownikPrzyczynAnulowania(APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request);
+        APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse pobierzSlownikPrzyczynAnulowania(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSlownikPrzyczynAnulowania", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse> pobierzSlownikPrzyczynAnulowaniaAsync(APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse> pobierzSlownikPrzyczynAnulowaniaAsync(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListeBiezacychZlaLekarza", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse pobierzListeBiezacychZlaLekarza(APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request);
+        APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse pobierzListeBiezacychZlaLekarza(APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListeBiezacychZlaLekarza", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse> pobierzListeBiezacychZlaLekarzaAsync(APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse> pobierzListeBiezacychZlaLekarzaAsync(APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzOpisChoroby", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzOpisChorobyResponse pobierzOpisChoroby(APforGUS.ServiceReference1.pobierzOpisChorobyRequest request);
+        APforZusConsole.ServiceReference1.pobierzOpisChorobyResponse pobierzOpisChoroby(APforZusConsole.ServiceReference1.pobierzOpisChorobyRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzOpisChoroby", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzOpisChorobyResponse> pobierzOpisChorobyAsync(APforGUS.ServiceReference1.pobierzOpisChorobyRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzOpisChorobyResponse> pobierzOpisChorobyAsync(APforZusConsole.ServiceReference1.pobierzOpisChorobyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListePr4Ubezpieczonego", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoResponse pobierzListePr4Ubezpieczonego(APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request);
+        APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoResponse pobierzListePr4Ubezpieczonego(APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListePr4Ubezpieczonego", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoResponse> pobierzListePr4UbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoResponse> pobierzListePr4UbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSzczegolyZlaPrzetworzone", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse pobierzSzczegolyZlaPrzetworzone(APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request);
+        APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse pobierzSzczegolyZlaPrzetworzone(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSzczegolyZlaPrzetworzone", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse> pobierzSzczegolyZlaPrzetworzoneAsync(APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse> pobierzSzczegolyZlaPrzetworzoneAsync(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDokument", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzDokumentResponse pobierzDokument(APforGUS.ServiceReference1.pobierzDokumentRequest request);
+        APforZusConsole.ServiceReference1.pobierzDokumentResponse pobierzDokument(APforZusConsole.ServiceReference1.pobierzDokumentRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDokument", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDokumentResponse> pobierzDokumentAsync(APforGUS.ServiceReference1.pobierzDokumentRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDokumentResponse> pobierzDokumentAsync(APforZusConsole.ServiceReference1.pobierzDokumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzUprawnieniaAsystentaDoMiejsc", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse pobierzUprawnieniaAsystentaDoMiejsc(APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request);
+        APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse pobierzUprawnieniaAsystentaDoMiejsc(APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzUprawnieniaAsystentaDoMiejsc", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse> pobierzUprawnieniaAsystentaDoMiejscAsync(APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse> pobierzUprawnieniaAsystentaDoMiejscAsync(APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzUppDlaDokumentu", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzUppDlaDokumentuResponse pobierzUppDlaDokumentu(APforGUS.ServiceReference1.pobierzUppDlaDokumentuRequest request);
+        APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuResponse pobierzUppDlaDokumentu(APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzUppDlaDokumentu", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzUppDlaDokumentuResponse> pobierzUppDlaDokumentuAsync(APforGUS.ServiceReference1.pobierzUppDlaDokumentuRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuResponse> pobierzUppDlaDokumentuAsync(APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDaneLekarza", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzDaneLekarzaResponse pobierzDaneLekarza(APforGUS.ServiceReference1.pobierzDaneLekarzaRequest request);
+        APforZusConsole.ServiceReference1.pobierzDaneLekarzaResponse pobierzDaneLekarza(APforZusConsole.ServiceReference1.pobierzDaneLekarzaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDaneLekarza", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDaneLekarzaResponse> pobierzDaneLekarzaAsync(APforGUS.ServiceReference1.pobierzDaneLekarzaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDaneLekarzaResponse> pobierzDaneLekarzaAsync(APforZusConsole.ServiceReference1.pobierzDaneLekarzaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_wyslijWniosek", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.wyslijWniosekResponse wyslijWniosek(APforGUS.ServiceReference1.wyslijWniosekRequest request);
+        APforZusConsole.ServiceReference1.wyslijWniosekResponse wyslijWniosek(APforZusConsole.ServiceReference1.wyslijWniosekRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_wyslijWniosek", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.wyslijWniosekResponse> wyslijWniosekAsync(APforGUS.ServiceReference1.wyslijWniosekRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.wyslijWniosekResponse> wyslijWniosekAsync(APforZusConsole.ServiceReference1.wyslijWniosekRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDaneUbezpieczonego", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoResponse pobierzDaneUbezpieczonego(APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoRequest request);
+        APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoResponse pobierzDaneUbezpieczonego(APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzDaneUbezpieczonego", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoResponse> pobierzDaneUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoResponse> pobierzDaneUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSzczegolyZlaBiezace", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse pobierzSzczegolyZlaBiezace(APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request);
+        APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse pobierzSzczegolyZlaBiezace(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSzczegolyZlaBiezace", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse> pobierzSzczegolyZlaBiezaceAsync(APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse> pobierzSzczegolyZlaBiezaceAsync(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzLiterowyKodChoroby", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzLiterowyKodChorobyResponse pobierzLiterowyKodChoroby(APforGUS.ServiceReference1.pobierzLiterowyKodChorobyRequest request);
+        APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyResponse pobierzLiterowyKodChoroby(APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzLiterowyKodChoroby", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzLiterowyKodChorobyResponse> pobierzLiterowyKodChorobyAsync(APforGUS.ServiceReference1.pobierzLiterowyKodChorobyRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyResponse> pobierzLiterowyKodChorobyAsync(APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzMiejsceWykonywaniaZawodu", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse pobierzMiejsceWykonywaniaZawodu(APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request);
+        APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse pobierzMiejsceWykonywaniaZawodu(APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzMiejsceWykonywaniaZawodu", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse> pobierzMiejsceWykonywaniaZawoduAsync(APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse> pobierzMiejsceWykonywaniaZawoduAsync(APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_walidujWniosek", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.walidujWniosekResponse walidujWniosek(APforGUS.ServiceReference1.walidujWniosekRequest request);
+        APforZusConsole.ServiceReference1.walidujWniosekResponse walidujWniosek(APforZusConsole.ServiceReference1.walidujWniosekRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_walidujWniosek", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.walidujWniosekResponse> walidujWniosekAsync(APforGUS.ServiceReference1.walidujWniosekRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.walidujWniosekResponse> walidujWniosekAsync(APforZusConsole.ServiceReference1.walidujWniosekRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzCzlonkowRodzinyUbezpieczonego", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse pobierzCzlonkowRodzinyUbezpieczonego(APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request);
+        APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse pobierzCzlonkowRodzinyUbezpieczonego(APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzCzlonkowRodzinyUbezpieczonego", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse> pobierzCzlonkowRodzinyUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse> pobierzCzlonkowRodzinyUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request);
         
         // CODEGEN: Parametr „Rezultat” wymaga dodatkowych informacji o schemacie, których nie można uzyskać w trybie parametru. Określony atrybut to „System.Xml.Serialization.XmlElementAttribute”.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_usunSesje", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="Rezultat")]
-        APforGUS.ServiceReference1.usunSesjeResponse usunSesje(APforGUS.ServiceReference1.usunSesjeRequest request);
+        APforZusConsole.ServiceReference1.usunSesjeResponse usunSesje(APforZusConsole.ServiceReference1.usunSesjeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_usunSesje", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.usunSesjeResponse> usunSesjeAsync(APforGUS.ServiceReference1.usunSesjeRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.usunSesjeResponse> usunSesjeAsync(APforZusConsole.ServiceReference1.usunSesjeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListeLekarzyAsystenta", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaResponse pobierzListeLekarzyAsystenta(APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaRequest request);
+        APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaResponse pobierzListeLekarzyAsystenta(APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzListeLekarzyAsystenta", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaResponse> pobierzListeLekarzyAsystentaAsync(APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaResponse> pobierzListeLekarzyAsystentaAsync(APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_wyslijDokumenty", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.wyslijDokumentyResponse wyslijDokumenty(APforGUS.ServiceReference1.wyslijDokumentyRequest request);
+        APforZusConsole.ServiceReference1.wyslijDokumentyResponse wyslijDokumenty(APforZusConsole.ServiceReference1.wyslijDokumentyRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_wyslijDokumenty", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.wyslijDokumentyResponse> wyslijDokumentyAsync(APforGUS.ServiceReference1.wyslijDokumentyRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.wyslijDokumentyResponse> wyslijDokumentyAsync(APforZusConsole.ServiceReference1.wyslijDokumentyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSlownikKodowPokrewienstwa", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse pobierzSlownikKodowPokrewienstwa(APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request);
+        APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse pobierzSlownikKodowPokrewienstwa(APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzSlownikKodowPokrewienstwa", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse> pobierzSlownikKodowPokrewienstwaAsync(APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse> pobierzSlownikKodowPokrewienstwaAsync(APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzPlatnikowUbezpieczonego", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse pobierzPlatnikowUbezpieczonego(APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request);
+        APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse pobierzPlatnikowUbezpieczonego(APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_pobierzPlatnikowUbezpieczonego", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse> pobierzPlatnikowUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse> pobierzPlatnikowUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzProfilRehabilitacji", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiResponse sprawdzProfilRehabilitacji(APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiRequest request);
+        APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiResponse sprawdzProfilRehabilitacji(APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ operacja ma wiele wartości zwracanych.
         [System.ServiceModel.OperationContractAttribute(Action="zus_channel_zla_Binder_sprawdzProfilRehabilitacji", ReplyAction="*")]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiResponse> sprawdzProfilRehabilitacjiAsync(APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiRequest request);
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiResponse> sprawdzProfilRehabilitacjiAsync(APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiRequest request);
     }
     
     /// <remarks/>
@@ -5553,7 +5553,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.MetodaUwierzytelnienia MetodaWeryfikacji;
+        public APforZusConsole.ServiceReference1.MetodaUwierzytelnienia MetodaWeryfikacji;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true)]
@@ -5562,7 +5562,7 @@ namespace APforGUS.ServiceReference1 {
         public zalogujPodpisemRequest() {
         }
         
-        public zalogujPodpisemRequest(string PodpisaneOswiadczenie, APforGUS.ServiceReference1.MetodaUwierzytelnienia MetodaWeryfikacji, string NumerPrawaWykonywaniaZawodu) {
+        public zalogujPodpisemRequest(string PodpisaneOswiadczenie, APforZusConsole.ServiceReference1.MetodaUwierzytelnienia MetodaWeryfikacji, string NumerPrawaWykonywaniaZawodu) {
             this.PodpisaneOswiadczenie = PodpisaneOswiadczenie;
             this.MetodaWeryfikacji = MetodaWeryfikacji;
             this.NumerPrawaWykonywaniaZawodu = NumerPrawaWykonywaniaZawodu;
@@ -5580,12 +5580,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public zalogujPodpisemResponse() {
         }
         
-        public zalogujPodpisemResponse(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public zalogujPodpisemResponse(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.IdSesji = IdSesji;
             this.Rezultat = Rezultat;
         }
@@ -5602,12 +5602,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_NotyfikujAnulowanieZlaIn DaneNotyfikacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_NotyfikujAnulowanieZlaIn DaneNotyfikacji;
         
         public notyfikujAnulowanieZlaRequest() {
         }
         
-        public notyfikujAnulowanieZlaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_NotyfikujAnulowanieZlaIn DaneNotyfikacji) {
+        public notyfikujAnulowanieZlaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_NotyfikujAnulowanieZlaIn DaneNotyfikacji) {
             this.IdSesji = IdSesji;
             this.DaneNotyfikacji = DaneNotyfikacji;
         }
@@ -5620,7 +5620,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -5628,12 +5628,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("PlatnikStatusWysylki", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_WynikNotyfikacjiPlatnik[] PlatnikStatusWysylki;
+        public APforZusConsole.ServiceReference1.docTypeRef_WynikNotyfikacjiPlatnik[] PlatnikStatusWysylki;
         
         public notyfikujAnulowanieZlaResponse() {
         }
         
-        public notyfikujAnulowanieZlaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, string UbezpieczonyStatusWysylki, APforGUS.ServiceReference1.docTypeRef_WynikNotyfikacjiPlatnik[] PlatnikStatusWysylki) {
+        public notyfikujAnulowanieZlaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, string UbezpieczonyStatusWysylki, APforZusConsole.ServiceReference1.docTypeRef_WynikNotyfikacjiPlatnik[] PlatnikStatusWysylki) {
             this.Rezultat = Rezultat;
             this.UbezpieczonyStatusWysylki = UbezpieczonyStatusWysylki;
             this.PlatnikStatusWysylki = PlatnikStatusWysylki;
@@ -5651,12 +5651,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("SeriaNumerZla", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
         
         public sprawdzMozliwoscElektronizacjiRequest() {
         }
         
-        public sprawdzMozliwoscElektronizacjiRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
+        public sprawdzMozliwoscElektronizacjiRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
             this.IdSesji = IdSesji;
             this.SeriaNumerZla = SeriaNumerZla;
         }
@@ -5669,16 +5669,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("MozliwoscElektronizacji", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscElektronizacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscElektronizacji;
         
         public sprawdzMozliwoscElektronizacjiResponse() {
         }
         
-        public sprawdzMozliwoscElektronizacjiResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscElektronizacji) {
+        public sprawdzMozliwoscElektronizacjiResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscElektronizacji) {
             this.Rezultat = Rezultat;
             this.MozliwoscElektronizacji = MozliwoscElektronizacji;
         }
@@ -5695,12 +5695,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaPlatnika Platnik;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaPlatnika Platnik;
         
         public pobierzDanePlatnikaRequest() {
         }
         
-        public pobierzDanePlatnikaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaPlatnika Platnik) {
+        public pobierzDanePlatnikaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaPlatnika Platnik) {
             this.IdSesji = IdSesji;
             this.Platnik = Platnik;
         }
@@ -5713,16 +5713,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Platnik DanePlatnika;
+        public APforZusConsole.ServiceReference1.docTypeRef_Platnik DanePlatnika;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzDanePlatnikaResponse() {
         }
         
-        public pobierzDanePlatnikaResponse(APforGUS.ServiceReference1.docTypeRef_Platnik DanePlatnika, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzDanePlatnikaResponse(APforZusConsole.ServiceReference1.docTypeRef_Platnik DanePlatnika, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.DanePlatnika = DanePlatnika;
             this.Rezultat = Rezultat;
         }
@@ -5739,12 +5739,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("SeriaNumerZla", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
         
         public sprawdzMozliwoscAnulowaniaRequest() {
         }
         
-        public sprawdzMozliwoscAnulowaniaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
+        public sprawdzMozliwoscAnulowaniaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
             this.IdSesji = IdSesji;
             this.SeriaNumerZla = SeriaNumerZla;
         }
@@ -5757,16 +5757,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("MozliwoscAnulowania", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscAnulowania;
+        public APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscAnulowania;
         
         public sprawdzMozliwoscAnulowaniaResponse() {
         }
         
-        public sprawdzMozliwoscAnulowaniaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscAnulowania) {
+        public sprawdzMozliwoscAnulowaniaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscAnulowania) {
             this.Rezultat = Rezultat;
             this.MozliwoscAnulowania = MozliwoscAnulowania;
         }
@@ -5805,20 +5805,20 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         [System.Xml.Serialization.XmlArrayItemAttribute("WarunekSortowania", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -5827,7 +5827,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzListePrzetworzonychZlaLekarzaRequest() {
         }
         
-        public pobierzListePrzetworzonychZlaLekarzaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki) {
+        public pobierzListePrzetworzonychZlaLekarzaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki) {
             this.IdSesji = IdSesji;
             this.Stronicowanie = Stronicowanie;
             this.Sortowanie = Sortowanie;
@@ -5844,7 +5844,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -5852,12 +5852,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("ZaswiadczenieLekarskie", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie;
         
         public pobierzListePrzetworzonychZlaLekarzaResponse() {
         }
         
-        public pobierzListePrzetworzonychZlaLekarzaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
+        public pobierzListePrzetworzonychZlaLekarzaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
             this.Rezultat = Rezultat;
             this.LiczbaWszystkichRekordow = LiczbaWszystkichRekordow;
             this.ZaswiadczenieLekarskie = ZaswiadczenieLekarskie;
@@ -5897,16 +5897,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("AdresyPlacowek", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_AdresyPlacowek[] AdresyPlacowek;
+        public APforZusConsole.ServiceReference1.docTypeRef_AdresyPlacowek[] AdresyPlacowek;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzAdresyPlacowekResponse() {
         }
         
-        public pobierzAdresyPlacowekResponse(string NazwaPlatnika, APforGUS.ServiceReference1.docTypeRef_AdresyPlacowek[] AdresyPlacowek, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzAdresyPlacowekResponse(string NazwaPlatnika, APforZusConsole.ServiceReference1.docTypeRef_AdresyPlacowek[] AdresyPlacowek, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.NazwaPlatnika = NazwaPlatnika;
             this.AdresyPlacowek = AdresyPlacowek;
             this.Rezultat = Rezultat;
@@ -5937,16 +5937,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("Przyczyna", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna;
+        public APforZusConsole.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzSlownikPrzyczynUniewaznieniaResponse() {
         }
         
-        public pobierzSlownikPrzyczynUniewaznieniaResponse(APforGUS.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzSlownikPrzyczynUniewaznieniaResponse(APforZusConsole.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.Przyczyna = Przyczyna;
             this.Rezultat = Rezultat;
         }
@@ -5981,7 +5981,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -5990,7 +5990,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzUprawnieniaNaDzienResponse() {
         }
         
-        public pobierzUprawnieniaNaDzienResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, bool MozliwoscWystawianiaZaswiadczenia) {
+        public pobierzUprawnieniaNaDzienResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, bool MozliwoscWystawianiaZaswiadczenia) {
             this.Rezultat = Rezultat;
             this.MozliwoscWystawianiaZaswiadczenia = MozliwoscWystawianiaZaswiadczenia;
         }
@@ -6007,16 +6007,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         [System.Xml.Serialization.XmlArrayItemAttribute("WarunekSortowania", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public APforGUS.ServiceReference1.docTypeRef_DrukZlaSortowanieWarunek[] Sortowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_DrukZlaSortowanieWarunek[] Sortowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_DrukZlaFiltrowanie Filtrowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_DrukZlaFiltrowanie Filtrowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6025,7 +6025,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzStatusyDrukowZlaRequest() {
         }
         
-        public pobierzStatusyDrukowZlaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_DrukZlaSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_DrukZlaFiltrowanie Filtrowanie, string NipPlacowki) {
+        public pobierzStatusyDrukowZlaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_DrukZlaSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_DrukZlaFiltrowanie Filtrowanie, string NipPlacowki) {
             this.IdSesji = IdSesji;
             this.Stronicowanie = Stronicowanie;
             this.Sortowanie = Sortowanie;
@@ -6041,11 +6041,11 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("StatusDruku", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_StatusDruku[] StatusDruku;
+        public APforZusConsole.ServiceReference1.docTypeRef_StatusDruku[] StatusDruku;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6054,7 +6054,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzStatusyDrukowZlaResponse() {
         }
         
-        public pobierzStatusyDrukowZlaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_StatusDruku[] StatusDruku, string LiczbaWszystkichRekordow) {
+        public pobierzStatusyDrukowZlaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_StatusDruku[] StatusDruku, string LiczbaWszystkichRekordow) {
             this.Rezultat = Rezultat;
             this.StatusDruku = StatusDruku;
             this.LiczbaWszystkichRekordow = LiczbaWszystkichRekordow;
@@ -6085,16 +6085,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("DaneAsystenta", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_DaneAsystenta[] DaneAsystenta;
+        public APforZusConsole.ServiceReference1.docTypeRef_DaneAsystenta[] DaneAsystenta;
         
         public pobierzDaneAsystentowResponse() {
         }
         
-        public pobierzDaneAsystentowResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_DaneAsystenta[] DaneAsystenta) {
+        public pobierzDaneAsystentowResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_DaneAsystenta[] DaneAsystenta) {
             this.Rezultat = Rezultat;
             this.DaneAsystenta = DaneAsystenta;
         }
@@ -6133,12 +6133,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzIdentyfikatorDokumentuResponse() {
         }
         
-        public pobierzIdentyfikatorDokumentuResponse(string[] IdDokumentu, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzIdentyfikatorDokumentuResponse(string[] IdDokumentu, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.IdDokumentu = IdDokumentu;
             this.Rezultat = Rezultat;
         }
@@ -6155,29 +6155,29 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         [System.Xml.Serialization.XmlArrayItemAttribute("WarunekSortowania", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzListeZlaUbezpieczonegoRequest() {
         }
         
-        public pobierzListeZlaUbezpieczonegoRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzListeZlaUbezpieczonegoRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.Ubezpieczony = Ubezpieczony;
             this.Stronicowanie = Stronicowanie;
@@ -6194,7 +6194,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6202,12 +6202,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("ZaswiadczenieLekarskie", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie;
         
         public pobierzListeZlaUbezpieczonegoResponse() {
         }
         
-        public pobierzListeZlaUbezpieczonegoResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
+        public pobierzListeZlaUbezpieczonegoResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
             this.Rezultat = Rezultat;
             this.LiczbaWszystkichRekordow = LiczbaWszystkichRekordow;
             this.ZaswiadczenieLekarskie = ZaswiadczenieLekarskie;
@@ -6225,21 +6225,21 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         [System.Xml.Serialization.XmlArrayItemAttribute("WarunekSortowania", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public APforGUS.ServiceReference1.docTypeRef_KodChorobySortowanieWarunek[] Sortowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_KodChorobySortowanieWarunek[] Sortowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_KodChorobyFiltrowanie Filtrowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_KodChorobyFiltrowanie Filtrowanie;
         
         public pobierzKodChorobyRequest() {
         }
         
-        public pobierzKodChorobyRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_KodChorobySortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_KodChorobyFiltrowanie Filtrowanie) {
+        public pobierzKodChorobyRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_KodChorobySortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_KodChorobyFiltrowanie Filtrowanie) {
             this.IdSesji = IdSesji;
             this.Stronicowanie = Stronicowanie;
             this.Sortowanie = Sortowanie;
@@ -6254,7 +6254,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6262,12 +6262,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("NumerStatystycznyChoroby", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_NumerStatystycznyChoroby[] NumerStatystycznyChoroby;
+        public APforZusConsole.ServiceReference1.docTypeRef_NumerStatystycznyChoroby[] NumerStatystycznyChoroby;
         
         public pobierzKodChorobyResponse() {
         }
         
-        public pobierzKodChorobyResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforGUS.ServiceReference1.docTypeRef_NumerStatystycznyChoroby[] NumerStatystycznyChoroby) {
+        public pobierzKodChorobyResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforZusConsole.ServiceReference1.docTypeRef_NumerStatystycznyChoroby[] NumerStatystycznyChoroby) {
             this.Rezultat = Rezultat;
             this.LiczbaWszystkichRekordow = LiczbaWszystkichRekordow;
             this.NumerStatystycznyChoroby = NumerStatystycznyChoroby;
@@ -6298,21 +6298,21 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.TrybWystawianiaEnumeracja Tryb;
+        public APforZusConsole.ServiceReference1.TrybWystawianiaEnumeracja Tryb;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         [System.Xml.Serialization.XmlArrayItemAttribute("Dokument", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public APforGUS.ServiceReference1.docTypeRef_Dokument[] ListaDokumentow;
+        public APforZusConsole.ServiceReference1.docTypeRef_Dokument[] ListaDokumentow;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Dokument Dokument;
+        public APforZusConsole.ServiceReference1.docTypeRef_Dokument Dokument;
         
         public walidujDokumentyRequest() {
         }
         
-        public walidujDokumentyRequest(string IdSesji, APforGUS.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforGUS.ServiceReference1.docTypeRef_Dokument[] ListaDokumentow, APforGUS.ServiceReference1.docTypeRef_Dokument Dokument) {
+        public walidujDokumentyRequest(string IdSesji, APforZusConsole.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforZusConsole.ServiceReference1.docTypeRef_Dokument[] ListaDokumentow, APforZusConsole.ServiceReference1.docTypeRef_Dokument Dokument) {
             this.IdSesji = IdSesji;
             this.Tryb = Tryb;
             this.ListaDokumentow = ListaDokumentow;
@@ -6327,16 +6327,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
         
         public walidujDokumentyResponse() {
         }
         
-        public walidujDokumentyResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
+        public walidujDokumentyResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
             this.Rezultat = Rezultat;
             this.RezultatWalidacji = RezultatWalidacji;
         }
@@ -6378,12 +6378,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public usunUprawnienieAsystentaDoMiejscaResponse() {
         }
         
-        public usunUprawnienieAsystentaDoMiejscaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public usunUprawnienieAsystentaDoMiejscaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.Rezultat = Rezultat;
         }
     }
@@ -6417,16 +6417,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("SeriaNumerZla", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
         
         public rezerwujSeriaNumerZlaResponse() {
         }
         
-        public rezerwujSeriaNumerZlaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
+        public rezerwujSeriaNumerZlaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
             this.Rezultat = Rezultat;
             this.SeriaNumerZla = SeriaNumerZla;
         }
@@ -6443,12 +6443,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("ParaDokumentow", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow;
+        public APforZusConsole.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow;
         
         public nadajSeriaNumerZlaRequest() {
         }
         
-        public nadajSeriaNumerZlaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow) {
+        public nadajSeriaNumerZlaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow) {
             this.IdSesji = IdSesji;
             this.ParaDokumentow = ParaDokumentow;
         }
@@ -6461,20 +6461,20 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("ParaDokumentow", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow;
+        public APforZusConsole.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public nadajSeriaNumerZlaResponse() {
         }
         
-        public nadajSeriaNumerZlaResponse(APforGUS.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow, APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public nadajSeriaNumerZlaResponse(APforZusConsole.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow, APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.ParaDokumentow = ParaDokumentow;
             this.RezultatWalidacji = RezultatWalidacji;
             this.Rezultat = Rezultat;
@@ -6517,12 +6517,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true)]
-        public APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in;
+        public APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in;
         
         public pobierzSeriaNumerZlaRequest() {
         }
         
-        public pobierzSeriaNumerZlaRequest(APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in) {
+        public pobierzSeriaNumerZlaRequest(APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in) {
             this.@in = @in;
         }
     }
@@ -6535,12 +6535,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true)]
-        public APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_Wy @out;
+        public APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_Wy @out;
         
         public pobierzSeriaNumerZlaResponse() {
         }
         
-        public pobierzSeriaNumerZlaResponse(APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_Wy @out) {
+        public pobierzSeriaNumerZlaResponse(APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_Wy @out) {
             this.@out = @out;
         }
     }
@@ -6556,12 +6556,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("SeriaNumerZla", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla;
         
         public sprawdzMozliwoscUniewaznieniaRequest() {
         }
         
-        public sprawdzMozliwoscUniewaznieniaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
+        public sprawdzMozliwoscUniewaznieniaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
             this.IdSesji = IdSesji;
             this.SeriaNumerZla = SeriaNumerZla;
         }
@@ -6574,16 +6574,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("MozliwoscUniewaznienia", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscUniewaznienia;
+        public APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscUniewaznienia;
         
         public sprawdzMozliwoscUniewaznieniaResponse() {
         }
         
-        public sprawdzMozliwoscUniewaznieniaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscUniewaznienia) {
+        public sprawdzMozliwoscUniewaznieniaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscUniewaznienia) {
             this.Rezultat = Rezultat;
             this.MozliwoscUniewaznienia = MozliwoscUniewaznienia;
         }
@@ -6600,12 +6600,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla Zla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla Zla;
         
         public pobierzListePowiazanychZlaRequest() {
         }
         
-        public pobierzListePowiazanychZlaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla Zla) {
+        public pobierzListePowiazanychZlaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla Zla) {
             this.IdSesji = IdSesji;
             this.Zla = Zla;
         }
@@ -6618,11 +6618,11 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("PowiazaneZla", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_PowiazaneZla[] PowiazaneZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_PowiazaneZla[] PowiazaneZla;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6631,7 +6631,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzListePowiazanychZlaResponse() {
         }
         
-        public pobierzListePowiazanychZlaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_PowiazaneZla[] PowiazaneZla, long LiczbaPowiazanychZla) {
+        public pobierzListePowiazanychZlaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_PowiazaneZla[] PowiazaneZla, long LiczbaPowiazanychZla) {
             this.Rezultat = Rezultat;
             this.PowiazaneZla = PowiazaneZla;
             this.LiczbaPowiazanychZla = LiczbaPowiazanychZla;
@@ -6674,12 +6674,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public przywrocUprawnienieAsystentaDoMiejscaResponse() {
         }
         
-        public przywrocUprawnienieAsystentaDoMiejscaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public przywrocUprawnienieAsystentaDoMiejscaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.Rezultat = Rezultat;
         }
     }
@@ -6708,16 +6708,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("Przyczyna", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna;
+        public APforZusConsole.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzSlownikPrzyczynAnulowaniaResponse() {
         }
         
-        public pobierzSlownikPrzyczynAnulowaniaResponse(APforGUS.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzSlownikPrzyczynAnulowaniaResponse(APforZusConsole.ServiceReference1.docTypeRef_Przyczyny[] Przyczyna, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.Przyczyna = Przyczyna;
             this.Rezultat = Rezultat;
         }
@@ -6734,20 +6734,20 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         [System.Xml.Serialization.XmlArrayItemAttribute("WarunekSortowania", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek[] Sortowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek[] Sortowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie Filtrowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie Filtrowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6756,7 +6756,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzListeBiezacychZlaLekarzaRequest() {
         }
         
-        public pobierzListeBiezacychZlaLekarzaRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie Filtrowanie, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki) {
+        public pobierzListeBiezacychZlaLekarzaRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie Filtrowanie, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki) {
             this.IdSesji = IdSesji;
             this.Stronicowanie = Stronicowanie;
             this.Sortowanie = Sortowanie;
@@ -6773,7 +6773,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6781,12 +6781,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("ZaswiadczenieLekarskie", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie;
         
         public pobierzListeBiezacychZlaLekarzaResponse() {
         }
         
-        public pobierzListeBiezacychZlaLekarzaResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
+        public pobierzListeBiezacychZlaLekarzaResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, long LiczbaWszystkichRekordow, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
             this.Rezultat = Rezultat;
             this.LiczbaWszystkichRekordow = LiczbaWszystkichRekordow;
             this.ZaswiadczenieLekarskie = ZaswiadczenieLekarskie;
@@ -6822,7 +6822,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6835,7 +6835,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzOpisChorobyResponse() {
         }
         
-        public pobierzOpisChorobyResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, string NazwaChoroby, string OpisChoroby) {
+        public pobierzOpisChorobyResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, string NazwaChoroby, string OpisChoroby) {
             this.Rezultat = Rezultat;
             this.NazwaChoroby = NazwaChoroby;
             this.OpisChoroby = OpisChoroby;
@@ -6853,11 +6853,11 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
+        public APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6869,12 +6869,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzListePr4UbezpieczonegoRequest() {
         }
         
-        public pobierzListePr4UbezpieczonegoRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string DataOd, string DataDo, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzListePr4UbezpieczonegoRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string DataOd, string DataDo, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.Stronicowanie = Stronicowanie;
             this.Ubezpieczony = Ubezpieczony;
@@ -6891,11 +6891,11 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("WniosekPr4", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_WniosekPr4[] WniosekPr4;
+        public APforZusConsole.ServiceReference1.docTypeRef_WniosekPr4[] WniosekPr4;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -6904,7 +6904,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzListePr4UbezpieczonegoResponse() {
         }
         
-        public pobierzListePr4UbezpieczonegoResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_WniosekPr4[] WniosekPr4, long LiczbaWszystkichRekordow) {
+        public pobierzListePr4UbezpieczonegoResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_WniosekPr4[] WniosekPr4, long LiczbaWszystkichRekordow) {
             this.Rezultat = Rezultat;
             this.WniosekPr4 = WniosekPr4;
             this.LiczbaWszystkichRekordow = LiczbaWszystkichRekordow;
@@ -6922,16 +6922,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzSzczegolyZlaPrzetworzoneRequest() {
         }
         
-        public pobierzSzczegolyZlaPrzetworzoneRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzSzczegolyZlaPrzetworzoneRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.SeriaNumerZla = SeriaNumerZla;
             this.KontekstDostepu = KontekstDostepu;
@@ -6945,20 +6945,20 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczeniePrzetworzoneSzczegoly;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczeniePrzetworzoneSzczegoly;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiKorygujace ZaswiadczenieLekarskieKorygujace;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiKorygujace ZaswiadczenieLekarskieKorygujace;
         
         public pobierzSzczegolyZlaPrzetworzoneResponse() {
         }
         
-        public pobierzSzczegolyZlaPrzetworzoneResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczeniePrzetworzoneSzczegoly, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiKorygujace ZaswiadczenieLekarskieKorygujace) {
+        public pobierzSzczegolyZlaPrzetworzoneResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczeniePrzetworzoneSzczegoly, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiKorygujace ZaswiadczenieLekarskieKorygujace) {
             this.Rezultat = Rezultat;
             this.ZaswiadczeniePrzetworzoneSzczegoly = ZaswiadczeniePrzetworzoneSzczegoly;
             this.ZaswiadczenieLekarskieKorygujace = ZaswiadczenieLekarskieKorygujace;
@@ -6995,20 +6995,20 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu;
+        public APforZusConsole.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzDokumentRequest() {
         }
         
-        public pobierzDokumentRequest(string IdSesji, APforGUS.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzDokumentRequest(string IdSesji, APforZusConsole.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.RodzajDokumentu = RodzajDokumentu;
             this.SeriaNumerZla = SeriaNumerZla;
@@ -7027,16 +7027,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_KEDU Dokument;
+        public APforZusConsole.ServiceReference1.docTypeRef_KEDU Dokument;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzDokumentResponse() {
         }
         
-        public pobierzDokumentResponse(string WersjaKedu, APforGUS.ServiceReference1.docTypeRef_KEDU Dokument, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzDokumentResponse(string WersjaKedu, APforZusConsole.ServiceReference1.docTypeRef_KEDU Dokument, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.WersjaKedu = WersjaKedu;
             this.Dokument = Dokument;
             this.Rezultat = Rezultat;
@@ -7072,16 +7072,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("UprawnienieAsystentaDoMiejsca", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_UprawnienieAsystentaDoMiejsca[] UprawnienieAsystentaDoMiejsca;
+        public APforZusConsole.ServiceReference1.docTypeRef_UprawnienieAsystentaDoMiejsca[] UprawnienieAsystentaDoMiejsca;
         
         public pobierzUprawnieniaAsystentaDoMiejscResponse() {
         }
         
-        public pobierzUprawnieniaAsystentaDoMiejscResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_UprawnienieAsystentaDoMiejsca[] UprawnienieAsystentaDoMiejsca) {
+        public pobierzUprawnieniaAsystentaDoMiejscResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_UprawnienieAsystentaDoMiejsca[] UprawnienieAsystentaDoMiejsca) {
             this.Rezultat = Rezultat;
             this.UprawnienieAsystentaDoMiejsca = UprawnienieAsystentaDoMiejsca;
         }
@@ -7098,16 +7098,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu;
+        public APforZusConsole.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
         
         public pobierzUppDlaDokumentuRequest() {
         }
         
-        public pobierzUppDlaDokumentuRequest(string IdSesji, APforGUS.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla) {
+        public pobierzUppDlaDokumentuRequest(string IdSesji, APforZusConsole.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla) {
             this.IdSesji = IdSesji;
             this.RodzajDokumentu = RodzajDokumentu;
             this.SeriaNumerZla = SeriaNumerZla;
@@ -7121,16 +7121,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_UPP UPP;
+        public APforZusConsole.ServiceReference1.docTypeRef_UPP UPP;
         
         public pobierzUppDlaDokumentuResponse() {
         }
         
-        public pobierzUppDlaDokumentuResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_UPP UPP) {
+        public pobierzUppDlaDokumentuResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_UPP UPP) {
             this.Rezultat = Rezultat;
             this.UPP = UPP;
         }
@@ -7160,16 +7160,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_kmdk_Lekarz_DanePelne DaneLekarza;
+        public APforZusConsole.ServiceReference1.docTypeRef_kmdk_Lekarz_DanePelne DaneLekarza;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzDaneLekarzaResponse() {
         }
         
-        public pobierzDaneLekarzaResponse(APforGUS.ServiceReference1.docTypeRef_kmdk_Lekarz_DanePelne DaneLekarza, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzDaneLekarzaResponse(APforZusConsole.ServiceReference1.docTypeRef_kmdk_Lekarz_DanePelne DaneLekarza, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.DaneLekarza = DaneLekarza;
             this.Rezultat = Rezultat;
         }
@@ -7203,12 +7203,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu;
+        public APforZusConsole.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu;
         
         public wyslijWniosekRequest() {
         }
         
-        public wyslijWniosekRequest(string IdSesji, string DokumentXml, APforGUS.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu) {
+        public wyslijWniosekRequest(string IdSesji, string DokumentXml, APforZusConsole.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu) {
             this.IdSesji = IdSesji;
             this.DokumentXml = DokumentXml;
             this.TypDokumentu = TypDokumentu;
@@ -7222,11 +7222,11 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -7234,12 +7234,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_UPP UtworzoneUPP;
+        public APforZusConsole.ServiceReference1.docTypeRef_UPP UtworzoneUPP;
         
         public wyslijWniosekResponse() {
         }
         
-        public wyslijWniosekResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, string WynikWyslania, APforGUS.ServiceReference1.docTypeRef_UPP UtworzoneUPP) {
+        public wyslijWniosekResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, string WynikWyslania, APforZusConsole.ServiceReference1.docTypeRef_UPP UtworzoneUPP) {
             this.Rezultat = Rezultat;
             this.RezultatWalidacji = RezultatWalidacji;
             this.WynikWyslania = WynikWyslania;
@@ -7258,16 +7258,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzDaneUbezpieczonegoRequest() {
         }
         
-        public pobierzDaneUbezpieczonegoRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzDaneUbezpieczonegoRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.Ubezpieczony = Ubezpieczony;
             this.KontekstDostepu = KontekstDostepu;
@@ -7281,11 +7281,11 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_kmdk_Ubezpieczony DaneUbezpieczonego;
+        public APforZusConsole.ServiceReference1.docTypeRef_kmdk_Ubezpieczony DaneUbezpieczonego;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true)]
@@ -7294,7 +7294,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzDaneUbezpieczonegoResponse() {
         }
         
-        public pobierzDaneUbezpieczonegoResponse(APforGUS.ServiceReference1.docTypeRef_kmdk_Ubezpieczony DaneUbezpieczonego, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, System.Nullable<bool> PrzekroczonyDziennyLimitDostepow) {
+        public pobierzDaneUbezpieczonegoResponse(APforZusConsole.ServiceReference1.docTypeRef_kmdk_Ubezpieczony DaneUbezpieczonego, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, System.Nullable<bool> PrzekroczonyDziennyLimitDostepow) {
             this.DaneUbezpieczonego = DaneUbezpieczonego;
             this.Rezultat = Rezultat;
             this.PrzekroczonyDziennyLimitDostepow = PrzekroczonyDziennyLimitDostepow;
@@ -7312,16 +7312,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
+        public APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzSzczegolyZlaBiezaceRequest() {
         }
         
-        public pobierzSzczegolyZlaBiezaceRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzSzczegolyZlaBiezaceRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.SeriaNumerZla = SeriaNumerZla;
             this.KontekstDostepu = KontekstDostepu;
@@ -7335,16 +7335,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczenieBiezaceSzczegoly;
+        public APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczenieBiezaceSzczegoly;
         
         public pobierzSzczegolyZlaBiezaceResponse() {
         }
         
-        public pobierzSzczegolyZlaBiezaceResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczenieBiezaceSzczegoly) {
+        public pobierzSzczegolyZlaBiezaceResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczenieBiezaceSzczegoly) {
             this.Rezultat = Rezultat;
             this.ZaswiadczenieBiezaceSzczegoly = ZaswiadczenieBiezaceSzczegoly;
         }
@@ -7369,12 +7369,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
         
         public pobierzLiterowyKodChorobyRequest() {
         }
         
-        public pobierzLiterowyKodChorobyRequest(string IdSesji, string DataPoczatkuNiezdolnosci, string StatystycznyKodChoroby, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony) {
+        public pobierzLiterowyKodChorobyRequest(string IdSesji, string DataPoczatkuNiezdolnosci, string StatystycznyKodChoroby, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony) {
             this.IdSesji = IdSesji;
             this.DataPoczatkuNiezdolnosci = DataPoczatkuNiezdolnosci;
             this.StatystycznyKodChoroby = StatystycznyKodChoroby;
@@ -7389,7 +7389,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -7402,7 +7402,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzLiterowyKodChorobyResponse() {
         }
         
-        public pobierzLiterowyKodChorobyResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, bool KodA, bool KodD) {
+        public pobierzLiterowyKodChorobyResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, bool KodA, bool KodD) {
             this.Rezultat = Rezultat;
             this.KodA = KodA;
             this.KodD = KodD;
@@ -7433,16 +7433,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("MiejsceWykonywaniaZawodu", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_kmdk_MiejsceWykonywaniaZawodu[] MiejsceWykonywaniaZawodu;
+        public APforZusConsole.ServiceReference1.docTypeRef_kmdk_MiejsceWykonywaniaZawodu[] MiejsceWykonywaniaZawodu;
         
         public pobierzMiejsceWykonywaniaZawoduResponse() {
         }
         
-        public pobierzMiejsceWykonywaniaZawoduResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_kmdk_MiejsceWykonywaniaZawodu[] MiejsceWykonywaniaZawodu) {
+        public pobierzMiejsceWykonywaniaZawoduResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_kmdk_MiejsceWykonywaniaZawodu[] MiejsceWykonywaniaZawodu) {
             this.Rezultat = Rezultat;
             this.MiejsceWykonywaniaZawodu = MiejsceWykonywaniaZawodu;
         }
@@ -7463,12 +7463,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu;
+        public APforZusConsole.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu;
         
         public walidujWniosekRequest() {
         }
         
-        public walidujWniosekRequest(string IdSesji, string DokumentXml, APforGUS.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu) {
+        public walidujWniosekRequest(string IdSesji, string DokumentXml, APforZusConsole.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu) {
             this.IdSesji = IdSesji;
             this.DokumentXml = DokumentXml;
             this.TypDokumentu = TypDokumentu;
@@ -7482,16 +7482,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
         
         public walidujWniosekResponse() {
         }
         
-        public walidujWniosekResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
+        public walidujWniosekResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
             this.Rezultat = Rezultat;
             this.RezultatWalidacji = RezultatWalidacji;
         }
@@ -7508,16 +7508,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu;
+        public APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu;
         
         public pobierzCzlonkowRodzinyUbezpieczonegoRequest() {
         }
         
-        public pobierzCzlonkowRodzinyUbezpieczonegoRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu) {
+        public pobierzCzlonkowRodzinyUbezpieczonegoRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu) {
             this.IdSesji = IdSesji;
             this.Ubezpieczony = Ubezpieczony;
             this.KontekstDostepu = KontekstDostepu;
@@ -7531,16 +7531,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("CzlonekRodzinyUbezpieczonego", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_CzlonekRodzinyUbezpieczonego[] CzlonekRodzinyUbezpieczonego;
+        public APforZusConsole.ServiceReference1.docTypeRef_CzlonekRodzinyUbezpieczonego[] CzlonekRodzinyUbezpieczonego;
         
         public pobierzCzlonkowRodzinyUbezpieczonegoResponse() {
         }
         
-        public pobierzCzlonkowRodzinyUbezpieczonegoResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_CzlonekRodzinyUbezpieczonego[] CzlonekRodzinyUbezpieczonego) {
+        public pobierzCzlonkowRodzinyUbezpieczonegoResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_CzlonekRodzinyUbezpieczonego[] CzlonekRodzinyUbezpieczonego) {
             this.Rezultat = Rezultat;
             this.CzlonekRodzinyUbezpieczonego = CzlonekRodzinyUbezpieczonego;
         }
@@ -7572,12 +7572,12 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public usunSesjeResponse() {
         }
         
-        public usunSesjeResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public usunSesjeResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.Rezultat = Rezultat;
         }
     }
@@ -7611,16 +7611,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true)]
-        public APforGUS.ServiceReference1.docTypeRef_LekarzAsystenta LekarzeAsystenta;
+        public APforZusConsole.ServiceReference1.docTypeRef_LekarzAsystenta LekarzeAsystenta;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzListeLekarzyAsystentaResponse() {
         }
         
-        public pobierzListeLekarzyAsystentaResponse(APforGUS.ServiceReference1.docTypeRef_LekarzAsystenta LekarzeAsystenta, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzListeLekarzyAsystentaResponse(APforZusConsole.ServiceReference1.docTypeRef_LekarzAsystenta LekarzeAsystenta, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.LekarzeAsystenta = LekarzeAsystenta;
             this.Rezultat = Rezultat;
         }
@@ -7637,16 +7637,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.TrybWystawianiaEnumeracja Tryb;
+        public APforZusConsole.ServiceReference1.TrybWystawianiaEnumeracja Tryb;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("Dokument", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Dokument[] Dokument;
+        public APforZusConsole.ServiceReference1.docTypeRef_Dokument[] Dokument;
         
         public wyslijDokumentyRequest() {
         }
         
-        public wyslijDokumentyRequest(string IdSesji, APforGUS.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforGUS.ServiceReference1.docTypeRef_Dokument[] Dokument) {
+        public wyslijDokumentyRequest(string IdSesji, APforZusConsole.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforZusConsole.ServiceReference1.docTypeRef_Dokument[] Dokument) {
             this.IdSesji = IdSesji;
             this.Tryb = Tryb;
             this.Dokument = Dokument;
@@ -7660,20 +7660,20 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
+        public APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("RezultatWysylki", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_kmdk_RezultatWysylkiPakietu[] RezultatWysylki;
+        public APforZusConsole.ServiceReference1.docTypeRef_kmdk_RezultatWysylkiPakietu[] RezultatWysylki;
         
         public wyslijDokumentyResponse() {
         }
         
-        public wyslijDokumentyResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, APforGUS.ServiceReference1.docTypeRef_kmdk_RezultatWysylkiPakietu[] RezultatWysylki) {
+        public wyslijDokumentyResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, APforZusConsole.ServiceReference1.docTypeRef_kmdk_RezultatWysylkiPakietu[] RezultatWysylki) {
             this.Rezultat = Rezultat;
             this.RezultatWalidacji = RezultatWalidacji;
             this.RezultatWysylki = RezultatWysylki;
@@ -7704,16 +7704,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("KodPokrewienstwa", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_KodPokrewienstwa[] KodPokrewienstwa;
+        public APforZusConsole.ServiceReference1.docTypeRef_KodPokrewienstwa[] KodPokrewienstwa;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         public pobierzSlownikKodowPokrewienstwaResponse() {
         }
         
-        public pobierzSlownikKodowPokrewienstwaResponse(APforGUS.ServiceReference1.docTypeRef_KodPokrewienstwa[] KodPokrewienstwa, APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+        public pobierzSlownikKodowPokrewienstwaResponse(APforZusConsole.ServiceReference1.docTypeRef_KodPokrewienstwa[] KodPokrewienstwa, APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
             this.KodPokrewienstwa = KodPokrewienstwa;
             this.Rezultat = Rezultat;
         }
@@ -7730,7 +7730,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
+        public APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -7739,7 +7739,7 @@ namespace APforGUS.ServiceReference1 {
         public pobierzPlatnikowUbezpieczonegoRequest() {
         }
         
-        public pobierzPlatnikowUbezpieczonegoRequest(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string MiejsceUbezpieczenia) {
+        public pobierzPlatnikowUbezpieczonegoRequest(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string MiejsceUbezpieczenia) {
             this.IdSesji = IdSesji;
             this.Ubezpieczony = Ubezpieczony;
             this.MiejsceUbezpieczenia = MiejsceUbezpieczenia;
@@ -7753,16 +7753,16 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("Platnik", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Platnik_Ubezpieczonego[] Platnik;
+        public APforZusConsole.ServiceReference1.docTypeRef_Platnik_Ubezpieczonego[] Platnik;
         
         public pobierzPlatnikowUbezpieczonegoResponse() {
         }
         
-        public pobierzPlatnikowUbezpieczonegoResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, APforGUS.ServiceReference1.docTypeRef_Platnik_Ubezpieczonego[] Platnik) {
+        public pobierzPlatnikowUbezpieczonegoResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, APforZusConsole.ServiceReference1.docTypeRef_Platnik_Ubezpieczonego[] Platnik) {
             this.Rezultat = Rezultat;
             this.Platnik = Platnik;
         }
@@ -7797,7 +7797,7 @@ namespace APforGUS.ServiceReference1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat;
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://zus.pl/b2b/zus/channel/gabinetowe", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
@@ -7806,19 +7806,19 @@ namespace APforGUS.ServiceReference1 {
         public sprawdzProfilRehabilitacjiResponse() {
         }
         
-        public sprawdzProfilRehabilitacjiResponse(APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, string ProfilRehabilitacji) {
+        public sprawdzProfilRehabilitacjiResponse(APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, string ProfilRehabilitacji) {
             this.Rezultat = Rezultat;
             this.ProfilRehabilitacji = ProfilRehabilitacji;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface zla_PortTypeChannel : APforGUS.ServiceReference1.zla_PortType, System.ServiceModel.IClientChannel {
+    public interface zla_PortTypeChannel : APforZusConsole.ServiceReference1.zla_PortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class zla_PortTypeClient : System.ServiceModel.ClientBase<APforGUS.ServiceReference1.zla_PortType>, APforGUS.ServiceReference1.zla_PortType {
+    public partial class zla_PortTypeClient : System.ServiceModel.ClientBase<APforZusConsole.ServiceReference1.zla_PortType>, APforZusConsole.ServiceReference1.zla_PortType {
         
         public zla_PortTypeClient() {
         }
@@ -7840,892 +7840,892 @@ namespace APforGUS.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.zalogujPodpisemResponse APforGUS.ServiceReference1.zla_PortType.zalogujPodpisem(APforGUS.ServiceReference1.zalogujPodpisemRequest request) {
+        APforZusConsole.ServiceReference1.zalogujPodpisemResponse APforZusConsole.ServiceReference1.zla_PortType.zalogujPodpisem(APforZusConsole.ServiceReference1.zalogujPodpisemRequest request) {
             return base.Channel.zalogujPodpisem(request);
         }
         
-        public string zalogujPodpisem(string PodpisaneOswiadczenie, APforGUS.ServiceReference1.MetodaUwierzytelnienia MetodaWeryfikacji, string NumerPrawaWykonywaniaZawodu, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.zalogujPodpisemRequest inValue = new APforGUS.ServiceReference1.zalogujPodpisemRequest();
+        public string zalogujPodpisem(string PodpisaneOswiadczenie, APforZusConsole.ServiceReference1.MetodaUwierzytelnienia MetodaWeryfikacji, string NumerPrawaWykonywaniaZawodu, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.zalogujPodpisemRequest inValue = new APforZusConsole.ServiceReference1.zalogujPodpisemRequest();
             inValue.PodpisaneOswiadczenie = PodpisaneOswiadczenie;
             inValue.MetodaWeryfikacji = MetodaWeryfikacji;
             inValue.NumerPrawaWykonywaniaZawodu = NumerPrawaWykonywaniaZawodu;
-            APforGUS.ServiceReference1.zalogujPodpisemResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).zalogujPodpisem(inValue);
+            APforZusConsole.ServiceReference1.zalogujPodpisemResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).zalogujPodpisem(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.IdSesji;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.zalogujPodpisemResponse> zalogujPodpisemAsync(APforGUS.ServiceReference1.zalogujPodpisemRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.zalogujPodpisemResponse> zalogujPodpisemAsync(APforZusConsole.ServiceReference1.zalogujPodpisemRequest request) {
             return base.Channel.zalogujPodpisemAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.notyfikujAnulowanieZlaResponse APforGUS.ServiceReference1.zla_PortType.notyfikujAnulowanieZla(APforGUS.ServiceReference1.notyfikujAnulowanieZlaRequest request) {
+        APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaResponse APforZusConsole.ServiceReference1.zla_PortType.notyfikujAnulowanieZla(APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaRequest request) {
             return base.Channel.notyfikujAnulowanieZla(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat notyfikujAnulowanieZla(string IdSesji, APforGUS.ServiceReference1.docTypeRef_NotyfikujAnulowanieZlaIn DaneNotyfikacji, out string UbezpieczonyStatusWysylki, out APforGUS.ServiceReference1.docTypeRef_WynikNotyfikacjiPlatnik[] PlatnikStatusWysylki) {
-            APforGUS.ServiceReference1.notyfikujAnulowanieZlaRequest inValue = new APforGUS.ServiceReference1.notyfikujAnulowanieZlaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat notyfikujAnulowanieZla(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_NotyfikujAnulowanieZlaIn DaneNotyfikacji, out string UbezpieczonyStatusWysylki, out APforZusConsole.ServiceReference1.docTypeRef_WynikNotyfikacjiPlatnik[] PlatnikStatusWysylki) {
+            APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaRequest inValue = new APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaRequest();
             inValue.IdSesji = IdSesji;
             inValue.DaneNotyfikacji = DaneNotyfikacji;
-            APforGUS.ServiceReference1.notyfikujAnulowanieZlaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).notyfikujAnulowanieZla(inValue);
+            APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).notyfikujAnulowanieZla(inValue);
             UbezpieczonyStatusWysylki = retVal.UbezpieczonyStatusWysylki;
             PlatnikStatusWysylki = retVal.PlatnikStatusWysylki;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.notyfikujAnulowanieZlaResponse> notyfikujAnulowanieZlaAsync(APforGUS.ServiceReference1.notyfikujAnulowanieZlaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaResponse> notyfikujAnulowanieZlaAsync(APforZusConsole.ServiceReference1.notyfikujAnulowanieZlaRequest request) {
             return base.Channel.notyfikujAnulowanieZlaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse APforGUS.ServiceReference1.zla_PortType.sprawdzMozliwoscElektronizacji(APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request) {
+        APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse APforZusConsole.ServiceReference1.zla_PortType.sprawdzMozliwoscElektronizacji(APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request) {
             return base.Channel.sprawdzMozliwoscElektronizacji(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat sprawdzMozliwoscElektronizacji(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla, out APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscElektronizacji) {
-            APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest inValue = new APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat sprawdzMozliwoscElektronizacji(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla, out APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscElektronizacji) {
+            APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest inValue = new APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest();
             inValue.IdSesji = IdSesji;
             inValue.SeriaNumerZla = SeriaNumerZla;
-            APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).sprawdzMozliwoscElektronizacji(inValue);
+            APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).sprawdzMozliwoscElektronizacji(inValue);
             MozliwoscElektronizacji = retVal.MozliwoscElektronizacji;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse> sprawdzMozliwoscElektronizacjiAsync(APforGUS.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiResponse> sprawdzMozliwoscElektronizacjiAsync(APforZusConsole.ServiceReference1.sprawdzMozliwoscElektronizacjiRequest request) {
             return base.Channel.sprawdzMozliwoscElektronizacjiAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzDanePlatnikaResponse APforGUS.ServiceReference1.zla_PortType.pobierzDanePlatnika(APforGUS.ServiceReference1.pobierzDanePlatnikaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzDanePlatnikaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzDanePlatnika(APforZusConsole.ServiceReference1.pobierzDanePlatnikaRequest request) {
             return base.Channel.pobierzDanePlatnika(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Platnik pobierzDanePlatnika(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaPlatnika Platnik, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzDanePlatnikaRequest inValue = new APforGUS.ServiceReference1.pobierzDanePlatnikaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Platnik pobierzDanePlatnika(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaPlatnika Platnik, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzDanePlatnikaRequest inValue = new APforZusConsole.ServiceReference1.pobierzDanePlatnikaRequest();
             inValue.IdSesji = IdSesji;
             inValue.Platnik = Platnik;
-            APforGUS.ServiceReference1.pobierzDanePlatnikaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzDanePlatnika(inValue);
+            APforZusConsole.ServiceReference1.pobierzDanePlatnikaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzDanePlatnika(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.DanePlatnika;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDanePlatnikaResponse> pobierzDanePlatnikaAsync(APforGUS.ServiceReference1.pobierzDanePlatnikaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDanePlatnikaResponse> pobierzDanePlatnikaAsync(APforZusConsole.ServiceReference1.pobierzDanePlatnikaRequest request) {
             return base.Channel.pobierzDanePlatnikaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse APforGUS.ServiceReference1.zla_PortType.sprawdzMozliwoscAnulowania(APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request) {
+        APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse APforZusConsole.ServiceReference1.zla_PortType.sprawdzMozliwoscAnulowania(APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request) {
             return base.Channel.sprawdzMozliwoscAnulowania(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat sprawdzMozliwoscAnulowania(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla, out APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscAnulowania) {
-            APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest inValue = new APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat sprawdzMozliwoscAnulowania(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla, out APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscAnulowania) {
+            APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest inValue = new APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest();
             inValue.IdSesji = IdSesji;
             inValue.SeriaNumerZla = SeriaNumerZla;
-            APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).sprawdzMozliwoscAnulowania(inValue);
+            APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).sprawdzMozliwoscAnulowania(inValue);
             MozliwoscAnulowania = retVal.MozliwoscAnulowania;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse> sprawdzMozliwoscAnulowaniaAsync(APforGUS.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaResponse> sprawdzMozliwoscAnulowaniaAsync(APforZusConsole.ServiceReference1.sprawdzMozliwoscAnulowaniaRequest request) {
             return base.Channel.sprawdzMozliwoscAnulowaniaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse APforGUS.ServiceReference1.zla_PortType.pobierzListePrzetworzonychZlaLekarza(APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzListePrzetworzonychZlaLekarza(APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request) {
             return base.Channel.pobierzListePrzetworzonychZlaLekarza(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzListePrzetworzonychZlaLekarza(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki, out long LiczbaWszystkichRekordow, out APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
-            APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest inValue = new APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzListePrzetworzonychZlaLekarza(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki, out long LiczbaWszystkichRekordow, out APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
+            APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest inValue = new APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest();
             inValue.IdSesji = IdSesji;
             inValue.Stronicowanie = Stronicowanie;
             inValue.Sortowanie = Sortowanie;
             inValue.Filtrowanie = Filtrowanie;
             inValue.KontekstDostepu = KontekstDostepu;
             inValue.NipPlacowki = NipPlacowki;
-            APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzListePrzetworzonychZlaLekarza(inValue);
+            APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzListePrzetworzonychZlaLekarza(inValue);
             LiczbaWszystkichRekordow = retVal.LiczbaWszystkichRekordow;
             ZaswiadczenieLekarskie = retVal.ZaswiadczenieLekarskie;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse> pobierzListePrzetworzonychZlaLekarzaAsync(APforGUS.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaResponse> pobierzListePrzetworzonychZlaLekarzaAsync(APforZusConsole.ServiceReference1.pobierzListePrzetworzonychZlaLekarzaRequest request) {
             return base.Channel.pobierzListePrzetworzonychZlaLekarzaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzAdresyPlacowekResponse APforGUS.ServiceReference1.zla_PortType.pobierzAdresyPlacowek(APforGUS.ServiceReference1.pobierzAdresyPlacowekRequest request) {
+        APforZusConsole.ServiceReference1.pobierzAdresyPlacowekResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzAdresyPlacowek(APforZusConsole.ServiceReference1.pobierzAdresyPlacowekRequest request) {
             return base.Channel.pobierzAdresyPlacowek(request);
         }
         
-        public string pobierzAdresyPlacowek(string IdSesji, string NIP, out APforGUS.ServiceReference1.docTypeRef_AdresyPlacowek[] AdresyPlacowek, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzAdresyPlacowekRequest inValue = new APforGUS.ServiceReference1.pobierzAdresyPlacowekRequest();
+        public string pobierzAdresyPlacowek(string IdSesji, string NIP, out APforZusConsole.ServiceReference1.docTypeRef_AdresyPlacowek[] AdresyPlacowek, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzAdresyPlacowekRequest inValue = new APforZusConsole.ServiceReference1.pobierzAdresyPlacowekRequest();
             inValue.IdSesji = IdSesji;
             inValue.NIP = NIP;
-            APforGUS.ServiceReference1.pobierzAdresyPlacowekResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzAdresyPlacowek(inValue);
+            APforZusConsole.ServiceReference1.pobierzAdresyPlacowekResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzAdresyPlacowek(inValue);
             AdresyPlacowek = retVal.AdresyPlacowek;
             Rezultat = retVal.Rezultat;
             return retVal.NazwaPlatnika;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzAdresyPlacowekResponse> pobierzAdresyPlacowekAsync(APforGUS.ServiceReference1.pobierzAdresyPlacowekRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzAdresyPlacowekResponse> pobierzAdresyPlacowekAsync(APforZusConsole.ServiceReference1.pobierzAdresyPlacowekRequest request) {
             return base.Channel.pobierzAdresyPlacowekAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse APforGUS.ServiceReference1.zla_PortType.pobierzSlownikPrzyczynUniewaznienia(APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzSlownikPrzyczynUniewaznienia(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request) {
             return base.Channel.pobierzSlownikPrzyczynUniewaznienia(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Przyczyny[] pobierzSlownikPrzyczynUniewaznienia(string IdSesji, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest inValue = new APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Przyczyny[] pobierzSlownikPrzyczynUniewaznienia(string IdSesji, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest inValue = new APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSlownikPrzyczynUniewaznienia(inValue);
+            APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSlownikPrzyczynUniewaznienia(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.Przyczyna;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse> pobierzSlownikPrzyczynUniewaznieniaAsync(APforGUS.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaResponse> pobierzSlownikPrzyczynUniewaznieniaAsync(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynUniewaznieniaRequest request) {
             return base.Channel.pobierzSlownikPrzyczynUniewaznieniaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienResponse APforGUS.ServiceReference1.zla_PortType.pobierzUprawnieniaNaDzien(APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienRequest request) {
+        APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzUprawnieniaNaDzien(APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienRequest request) {
             return base.Channel.pobierzUprawnieniaNaDzien(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzUprawnieniaNaDzien(string IdSesji, System.DateTime Data, out bool MozliwoscWystawianiaZaswiadczenia) {
-            APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienRequest inValue = new APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzUprawnieniaNaDzien(string IdSesji, System.DateTime Data, out bool MozliwoscWystawianiaZaswiadczenia) {
+            APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienRequest inValue = new APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienRequest();
             inValue.IdSesji = IdSesji;
             inValue.Data = Data;
-            APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzUprawnieniaNaDzien(inValue);
+            APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzUprawnieniaNaDzien(inValue);
             MozliwoscWystawianiaZaswiadczenia = retVal.MozliwoscWystawianiaZaswiadczenia;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienResponse> pobierzUprawnieniaNaDzienAsync(APforGUS.ServiceReference1.pobierzUprawnieniaNaDzienRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienResponse> pobierzUprawnieniaNaDzienAsync(APforZusConsole.ServiceReference1.pobierzUprawnieniaNaDzienRequest request) {
             return base.Channel.pobierzUprawnieniaNaDzienAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzStatusyDrukowZlaResponse APforGUS.ServiceReference1.zla_PortType.pobierzStatusyDrukowZla(APforGUS.ServiceReference1.pobierzStatusyDrukowZlaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzStatusyDrukowZla(APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaRequest request) {
             return base.Channel.pobierzStatusyDrukowZla(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzStatusyDrukowZla(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_DrukZlaSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_DrukZlaFiltrowanie Filtrowanie, string NipPlacowki, out APforGUS.ServiceReference1.docTypeRef_StatusDruku[] StatusDruku, out string LiczbaWszystkichRekordow) {
-            APforGUS.ServiceReference1.pobierzStatusyDrukowZlaRequest inValue = new APforGUS.ServiceReference1.pobierzStatusyDrukowZlaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzStatusyDrukowZla(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_DrukZlaSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_DrukZlaFiltrowanie Filtrowanie, string NipPlacowki, out APforZusConsole.ServiceReference1.docTypeRef_StatusDruku[] StatusDruku, out string LiczbaWszystkichRekordow) {
+            APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaRequest inValue = new APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaRequest();
             inValue.IdSesji = IdSesji;
             inValue.Stronicowanie = Stronicowanie;
             inValue.Sortowanie = Sortowanie;
             inValue.Filtrowanie = Filtrowanie;
             inValue.NipPlacowki = NipPlacowki;
-            APforGUS.ServiceReference1.pobierzStatusyDrukowZlaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzStatusyDrukowZla(inValue);
+            APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzStatusyDrukowZla(inValue);
             StatusDruku = retVal.StatusDruku;
             LiczbaWszystkichRekordow = retVal.LiczbaWszystkichRekordow;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzStatusyDrukowZlaResponse> pobierzStatusyDrukowZlaAsync(APforGUS.ServiceReference1.pobierzStatusyDrukowZlaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaResponse> pobierzStatusyDrukowZlaAsync(APforZusConsole.ServiceReference1.pobierzStatusyDrukowZlaRequest request) {
             return base.Channel.pobierzStatusyDrukowZlaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzDaneAsystentowResponse APforGUS.ServiceReference1.zla_PortType.pobierzDaneAsystentow(APforGUS.ServiceReference1.pobierzDaneAsystentowRequest request) {
+        APforZusConsole.ServiceReference1.pobierzDaneAsystentowResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzDaneAsystentow(APforZusConsole.ServiceReference1.pobierzDaneAsystentowRequest request) {
             return base.Channel.pobierzDaneAsystentow(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzDaneAsystentow(string IdSesji, out APforGUS.ServiceReference1.docTypeRef_DaneAsystenta[] DaneAsystenta) {
-            APforGUS.ServiceReference1.pobierzDaneAsystentowRequest inValue = new APforGUS.ServiceReference1.pobierzDaneAsystentowRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzDaneAsystentow(string IdSesji, out APforZusConsole.ServiceReference1.docTypeRef_DaneAsystenta[] DaneAsystenta) {
+            APforZusConsole.ServiceReference1.pobierzDaneAsystentowRequest inValue = new APforZusConsole.ServiceReference1.pobierzDaneAsystentowRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.pobierzDaneAsystentowResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzDaneAsystentow(inValue);
+            APforZusConsole.ServiceReference1.pobierzDaneAsystentowResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzDaneAsystentow(inValue);
             DaneAsystenta = retVal.DaneAsystenta;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDaneAsystentowResponse> pobierzDaneAsystentowAsync(APforGUS.ServiceReference1.pobierzDaneAsystentowRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDaneAsystentowResponse> pobierzDaneAsystentowAsync(APforZusConsole.ServiceReference1.pobierzDaneAsystentowRequest request) {
             return base.Channel.pobierzDaneAsystentowAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuResponse APforGUS.ServiceReference1.zla_PortType.pobierzIdentyfikatorDokumentu(APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request) {
+        APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzIdentyfikatorDokumentu(APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request) {
             return base.Channel.pobierzIdentyfikatorDokumentu(request);
         }
         
-        public string[] pobierzIdentyfikatorDokumentu(string IdSesji, string IloscIdentyfikatorow, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuRequest inValue = new APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuRequest();
+        public string[] pobierzIdentyfikatorDokumentu(string IdSesji, string IloscIdentyfikatorow, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuRequest inValue = new APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuRequest();
             inValue.IdSesji = IdSesji;
             inValue.IloscIdentyfikatorow = IloscIdentyfikatorow;
-            APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzIdentyfikatorDokumentu(inValue);
+            APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzIdentyfikatorDokumentu(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.IdDokumentu;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuResponse> pobierzIdentyfikatorDokumentuAsync(APforGUS.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuResponse> pobierzIdentyfikatorDokumentuAsync(APforZusConsole.ServiceReference1.pobierzIdentyfikatorDokumentuRequest request) {
             return base.Channel.pobierzIdentyfikatorDokumentuAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse APforGUS.ServiceReference1.zla_PortType.pobierzListeZlaUbezpieczonego(APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request) {
+        APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzListeZlaUbezpieczonego(APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request) {
             return base.Channel.pobierzListeZlaUbezpieczonego(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzListeZlaUbezpieczonego(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out long LiczbaWszystkichRekordow, out APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
-            APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest inValue = new APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzListeZlaUbezpieczonego(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiFiltrowanie Filtrowanie, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out long LiczbaWszystkichRekordow, out APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
+            APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest inValue = new APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest();
             inValue.IdSesji = IdSesji;
             inValue.Ubezpieczony = Ubezpieczony;
             inValue.Stronicowanie = Stronicowanie;
             inValue.Sortowanie = Sortowanie;
             inValue.Filtrowanie = Filtrowanie;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzListeZlaUbezpieczonego(inValue);
+            APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzListeZlaUbezpieczonego(inValue);
             LiczbaWszystkichRekordow = retVal.LiczbaWszystkichRekordow;
             ZaswiadczenieLekarskie = retVal.ZaswiadczenieLekarskie;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse> pobierzListeZlaUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoResponse> pobierzListeZlaUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzListeZlaUbezpieczonegoRequest request) {
             return base.Channel.pobierzListeZlaUbezpieczonegoAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzKodChorobyResponse APforGUS.ServiceReference1.zla_PortType.pobierzKodChoroby(APforGUS.ServiceReference1.pobierzKodChorobyRequest request) {
+        APforZusConsole.ServiceReference1.pobierzKodChorobyResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzKodChoroby(APforZusConsole.ServiceReference1.pobierzKodChorobyRequest request) {
             return base.Channel.pobierzKodChoroby(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzKodChoroby(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_KodChorobySortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_KodChorobyFiltrowanie Filtrowanie, out long LiczbaWszystkichRekordow, out APforGUS.ServiceReference1.docTypeRef_NumerStatystycznyChoroby[] NumerStatystycznyChoroby) {
-            APforGUS.ServiceReference1.pobierzKodChorobyRequest inValue = new APforGUS.ServiceReference1.pobierzKodChorobyRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzKodChoroby(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_KodChorobySortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_KodChorobyFiltrowanie Filtrowanie, out long LiczbaWszystkichRekordow, out APforZusConsole.ServiceReference1.docTypeRef_NumerStatystycznyChoroby[] NumerStatystycznyChoroby) {
+            APforZusConsole.ServiceReference1.pobierzKodChorobyRequest inValue = new APforZusConsole.ServiceReference1.pobierzKodChorobyRequest();
             inValue.IdSesji = IdSesji;
             inValue.Stronicowanie = Stronicowanie;
             inValue.Sortowanie = Sortowanie;
             inValue.Filtrowanie = Filtrowanie;
-            APforGUS.ServiceReference1.pobierzKodChorobyResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzKodChoroby(inValue);
+            APforZusConsole.ServiceReference1.pobierzKodChorobyResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzKodChoroby(inValue);
             LiczbaWszystkichRekordow = retVal.LiczbaWszystkichRekordow;
             NumerStatystycznyChoroby = retVal.NumerStatystycznyChoroby;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzKodChorobyResponse> pobierzKodChorobyAsync(APforGUS.ServiceReference1.pobierzKodChorobyRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzKodChorobyResponse> pobierzKodChorobyAsync(APforZusConsole.ServiceReference1.pobierzKodChorobyRequest request) {
             return base.Channel.pobierzKodChorobyAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.walidujDokumentyResponse APforGUS.ServiceReference1.zla_PortType.walidujDokumenty(APforGUS.ServiceReference1.walidujDokumentyRequest request) {
+        APforZusConsole.ServiceReference1.walidujDokumentyResponse APforZusConsole.ServiceReference1.zla_PortType.walidujDokumenty(APforZusConsole.ServiceReference1.walidujDokumentyRequest request) {
             return base.Channel.walidujDokumenty(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat walidujDokumenty(string IdSesji, APforGUS.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforGUS.ServiceReference1.docTypeRef_Dokument[] ListaDokumentow, APforGUS.ServiceReference1.docTypeRef_Dokument Dokument, out APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
-            APforGUS.ServiceReference1.walidujDokumentyRequest inValue = new APforGUS.ServiceReference1.walidujDokumentyRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat walidujDokumenty(string IdSesji, APforZusConsole.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforZusConsole.ServiceReference1.docTypeRef_Dokument[] ListaDokumentow, APforZusConsole.ServiceReference1.docTypeRef_Dokument Dokument, out APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
+            APforZusConsole.ServiceReference1.walidujDokumentyRequest inValue = new APforZusConsole.ServiceReference1.walidujDokumentyRequest();
             inValue.IdSesji = IdSesji;
             inValue.Tryb = Tryb;
             inValue.ListaDokumentow = ListaDokumentow;
             inValue.Dokument = Dokument;
-            APforGUS.ServiceReference1.walidujDokumentyResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).walidujDokumenty(inValue);
+            APforZusConsole.ServiceReference1.walidujDokumentyResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).walidujDokumenty(inValue);
             RezultatWalidacji = retVal.RezultatWalidacji;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.walidujDokumentyResponse> walidujDokumentyAsync(APforGUS.ServiceReference1.walidujDokumentyRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.walidujDokumentyResponse> walidujDokumentyAsync(APforZusConsole.ServiceReference1.walidujDokumentyRequest request) {
             return base.Channel.walidujDokumentyAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse APforGUS.ServiceReference1.zla_PortType.usunUprawnienieAsystentaDoMiejsca(APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request) {
+        APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse APforZusConsole.ServiceReference1.zla_PortType.usunUprawnienieAsystentaDoMiejsca(APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request) {
             return base.Channel.usunUprawnienieAsystentaDoMiejsca(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat usunUprawnienieAsystentaDoMiejsca(string IdSesji, string IdAsystenta, string IdMiejsca) {
-            APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest inValue = new APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat usunUprawnienieAsystentaDoMiejsca(string IdSesji, string IdAsystenta, string IdMiejsca) {
+            APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest inValue = new APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest();
             inValue.IdSesji = IdSesji;
             inValue.IdAsystenta = IdAsystenta;
             inValue.IdMiejsca = IdMiejsca;
-            APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).usunUprawnienieAsystentaDoMiejsca(inValue);
+            APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).usunUprawnienieAsystentaDoMiejsca(inValue);
             return retVal.Rezultat;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse> APforGUS.ServiceReference1.zla_PortType.usunUprawnienieAsystentaDoMiejscaAsync(APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request) {
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse> APforZusConsole.ServiceReference1.zla_PortType.usunUprawnienieAsystentaDoMiejscaAsync(APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest request) {
             return base.Channel.usunUprawnienieAsystentaDoMiejscaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse> usunUprawnienieAsystentaDoMiejscaAsync(string IdSesji, string IdAsystenta, string IdMiejsca) {
-            APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest inValue = new APforGUS.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest();
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaResponse> usunUprawnienieAsystentaDoMiejscaAsync(string IdSesji, string IdAsystenta, string IdMiejsca) {
+            APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest inValue = new APforZusConsole.ServiceReference1.usunUprawnienieAsystentaDoMiejscaRequest();
             inValue.IdSesji = IdSesji;
             inValue.IdAsystenta = IdAsystenta;
             inValue.IdMiejsca = IdMiejsca;
-            return ((APforGUS.ServiceReference1.zla_PortType)(this)).usunUprawnienieAsystentaDoMiejscaAsync(inValue);
+            return ((APforZusConsole.ServiceReference1.zla_PortType)(this)).usunUprawnienieAsystentaDoMiejscaAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.rezerwujSeriaNumerZlaResponse APforGUS.ServiceReference1.zla_PortType.rezerwujSeriaNumerZla(APforGUS.ServiceReference1.rezerwujSeriaNumerZlaRequest request) {
+        APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaResponse APforZusConsole.ServiceReference1.zla_PortType.rezerwujSeriaNumerZla(APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaRequest request) {
             return base.Channel.rezerwujSeriaNumerZla(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat rezerwujSeriaNumerZla(string IdSesji, string Liczba, out APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
-            APforGUS.ServiceReference1.rezerwujSeriaNumerZlaRequest inValue = new APforGUS.ServiceReference1.rezerwujSeriaNumerZlaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat rezerwujSeriaNumerZla(string IdSesji, string Liczba, out APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla) {
+            APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaRequest inValue = new APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaRequest();
             inValue.IdSesji = IdSesji;
             inValue.Liczba = Liczba;
-            APforGUS.ServiceReference1.rezerwujSeriaNumerZlaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).rezerwujSeriaNumerZla(inValue);
+            APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).rezerwujSeriaNumerZla(inValue);
             SeriaNumerZla = retVal.SeriaNumerZla;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.rezerwujSeriaNumerZlaResponse> rezerwujSeriaNumerZlaAsync(APforGUS.ServiceReference1.rezerwujSeriaNumerZlaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaResponse> rezerwujSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.rezerwujSeriaNumerZlaRequest request) {
             return base.Channel.rezerwujSeriaNumerZlaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.nadajSeriaNumerZlaResponse APforGUS.ServiceReference1.zla_PortType.nadajSeriaNumerZla(APforGUS.ServiceReference1.nadajSeriaNumerZlaRequest request) {
+        APforZusConsole.ServiceReference1.nadajSeriaNumerZlaResponse APforZusConsole.ServiceReference1.zla_PortType.nadajSeriaNumerZla(APforZusConsole.ServiceReference1.nadajSeriaNumerZlaRequest request) {
             return base.Channel.nadajSeriaNumerZla(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji nadajSeriaNumerZla(string IdSesji, ref APforGUS.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.nadajSeriaNumerZlaRequest inValue = new APforGUS.ServiceReference1.nadajSeriaNumerZlaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji nadajSeriaNumerZla(string IdSesji, ref APforZusConsole.ServiceReference1.docTypeRef_ParaDokumentowZla[] ParaDokumentow, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.nadajSeriaNumerZlaRequest inValue = new APforZusConsole.ServiceReference1.nadajSeriaNumerZlaRequest();
             inValue.IdSesji = IdSesji;
             inValue.ParaDokumentow = ParaDokumentow;
-            APforGUS.ServiceReference1.nadajSeriaNumerZlaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).nadajSeriaNumerZla(inValue);
+            APforZusConsole.ServiceReference1.nadajSeriaNumerZlaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).nadajSeriaNumerZla(inValue);
             ParaDokumentow = retVal.ParaDokumentow;
             Rezultat = retVal.Rezultat;
             return retVal.RezultatWalidacji;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.nadajSeriaNumerZlaResponse> nadajSeriaNumerZlaAsync(APforGUS.ServiceReference1.nadajSeriaNumerZlaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.nadajSeriaNumerZlaResponse> nadajSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.nadajSeriaNumerZlaRequest request) {
             return base.Channel.nadajSeriaNumerZlaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzOswiadczenieResponse APforGUS.ServiceReference1.zla_PortType.pobierzOswiadczenie(APforGUS.ServiceReference1.pobierzOswiadczenieRequest request) {
+        APforZusConsole.ServiceReference1.pobierzOswiadczenieResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzOswiadczenie(APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest request) {
             return base.Channel.pobierzOswiadczenie(request);
         }
         
         public string pobierzOswiadczenie() {
-            APforGUS.ServiceReference1.pobierzOswiadczenieRequest inValue = new APforGUS.ServiceReference1.pobierzOswiadczenieRequest();
-            APforGUS.ServiceReference1.pobierzOswiadczenieResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzOswiadczenie(inValue);
+            APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest inValue = new APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest();
+            APforZusConsole.ServiceReference1.pobierzOswiadczenieResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzOswiadczenie(inValue);
             return retVal.Oswiadczenie;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzOswiadczenieResponse> APforGUS.ServiceReference1.zla_PortType.pobierzOswiadczenieAsync(APforGUS.ServiceReference1.pobierzOswiadczenieRequest request) {
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzOswiadczenieResponse> APforZusConsole.ServiceReference1.zla_PortType.pobierzOswiadczenieAsync(APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest request) {
             return base.Channel.pobierzOswiadczenieAsync(request);
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzOswiadczenieResponse> pobierzOswiadczenieAsync() {
-            APforGUS.ServiceReference1.pobierzOswiadczenieRequest inValue = new APforGUS.ServiceReference1.pobierzOswiadczenieRequest();
-            return ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzOswiadczenieAsync(inValue);
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzOswiadczenieResponse> pobierzOswiadczenieAsync() {
+            APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest inValue = new APforZusConsole.ServiceReference1.pobierzOswiadczenieRequest();
+            return ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzOswiadczenieAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzSeriaNumerZlaResponse APforGUS.ServiceReference1.zla_PortType.pobierzSeriaNumerZla(APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzSeriaNumerZla(APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest request) {
             return base.Channel.pobierzSeriaNumerZla(request);
         }
         
-        public APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_Wy pobierzSeriaNumerZla(APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in) {
-            APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest inValue = new APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest();
+        public APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_Wy pobierzSeriaNumerZla(APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in) {
+            APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest inValue = new APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest();
             inValue.@in = @in;
-            APforGUS.ServiceReference1.pobierzSeriaNumerZlaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSeriaNumerZla(inValue);
+            APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSeriaNumerZla(inValue);
             return retVal.@out;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSeriaNumerZlaResponse> APforGUS.ServiceReference1.zla_PortType.pobierzSeriaNumerZlaAsync(APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest request) {
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaResponse> APforZusConsole.ServiceReference1.zla_PortType.pobierzSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest request) {
             return base.Channel.pobierzSeriaNumerZlaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSeriaNumerZlaResponse> pobierzSeriaNumerZlaAsync(APforGUS.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in) {
-            APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest inValue = new APforGUS.ServiceReference1.pobierzSeriaNumerZlaRequest();
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaResponse> pobierzSeriaNumerZlaAsync(APforZusConsole.ServiceReference1.Kom_PobierzSeriaNumerZla_We @in) {
+            APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest inValue = new APforZusConsole.ServiceReference1.pobierzSeriaNumerZlaRequest();
             inValue.@in = @in;
-            return ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSeriaNumerZlaAsync(inValue);
+            return ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSeriaNumerZlaAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse APforGUS.ServiceReference1.zla_PortType.sprawdzMozliwoscUniewaznienia(APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request) {
+        APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse APforZusConsole.ServiceReference1.zla_PortType.sprawdzMozliwoscUniewaznienia(APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request) {
             return base.Channel.sprawdzMozliwoscUniewaznienia(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat sprawdzMozliwoscUniewaznienia(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla, out APforGUS.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscUniewaznienia) {
-            APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest inValue = new APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat sprawdzMozliwoscUniewaznienia(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla[] SeriaNumerZla, out APforZusConsole.ServiceReference1.docTypeRef_WeryfikacjaAkcjiZla[] MozliwoscUniewaznienia) {
+            APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest inValue = new APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest();
             inValue.IdSesji = IdSesji;
             inValue.SeriaNumerZla = SeriaNumerZla;
-            APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).sprawdzMozliwoscUniewaznienia(inValue);
+            APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).sprawdzMozliwoscUniewaznienia(inValue);
             MozliwoscUniewaznienia = retVal.MozliwoscUniewaznienia;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse> sprawdzMozliwoscUniewaznieniaAsync(APforGUS.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaResponse> sprawdzMozliwoscUniewaznieniaAsync(APforZusConsole.ServiceReference1.sprawdzMozliwoscUniewaznieniaRequest request) {
             return base.Channel.sprawdzMozliwoscUniewaznieniaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzListePowiazanychZlaResponse APforGUS.ServiceReference1.zla_PortType.pobierzListePowiazanychZla(APforGUS.ServiceReference1.pobierzListePowiazanychZlaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzListePowiazanychZla(APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaRequest request) {
             return base.Channel.pobierzListePowiazanychZla(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzListePowiazanychZla(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla Zla, out APforGUS.ServiceReference1.docTypeRef_PowiazaneZla[] PowiazaneZla, out long LiczbaPowiazanychZla) {
-            APforGUS.ServiceReference1.pobierzListePowiazanychZlaRequest inValue = new APforGUS.ServiceReference1.pobierzListePowiazanychZlaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzListePowiazanychZla(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla Zla, out APforZusConsole.ServiceReference1.docTypeRef_PowiazaneZla[] PowiazaneZla, out long LiczbaPowiazanychZla) {
+            APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaRequest inValue = new APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaRequest();
             inValue.IdSesji = IdSesji;
             inValue.Zla = Zla;
-            APforGUS.ServiceReference1.pobierzListePowiazanychZlaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzListePowiazanychZla(inValue);
+            APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzListePowiazanychZla(inValue);
             PowiazaneZla = retVal.PowiazaneZla;
             LiczbaPowiazanychZla = retVal.LiczbaPowiazanychZla;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListePowiazanychZlaResponse> pobierzListePowiazanychZlaAsync(APforGUS.ServiceReference1.pobierzListePowiazanychZlaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaResponse> pobierzListePowiazanychZlaAsync(APforZusConsole.ServiceReference1.pobierzListePowiazanychZlaRequest request) {
             return base.Channel.pobierzListePowiazanychZlaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse APforGUS.ServiceReference1.zla_PortType.przywrocUprawnienieAsystentaDoMiejsca(APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request) {
+        APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse APforZusConsole.ServiceReference1.zla_PortType.przywrocUprawnienieAsystentaDoMiejsca(APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request) {
             return base.Channel.przywrocUprawnienieAsystentaDoMiejsca(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat przywrocUprawnienieAsystentaDoMiejsca(string IdSesji, string IdAsystenta, string IdMiejsca) {
-            APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest inValue = new APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat przywrocUprawnienieAsystentaDoMiejsca(string IdSesji, string IdAsystenta, string IdMiejsca) {
+            APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest inValue = new APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest();
             inValue.IdSesji = IdSesji;
             inValue.IdAsystenta = IdAsystenta;
             inValue.IdMiejsca = IdMiejsca;
-            APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).przywrocUprawnienieAsystentaDoMiejsca(inValue);
+            APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).przywrocUprawnienieAsystentaDoMiejsca(inValue);
             return retVal.Rezultat;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse> APforGUS.ServiceReference1.zla_PortType.przywrocUprawnienieAsystentaDoMiejscaAsync(APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request) {
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse> APforZusConsole.ServiceReference1.zla_PortType.przywrocUprawnienieAsystentaDoMiejscaAsync(APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest request) {
             return base.Channel.przywrocUprawnienieAsystentaDoMiejscaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse> przywrocUprawnienieAsystentaDoMiejscaAsync(string IdSesji, string IdAsystenta, string IdMiejsca) {
-            APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest inValue = new APforGUS.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest();
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaResponse> przywrocUprawnienieAsystentaDoMiejscaAsync(string IdSesji, string IdAsystenta, string IdMiejsca) {
+            APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest inValue = new APforZusConsole.ServiceReference1.przywrocUprawnienieAsystentaDoMiejscaRequest();
             inValue.IdSesji = IdSesji;
             inValue.IdAsystenta = IdAsystenta;
             inValue.IdMiejsca = IdMiejsca;
-            return ((APforGUS.ServiceReference1.zla_PortType)(this)).przywrocUprawnienieAsystentaDoMiejscaAsync(inValue);
+            return ((APforZusConsole.ServiceReference1.zla_PortType)(this)).przywrocUprawnienieAsystentaDoMiejscaAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse APforGUS.ServiceReference1.zla_PortType.pobierzSlownikPrzyczynAnulowania(APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzSlownikPrzyczynAnulowania(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request) {
             return base.Channel.pobierzSlownikPrzyczynAnulowania(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Przyczyny[] pobierzSlownikPrzyczynAnulowania(string IdSesji, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest inValue = new APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Przyczyny[] pobierzSlownikPrzyczynAnulowania(string IdSesji, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest inValue = new APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSlownikPrzyczynAnulowania(inValue);
+            APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSlownikPrzyczynAnulowania(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.Przyczyna;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse> pobierzSlownikPrzyczynAnulowaniaAsync(APforGUS.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaResponse> pobierzSlownikPrzyczynAnulowaniaAsync(APforZusConsole.ServiceReference1.pobierzSlownikPrzyczynAnulowaniaRequest request) {
             return base.Channel.pobierzSlownikPrzyczynAnulowaniaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse APforGUS.ServiceReference1.zla_PortType.pobierzListeBiezacychZlaLekarza(APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzListeBiezacychZlaLekarza(APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request) {
             return base.Channel.pobierzListeBiezacychZlaLekarza(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzListeBiezacychZlaLekarza(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek[] Sortowanie, APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie Filtrowanie, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki, out long LiczbaWszystkichRekordow, out APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
-            APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest inValue = new APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzListeBiezacychZlaLekarza(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueSortowanieWarunek[] Sortowanie, APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskiePueFiltrowanie Filtrowanie, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, string NipPlacowki, out long LiczbaWszystkichRekordow, out APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskie[] ZaswiadczenieLekarskie) {
+            APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest inValue = new APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest();
             inValue.IdSesji = IdSesji;
             inValue.Stronicowanie = Stronicowanie;
             inValue.Sortowanie = Sortowanie;
             inValue.Filtrowanie = Filtrowanie;
             inValue.KontekstDostepu = KontekstDostepu;
             inValue.NipPlacowki = NipPlacowki;
-            APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzListeBiezacychZlaLekarza(inValue);
+            APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzListeBiezacychZlaLekarza(inValue);
             LiczbaWszystkichRekordow = retVal.LiczbaWszystkichRekordow;
             ZaswiadczenieLekarskie = retVal.ZaswiadczenieLekarskie;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse> pobierzListeBiezacychZlaLekarzaAsync(APforGUS.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaResponse> pobierzListeBiezacychZlaLekarzaAsync(APforZusConsole.ServiceReference1.pobierzListeBiezacychZlaLekarzaRequest request) {
             return base.Channel.pobierzListeBiezacychZlaLekarzaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzOpisChorobyResponse APforGUS.ServiceReference1.zla_PortType.pobierzOpisChoroby(APforGUS.ServiceReference1.pobierzOpisChorobyRequest request) {
+        APforZusConsole.ServiceReference1.pobierzOpisChorobyResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzOpisChoroby(APforZusConsole.ServiceReference1.pobierzOpisChorobyRequest request) {
             return base.Channel.pobierzOpisChoroby(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzOpisChoroby(string IdSesji, string StatystycznyKodChoroby, out string NazwaChoroby, out string OpisChoroby) {
-            APforGUS.ServiceReference1.pobierzOpisChorobyRequest inValue = new APforGUS.ServiceReference1.pobierzOpisChorobyRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzOpisChoroby(string IdSesji, string StatystycznyKodChoroby, out string NazwaChoroby, out string OpisChoroby) {
+            APforZusConsole.ServiceReference1.pobierzOpisChorobyRequest inValue = new APforZusConsole.ServiceReference1.pobierzOpisChorobyRequest();
             inValue.IdSesji = IdSesji;
             inValue.StatystycznyKodChoroby = StatystycznyKodChoroby;
-            APforGUS.ServiceReference1.pobierzOpisChorobyResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzOpisChoroby(inValue);
+            APforZusConsole.ServiceReference1.pobierzOpisChorobyResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzOpisChoroby(inValue);
             NazwaChoroby = retVal.NazwaChoroby;
             OpisChoroby = retVal.OpisChoroby;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzOpisChorobyResponse> pobierzOpisChorobyAsync(APforGUS.ServiceReference1.pobierzOpisChorobyRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzOpisChorobyResponse> pobierzOpisChorobyAsync(APforZusConsole.ServiceReference1.pobierzOpisChorobyRequest request) {
             return base.Channel.pobierzOpisChorobyAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoResponse APforGUS.ServiceReference1.zla_PortType.pobierzListePr4Ubezpieczonego(APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request) {
+        APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzListePr4Ubezpieczonego(APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request) {
             return base.Channel.pobierzListePr4Ubezpieczonego(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzListePr4Ubezpieczonego(string IdSesji, APforGUS.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string DataOd, string DataDo, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out APforGUS.ServiceReference1.docTypeRef_WniosekPr4[] WniosekPr4, out long LiczbaWszystkichRekordow) {
-            APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoRequest inValue = new APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzListePr4Ubezpieczonego(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_Stronicowanie Stronicowanie, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string DataOd, string DataDo, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out APforZusConsole.ServiceReference1.docTypeRef_WniosekPr4[] WniosekPr4, out long LiczbaWszystkichRekordow) {
+            APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoRequest inValue = new APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoRequest();
             inValue.IdSesji = IdSesji;
             inValue.Stronicowanie = Stronicowanie;
             inValue.Ubezpieczony = Ubezpieczony;
             inValue.DataOd = DataOd;
             inValue.DataDo = DataDo;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzListePr4Ubezpieczonego(inValue);
+            APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzListePr4Ubezpieczonego(inValue);
             WniosekPr4 = retVal.WniosekPr4;
             LiczbaWszystkichRekordow = retVal.LiczbaWszystkichRekordow;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoResponse> pobierzListePr4UbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoResponse> pobierzListePr4UbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzListePr4UbezpieczonegoRequest request) {
             return base.Channel.pobierzListePr4UbezpieczonegoAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse APforGUS.ServiceReference1.zla_PortType.pobierzSzczegolyZlaPrzetworzone(APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request) {
+        APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzSzczegolyZlaPrzetworzone(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request) {
             return base.Channel.pobierzSzczegolyZlaPrzetworzone(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzSzczegolyZlaPrzetworzone(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczeniePrzetworzoneSzczegoly, out APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiKorygujace ZaswiadczenieLekarskieKorygujace) {
-            APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest inValue = new APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzSzczegolyZlaPrzetworzone(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczeniePrzetworzoneSzczegoly, out APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieKsiKorygujace ZaswiadczenieLekarskieKorygujace) {
+            APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest inValue = new APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest();
             inValue.IdSesji = IdSesji;
             inValue.SeriaNumerZla = SeriaNumerZla;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSzczegolyZlaPrzetworzone(inValue);
+            APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSzczegolyZlaPrzetworzone(inValue);
             ZaswiadczeniePrzetworzoneSzczegoly = retVal.ZaswiadczeniePrzetworzoneSzczegoly;
             ZaswiadczenieLekarskieKorygujace = retVal.ZaswiadczenieLekarskieKorygujace;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse> pobierzSzczegolyZlaPrzetworzoneAsync(APforGUS.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneResponse> pobierzSzczegolyZlaPrzetworzoneAsync(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaPrzetworzoneRequest request) {
             return base.Channel.pobierzSzczegolyZlaPrzetworzoneAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzDokumentResponse APforGUS.ServiceReference1.zla_PortType.pobierzDokument(APforGUS.ServiceReference1.pobierzDokumentRequest request) {
+        APforZusConsole.ServiceReference1.pobierzDokumentResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzDokument(APforZusConsole.ServiceReference1.pobierzDokumentRequest request) {
             return base.Channel.pobierzDokument(request);
         }
         
-        public string pobierzDokument(string IdSesji, APforGUS.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out APforGUS.ServiceReference1.docTypeRef_KEDU Dokument, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzDokumentRequest inValue = new APforGUS.ServiceReference1.pobierzDokumentRequest();
+        public string pobierzDokument(string IdSesji, APforZusConsole.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out APforZusConsole.ServiceReference1.docTypeRef_KEDU Dokument, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzDokumentRequest inValue = new APforZusConsole.ServiceReference1.pobierzDokumentRequest();
             inValue.IdSesji = IdSesji;
             inValue.RodzajDokumentu = RodzajDokumentu;
             inValue.SeriaNumerZla = SeriaNumerZla;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzDokumentResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzDokument(inValue);
+            APforZusConsole.ServiceReference1.pobierzDokumentResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzDokument(inValue);
             Dokument = retVal.Dokument;
             Rezultat = retVal.Rezultat;
             return retVal.WersjaKedu;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDokumentResponse> pobierzDokumentAsync(APforGUS.ServiceReference1.pobierzDokumentRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDokumentResponse> pobierzDokumentAsync(APforZusConsole.ServiceReference1.pobierzDokumentRequest request) {
             return base.Channel.pobierzDokumentAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse APforGUS.ServiceReference1.zla_PortType.pobierzUprawnieniaAsystentaDoMiejsc(APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request) {
+        APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzUprawnieniaAsystentaDoMiejsc(APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request) {
             return base.Channel.pobierzUprawnieniaAsystentaDoMiejsc(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzUprawnieniaAsystentaDoMiejsc(string IdSesji, string IdAsystenta, out APforGUS.ServiceReference1.docTypeRef_UprawnienieAsystentaDoMiejsca[] UprawnienieAsystentaDoMiejsca) {
-            APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest inValue = new APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzUprawnieniaAsystentaDoMiejsc(string IdSesji, string IdAsystenta, out APforZusConsole.ServiceReference1.docTypeRef_UprawnienieAsystentaDoMiejsca[] UprawnienieAsystentaDoMiejsca) {
+            APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest inValue = new APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest();
             inValue.IdSesji = IdSesji;
             inValue.IdAsystenta = IdAsystenta;
-            APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzUprawnieniaAsystentaDoMiejsc(inValue);
+            APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzUprawnieniaAsystentaDoMiejsc(inValue);
             UprawnienieAsystentaDoMiejsca = retVal.UprawnienieAsystentaDoMiejsca;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse> pobierzUprawnieniaAsystentaDoMiejscAsync(APforGUS.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscResponse> pobierzUprawnieniaAsystentaDoMiejscAsync(APforZusConsole.ServiceReference1.pobierzUprawnieniaAsystentaDoMiejscRequest request) {
             return base.Channel.pobierzUprawnieniaAsystentaDoMiejscAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzUppDlaDokumentuResponse APforGUS.ServiceReference1.zla_PortType.pobierzUppDlaDokumentu(APforGUS.ServiceReference1.pobierzUppDlaDokumentuRequest request) {
+        APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzUppDlaDokumentu(APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuRequest request) {
             return base.Channel.pobierzUppDlaDokumentu(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzUppDlaDokumentu(string IdSesji, APforGUS.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, out APforGUS.ServiceReference1.docTypeRef_UPP UPP) {
-            APforGUS.ServiceReference1.pobierzUppDlaDokumentuRequest inValue = new APforGUS.ServiceReference1.pobierzUppDlaDokumentuRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzUppDlaDokumentu(string IdSesji, APforZusConsole.ServiceReference1.RodzajDokumentuEnumeracja RodzajDokumentu, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, out APforZusConsole.ServiceReference1.docTypeRef_UPP UPP) {
+            APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuRequest inValue = new APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuRequest();
             inValue.IdSesji = IdSesji;
             inValue.RodzajDokumentu = RodzajDokumentu;
             inValue.SeriaNumerZla = SeriaNumerZla;
-            APforGUS.ServiceReference1.pobierzUppDlaDokumentuResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzUppDlaDokumentu(inValue);
+            APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzUppDlaDokumentu(inValue);
             UPP = retVal.UPP;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzUppDlaDokumentuResponse> pobierzUppDlaDokumentuAsync(APforGUS.ServiceReference1.pobierzUppDlaDokumentuRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuResponse> pobierzUppDlaDokumentuAsync(APforZusConsole.ServiceReference1.pobierzUppDlaDokumentuRequest request) {
             return base.Channel.pobierzUppDlaDokumentuAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzDaneLekarzaResponse APforGUS.ServiceReference1.zla_PortType.pobierzDaneLekarza(APforGUS.ServiceReference1.pobierzDaneLekarzaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzDaneLekarzaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzDaneLekarza(APforZusConsole.ServiceReference1.pobierzDaneLekarzaRequest request) {
             return base.Channel.pobierzDaneLekarza(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_kmdk_Lekarz_DanePelne pobierzDaneLekarza(string IdSesji, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzDaneLekarzaRequest inValue = new APforGUS.ServiceReference1.pobierzDaneLekarzaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_kmdk_Lekarz_DanePelne pobierzDaneLekarza(string IdSesji, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzDaneLekarzaRequest inValue = new APforZusConsole.ServiceReference1.pobierzDaneLekarzaRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.pobierzDaneLekarzaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzDaneLekarza(inValue);
+            APforZusConsole.ServiceReference1.pobierzDaneLekarzaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzDaneLekarza(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.DaneLekarza;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDaneLekarzaResponse> pobierzDaneLekarzaAsync(APforGUS.ServiceReference1.pobierzDaneLekarzaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDaneLekarzaResponse> pobierzDaneLekarzaAsync(APforZusConsole.ServiceReference1.pobierzDaneLekarzaRequest request) {
             return base.Channel.pobierzDaneLekarzaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.wyslijWniosekResponse APforGUS.ServiceReference1.zla_PortType.wyslijWniosek(APforGUS.ServiceReference1.wyslijWniosekRequest request) {
+        APforZusConsole.ServiceReference1.wyslijWniosekResponse APforZusConsole.ServiceReference1.zla_PortType.wyslijWniosek(APforZusConsole.ServiceReference1.wyslijWniosekRequest request) {
             return base.Channel.wyslijWniosek(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat wyslijWniosek(string IdSesji, string DokumentXml, APforGUS.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu, out APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, out string WynikWyslania, out APforGUS.ServiceReference1.docTypeRef_UPP UtworzoneUPP) {
-            APforGUS.ServiceReference1.wyslijWniosekRequest inValue = new APforGUS.ServiceReference1.wyslijWniosekRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat wyslijWniosek(string IdSesji, string DokumentXml, APforZusConsole.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu, out APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, out string WynikWyslania, out APforZusConsole.ServiceReference1.docTypeRef_UPP UtworzoneUPP) {
+            APforZusConsole.ServiceReference1.wyslijWniosekRequest inValue = new APforZusConsole.ServiceReference1.wyslijWniosekRequest();
             inValue.IdSesji = IdSesji;
             inValue.DokumentXml = DokumentXml;
             inValue.TypDokumentu = TypDokumentu;
-            APforGUS.ServiceReference1.wyslijWniosekResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).wyslijWniosek(inValue);
+            APforZusConsole.ServiceReference1.wyslijWniosekResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).wyslijWniosek(inValue);
             RezultatWalidacji = retVal.RezultatWalidacji;
             WynikWyslania = retVal.WynikWyslania;
             UtworzoneUPP = retVal.UtworzoneUPP;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.wyslijWniosekResponse> wyslijWniosekAsync(APforGUS.ServiceReference1.wyslijWniosekRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.wyslijWniosekResponse> wyslijWniosekAsync(APforZusConsole.ServiceReference1.wyslijWniosekRequest request) {
             return base.Channel.wyslijWniosekAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoResponse APforGUS.ServiceReference1.zla_PortType.pobierzDaneUbezpieczonego(APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoRequest request) {
+        APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzDaneUbezpieczonego(APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoRequest request) {
             return base.Channel.pobierzDaneUbezpieczonego(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_kmdk_Ubezpieczony pobierzDaneUbezpieczonego(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat, out System.Nullable<bool> PrzekroczonyDziennyLimitDostepow) {
-            APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoRequest inValue = new APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_kmdk_Ubezpieczony pobierzDaneUbezpieczonego(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat, out System.Nullable<bool> PrzekroczonyDziennyLimitDostepow) {
+            APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoRequest inValue = new APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoRequest();
             inValue.IdSesji = IdSesji;
             inValue.Ubezpieczony = Ubezpieczony;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzDaneUbezpieczonego(inValue);
+            APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzDaneUbezpieczonego(inValue);
             Rezultat = retVal.Rezultat;
             PrzekroczonyDziennyLimitDostepow = retVal.PrzekroczonyDziennyLimitDostepow;
             return retVal.DaneUbezpieczonego;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoResponse> pobierzDaneUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzDaneUbezpieczonegoRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoResponse> pobierzDaneUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzDaneUbezpieczonegoRequest request) {
             return base.Channel.pobierzDaneUbezpieczonegoAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse APforGUS.ServiceReference1.zla_PortType.pobierzSzczegolyZlaBiezace(APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request) {
+        APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzSzczegolyZlaBiezace(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request) {
             return base.Channel.pobierzSzczegolyZlaBiezace(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzSzczegolyZlaBiezace(string IdSesji, APforGUS.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out APforGUS.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczenieBiezaceSzczegoly) {
-            APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest inValue = new APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzSzczegolyZlaBiezace(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_SeriaNumerZla SeriaNumerZla, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out APforZusConsole.ServiceReference1.docTypeRef_ZaswiadczenieLekarskieDanePelne ZaswiadczenieBiezaceSzczegoly) {
+            APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest inValue = new APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest();
             inValue.IdSesji = IdSesji;
             inValue.SeriaNumerZla = SeriaNumerZla;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSzczegolyZlaBiezace(inValue);
+            APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSzczegolyZlaBiezace(inValue);
             ZaswiadczenieBiezaceSzczegoly = retVal.ZaswiadczenieBiezaceSzczegoly;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse> pobierzSzczegolyZlaBiezaceAsync(APforGUS.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceResponse> pobierzSzczegolyZlaBiezaceAsync(APforZusConsole.ServiceReference1.pobierzSzczegolyZlaBiezaceRequest request) {
             return base.Channel.pobierzSzczegolyZlaBiezaceAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzLiterowyKodChorobyResponse APforGUS.ServiceReference1.zla_PortType.pobierzLiterowyKodChoroby(APforGUS.ServiceReference1.pobierzLiterowyKodChorobyRequest request) {
+        APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzLiterowyKodChoroby(APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyRequest request) {
             return base.Channel.pobierzLiterowyKodChoroby(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzLiterowyKodChoroby(string IdSesji, string DataPoczatkuNiezdolnosci, string StatystycznyKodChoroby, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, out bool KodA, out bool KodD) {
-            APforGUS.ServiceReference1.pobierzLiterowyKodChorobyRequest inValue = new APforGUS.ServiceReference1.pobierzLiterowyKodChorobyRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzLiterowyKodChoroby(string IdSesji, string DataPoczatkuNiezdolnosci, string StatystycznyKodChoroby, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, out bool KodA, out bool KodD) {
+            APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyRequest inValue = new APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyRequest();
             inValue.IdSesji = IdSesji;
             inValue.DataPoczatkuNiezdolnosci = DataPoczatkuNiezdolnosci;
             inValue.StatystycznyKodChoroby = StatystycznyKodChoroby;
             inValue.Ubezpieczony = Ubezpieczony;
-            APforGUS.ServiceReference1.pobierzLiterowyKodChorobyResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzLiterowyKodChoroby(inValue);
+            APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzLiterowyKodChoroby(inValue);
             KodA = retVal.KodA;
             KodD = retVal.KodD;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzLiterowyKodChorobyResponse> pobierzLiterowyKodChorobyAsync(APforGUS.ServiceReference1.pobierzLiterowyKodChorobyRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyResponse> pobierzLiterowyKodChorobyAsync(APforZusConsole.ServiceReference1.pobierzLiterowyKodChorobyRequest request) {
             return base.Channel.pobierzLiterowyKodChorobyAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse APforGUS.ServiceReference1.zla_PortType.pobierzMiejsceWykonywaniaZawodu(APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request) {
+        APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzMiejsceWykonywaniaZawodu(APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request) {
             return base.Channel.pobierzMiejsceWykonywaniaZawodu(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzMiejsceWykonywaniaZawodu(string IdSesji, out APforGUS.ServiceReference1.docTypeRef_kmdk_MiejsceWykonywaniaZawodu[] MiejsceWykonywaniaZawodu) {
-            APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest inValue = new APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzMiejsceWykonywaniaZawodu(string IdSesji, out APforZusConsole.ServiceReference1.docTypeRef_kmdk_MiejsceWykonywaniaZawodu[] MiejsceWykonywaniaZawodu) {
+            APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest inValue = new APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzMiejsceWykonywaniaZawodu(inValue);
+            APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzMiejsceWykonywaniaZawodu(inValue);
             MiejsceWykonywaniaZawodu = retVal.MiejsceWykonywaniaZawodu;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse> pobierzMiejsceWykonywaniaZawoduAsync(APforGUS.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduResponse> pobierzMiejsceWykonywaniaZawoduAsync(APforZusConsole.ServiceReference1.pobierzMiejsceWykonywaniaZawoduRequest request) {
             return base.Channel.pobierzMiejsceWykonywaniaZawoduAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.walidujWniosekResponse APforGUS.ServiceReference1.zla_PortType.walidujWniosek(APforGUS.ServiceReference1.walidujWniosekRequest request) {
+        APforZusConsole.ServiceReference1.walidujWniosekResponse APforZusConsole.ServiceReference1.zla_PortType.walidujWniosek(APforZusConsole.ServiceReference1.walidujWniosekRequest request) {
             return base.Channel.walidujWniosek(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat walidujWniosek(string IdSesji, string DokumentXml, APforGUS.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu, out APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
-            APforGUS.ServiceReference1.walidujWniosekRequest inValue = new APforGUS.ServiceReference1.walidujWniosekRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat walidujWniosek(string IdSesji, string DokumentXml, APforZusConsole.ServiceReference1.RodzajWnioskuEnumeracja TypDokumentu, out APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji) {
+            APforZusConsole.ServiceReference1.walidujWniosekRequest inValue = new APforZusConsole.ServiceReference1.walidujWniosekRequest();
             inValue.IdSesji = IdSesji;
             inValue.DokumentXml = DokumentXml;
             inValue.TypDokumentu = TypDokumentu;
-            APforGUS.ServiceReference1.walidujWniosekResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).walidujWniosek(inValue);
+            APforZusConsole.ServiceReference1.walidujWniosekResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).walidujWniosek(inValue);
             RezultatWalidacji = retVal.RezultatWalidacji;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.walidujWniosekResponse> walidujWniosekAsync(APforGUS.ServiceReference1.walidujWniosekRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.walidujWniosekResponse> walidujWniosekAsync(APforZusConsole.ServiceReference1.walidujWniosekRequest request) {
             return base.Channel.walidujWniosekAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse APforGUS.ServiceReference1.zla_PortType.pobierzCzlonkowRodzinyUbezpieczonego(APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request) {
+        APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzCzlonkowRodzinyUbezpieczonego(APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request) {
             return base.Channel.pobierzCzlonkowRodzinyUbezpieczonego(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzCzlonkowRodzinyUbezpieczonego(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforGUS.ServiceReference1.KontekstDostepu KontekstDostepu, out APforGUS.ServiceReference1.docTypeRef_CzlonekRodzinyUbezpieczonego[] CzlonekRodzinyUbezpieczonego) {
-            APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest inValue = new APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzCzlonkowRodzinyUbezpieczonego(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, APforZusConsole.ServiceReference1.KontekstDostepu KontekstDostepu, out APforZusConsole.ServiceReference1.docTypeRef_CzlonekRodzinyUbezpieczonego[] CzlonekRodzinyUbezpieczonego) {
+            APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest inValue = new APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest();
             inValue.IdSesji = IdSesji;
             inValue.Ubezpieczony = Ubezpieczony;
             inValue.KontekstDostepu = KontekstDostepu;
-            APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzCzlonkowRodzinyUbezpieczonego(inValue);
+            APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzCzlonkowRodzinyUbezpieczonego(inValue);
             CzlonekRodzinyUbezpieczonego = retVal.CzlonekRodzinyUbezpieczonego;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse> pobierzCzlonkowRodzinyUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoResponse> pobierzCzlonkowRodzinyUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzCzlonkowRodzinyUbezpieczonegoRequest request) {
             return base.Channel.pobierzCzlonkowRodzinyUbezpieczonegoAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.usunSesjeResponse APforGUS.ServiceReference1.zla_PortType.usunSesje(APforGUS.ServiceReference1.usunSesjeRequest request) {
+        APforZusConsole.ServiceReference1.usunSesjeResponse APforZusConsole.ServiceReference1.zla_PortType.usunSesje(APforZusConsole.ServiceReference1.usunSesjeRequest request) {
             return base.Channel.usunSesje(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat usunSesje(string IdSesji) {
-            APforGUS.ServiceReference1.usunSesjeRequest inValue = new APforGUS.ServiceReference1.usunSesjeRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat usunSesje(string IdSesji) {
+            APforZusConsole.ServiceReference1.usunSesjeRequest inValue = new APforZusConsole.ServiceReference1.usunSesjeRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.usunSesjeResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).usunSesje(inValue);
+            APforZusConsole.ServiceReference1.usunSesjeResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).usunSesje(inValue);
             return retVal.Rezultat;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<APforGUS.ServiceReference1.usunSesjeResponse> APforGUS.ServiceReference1.zla_PortType.usunSesjeAsync(APforGUS.ServiceReference1.usunSesjeRequest request) {
+        System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.usunSesjeResponse> APforZusConsole.ServiceReference1.zla_PortType.usunSesjeAsync(APforZusConsole.ServiceReference1.usunSesjeRequest request) {
             return base.Channel.usunSesjeAsync(request);
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.usunSesjeResponse> usunSesjeAsync(string IdSesji) {
-            APforGUS.ServiceReference1.usunSesjeRequest inValue = new APforGUS.ServiceReference1.usunSesjeRequest();
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.usunSesjeResponse> usunSesjeAsync(string IdSesji) {
+            APforZusConsole.ServiceReference1.usunSesjeRequest inValue = new APforZusConsole.ServiceReference1.usunSesjeRequest();
             inValue.IdSesji = IdSesji;
-            return ((APforGUS.ServiceReference1.zla_PortType)(this)).usunSesjeAsync(inValue);
+            return ((APforZusConsole.ServiceReference1.zla_PortType)(this)).usunSesjeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaResponse APforGUS.ServiceReference1.zla_PortType.pobierzListeLekarzyAsystenta(APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzListeLekarzyAsystenta(APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaRequest request) {
             return base.Channel.pobierzListeLekarzyAsystenta(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_LekarzAsystenta pobierzListeLekarzyAsystenta(string IdSesji, string IdMiejsca, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaRequest inValue = new APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_LekarzAsystenta pobierzListeLekarzyAsystenta(string IdSesji, string IdMiejsca, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaRequest inValue = new APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaRequest();
             inValue.IdSesji = IdSesji;
             inValue.IdMiejsca = IdMiejsca;
-            APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzListeLekarzyAsystenta(inValue);
+            APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzListeLekarzyAsystenta(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.LekarzeAsystenta;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaResponse> pobierzListeLekarzyAsystentaAsync(APforGUS.ServiceReference1.pobierzListeLekarzyAsystentaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaResponse> pobierzListeLekarzyAsystentaAsync(APforZusConsole.ServiceReference1.pobierzListeLekarzyAsystentaRequest request) {
             return base.Channel.pobierzListeLekarzyAsystentaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.wyslijDokumentyResponse APforGUS.ServiceReference1.zla_PortType.wyslijDokumenty(APforGUS.ServiceReference1.wyslijDokumentyRequest request) {
+        APforZusConsole.ServiceReference1.wyslijDokumentyResponse APforZusConsole.ServiceReference1.zla_PortType.wyslijDokumenty(APforZusConsole.ServiceReference1.wyslijDokumentyRequest request) {
             return base.Channel.wyslijDokumenty(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat wyslijDokumenty(string IdSesji, APforGUS.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforGUS.ServiceReference1.docTypeRef_Dokument[] Dokument, out APforGUS.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, out APforGUS.ServiceReference1.docTypeRef_kmdk_RezultatWysylkiPakietu[] RezultatWysylki) {
-            APforGUS.ServiceReference1.wyslijDokumentyRequest inValue = new APforGUS.ServiceReference1.wyslijDokumentyRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat wyslijDokumenty(string IdSesji, APforZusConsole.ServiceReference1.TrybWystawianiaEnumeracja Tryb, APforZusConsole.ServiceReference1.docTypeRef_Dokument[] Dokument, out APforZusConsole.ServiceReference1.docTypeRef_RezultatWalidacji RezultatWalidacji, out APforZusConsole.ServiceReference1.docTypeRef_kmdk_RezultatWysylkiPakietu[] RezultatWysylki) {
+            APforZusConsole.ServiceReference1.wyslijDokumentyRequest inValue = new APforZusConsole.ServiceReference1.wyslijDokumentyRequest();
             inValue.IdSesji = IdSesji;
             inValue.Tryb = Tryb;
             inValue.Dokument = Dokument;
-            APforGUS.ServiceReference1.wyslijDokumentyResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).wyslijDokumenty(inValue);
+            APforZusConsole.ServiceReference1.wyslijDokumentyResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).wyslijDokumenty(inValue);
             RezultatWalidacji = retVal.RezultatWalidacji;
             RezultatWysylki = retVal.RezultatWysylki;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.wyslijDokumentyResponse> wyslijDokumentyAsync(APforGUS.ServiceReference1.wyslijDokumentyRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.wyslijDokumentyResponse> wyslijDokumentyAsync(APforZusConsole.ServiceReference1.wyslijDokumentyRequest request) {
             return base.Channel.wyslijDokumentyAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse APforGUS.ServiceReference1.zla_PortType.pobierzSlownikKodowPokrewienstwa(APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request) {
+        APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzSlownikKodowPokrewienstwa(APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request) {
             return base.Channel.pobierzSlownikKodowPokrewienstwa(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_KodPokrewienstwa[] pobierzSlownikKodowPokrewienstwa(string IdSesji, out APforGUS.ServiceReference1.docTypeRef_Rezultat Rezultat) {
-            APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest inValue = new APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_KodPokrewienstwa[] pobierzSlownikKodowPokrewienstwa(string IdSesji, out APforZusConsole.ServiceReference1.docTypeRef_Rezultat Rezultat) {
+            APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest inValue = new APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest();
             inValue.IdSesji = IdSesji;
-            APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzSlownikKodowPokrewienstwa(inValue);
+            APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzSlownikKodowPokrewienstwa(inValue);
             Rezultat = retVal.Rezultat;
             return retVal.KodPokrewienstwa;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse> pobierzSlownikKodowPokrewienstwaAsync(APforGUS.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaResponse> pobierzSlownikKodowPokrewienstwaAsync(APforZusConsole.ServiceReference1.pobierzSlownikKodowPokrewienstwaRequest request) {
             return base.Channel.pobierzSlownikKodowPokrewienstwaAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse APforGUS.ServiceReference1.zla_PortType.pobierzPlatnikowUbezpieczonego(APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request) {
+        APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse APforZusConsole.ServiceReference1.zla_PortType.pobierzPlatnikowUbezpieczonego(APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request) {
             return base.Channel.pobierzPlatnikowUbezpieczonego(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat pobierzPlatnikowUbezpieczonego(string IdSesji, APforGUS.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string MiejsceUbezpieczenia, out APforGUS.ServiceReference1.docTypeRef_Platnik_Ubezpieczonego[] Platnik) {
-            APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest inValue = new APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat pobierzPlatnikowUbezpieczonego(string IdSesji, APforZusConsole.ServiceReference1.docTypeRef_IdentyfikacjaUbezpieczonego Ubezpieczony, string MiejsceUbezpieczenia, out APforZusConsole.ServiceReference1.docTypeRef_Platnik_Ubezpieczonego[] Platnik) {
+            APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest inValue = new APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest();
             inValue.IdSesji = IdSesji;
             inValue.Ubezpieczony = Ubezpieczony;
             inValue.MiejsceUbezpieczenia = MiejsceUbezpieczenia;
-            APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).pobierzPlatnikowUbezpieczonego(inValue);
+            APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).pobierzPlatnikowUbezpieczonego(inValue);
             Platnik = retVal.Platnik;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse> pobierzPlatnikowUbezpieczonegoAsync(APforGUS.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoResponse> pobierzPlatnikowUbezpieczonegoAsync(APforZusConsole.ServiceReference1.pobierzPlatnikowUbezpieczonegoRequest request) {
             return base.Channel.pobierzPlatnikowUbezpieczonegoAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiResponse APforGUS.ServiceReference1.zla_PortType.sprawdzProfilRehabilitacji(APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiRequest request) {
+        APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiResponse APforZusConsole.ServiceReference1.zla_PortType.sprawdzProfilRehabilitacji(APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiRequest request) {
             return base.Channel.sprawdzProfilRehabilitacji(request);
         }
         
-        public APforGUS.ServiceReference1.docTypeRef_Rezultat sprawdzProfilRehabilitacji(string IdSesji, string KodChoroby, out string ProfilRehabilitacji) {
-            APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiRequest inValue = new APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiRequest();
+        public APforZusConsole.ServiceReference1.docTypeRef_Rezultat sprawdzProfilRehabilitacji(string IdSesji, string KodChoroby, out string ProfilRehabilitacji) {
+            APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiRequest inValue = new APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiRequest();
             inValue.IdSesji = IdSesji;
             inValue.KodChoroby = KodChoroby;
-            APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiResponse retVal = ((APforGUS.ServiceReference1.zla_PortType)(this)).sprawdzProfilRehabilitacji(inValue);
+            APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiResponse retVal = ((APforZusConsole.ServiceReference1.zla_PortType)(this)).sprawdzProfilRehabilitacji(inValue);
             ProfilRehabilitacji = retVal.ProfilRehabilitacji;
             return retVal.Rezultat;
         }
         
-        public System.Threading.Tasks.Task<APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiResponse> sprawdzProfilRehabilitacjiAsync(APforGUS.ServiceReference1.sprawdzProfilRehabilitacjiRequest request) {
+        public System.Threading.Tasks.Task<APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiResponse> sprawdzProfilRehabilitacjiAsync(APforZusConsole.ServiceReference1.sprawdzProfilRehabilitacjiRequest request) {
             return base.Channel.sprawdzProfilRehabilitacjiAsync(request);
         }
     }

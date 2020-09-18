@@ -1,0 +1,17 @@
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\APforZusConsole.exe.config
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\APforZusConsole.exe
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\APforZusConsole.pdb
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\Eco.Handles.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\Eco.Interfaces.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\Eco.LinqExtender.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\Eco.Persistence.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\Eco.Persistence.MySql.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\Eco.Persistence.SQLite.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\RestSharp.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\System.Buffers.dll
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\bin\Debug\RestSharp.xml
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\obj\Debug\APforZusConsole.csprojAssemblyReference.cache
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\obj\Debug\APforZusConsole.csproj.CoreCompileInputs.cache
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\obj\Debug\APforZusConsole.csproj.CopyComplete
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\obj\Debug\APforZusConsole.exe
+C:\Users\Luk\source\repos\APforZusConsole\APforZusConsole\obj\Debug\APforZusConsole.pdb
